@@ -11,3 +11,5 @@
 <br>
 
 ## Algebra
+
+* [Geometric Algebra](https://github.com/deltorobarba/maths/blob/main/geometric_algebra.ipynb) - Spacetime Algebra of Special Relativity
