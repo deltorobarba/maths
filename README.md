@@ -12,13 +12,10 @@ Machine learning and quantum computing specialist at Google Cloud. I ❤️ Scie
 * [Quantum](https://github.com/deltorobarba/science/blob/main/quatum.ipynb) 💎 IonQ (Cirq) and IBM (Qiskit)
 * [Astronomy](https://github.com/deltorobarba/science/blob/main/astronomy.ipynb) 🔭 Exoplanets, Gravitational Waves, Galaxies & Nebula
   
-**Publications** 🎓 
-* [Analyzing Prospects for Quantum Advantage in Topological Data Analysis](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010319), `PRX Quantum` (2024)
-
-<br>
+## **Publications** 🎓 
 
 **American Physical Society**
-  * [Analyzing Prospects for Quantum Advantage in Topological Data Analysis](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010319), PRX Quantum 5 (2024) †
+  * [Analyzing Prospects for Quantum Advantage in Topological Data Analysis](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010319), `PRX Quantum 5` (2024)
 
 **Science**
   * [Dynamics of magnetization at infinite temperature in a Heisenberg spin chain](https://doi.org/10.1126/science.adi7877), Science 384, 48-53  (2024)
