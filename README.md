@@ -11,6 +11,10 @@ Machine learning and quantum computing specialist at Google Cloud. I ❤️ Math
 * [Mathematics](https://github.com/deltorobarba/science/blob/main/maths.ipynb) 🪼 Pure Maths and Quantum Physics
 * [Quantum](https://github.com/deltorobarba/science/blob/main/quantum.ipynb) 💎 Quantum Computing (IonQ and IBM)
 * [Astronomy](https://github.com/deltorobarba/science/blob/main/astronomy.ipynb) 🔭 Exoplanets, Gravitational Waves, Galaxies & Nebula
+
+**Medium Articles**
+
+* [Topological Data Analysis with Differential Forms, Hodge Theory and Cohomology Classes]([https://github.com/deltorobarba/science/blob/main/astronomy.ipynb](https://medium.com/p/1a97caeafd47)) 📐
   
 **Publications** 🎓 
 
