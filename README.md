@@ -14,7 +14,7 @@ Machine learning and quantum computing specialist at Google Cloud. I ❤️ Math
 
 **Medium Articles**
 
-* [Topological Data Analysis with Differential Forms, Hodge Theory and Cohomology Classes]([https://github.com/deltorobarba/science/blob/main/astronomy.ipynb](https://medium.com/p/1a97caeafd47)) 📐
+* [Topological Data Analysis with Differential Forms, Hodge Theory and Cohomology Classes](https://medium.com/p/1a97caeafd47) 📐
   
 **Publications** 🎓 
 
