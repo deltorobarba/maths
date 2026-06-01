@@ -14,7 +14,7 @@ Machine learning and quantum computing specialist at Google Cloud. I ❤️ Math
 
 **Machine Learning**
 * [Agent Pipeline](https://github.com/deltorobarba/science/blob/main/google.ipynb) Build, Test and Evaluate Agents with ADK
-* [HuggingFace](https://github.com/deltorobarba/science/blob/main/model.ipynb) Load and Tune Model (PEFT on A100)
+* [HuggingFace](https://github.com/deltorobarba/science/blob/main/huggingface.ipynb) Load and Tune Model (PEFT on A100)
 
 **Publications** 🎓 
 
