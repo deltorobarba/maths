@@ -13,8 +13,9 @@ Machine learning and quantum computing specialist at Google Cloud. I ❤️ Math
 * [Astronomy](https://github.com/deltorobarba/science/blob/main/astronomy.ipynb) 🔭 Exoplanets, Gravitational Waves, Galaxies & Nebula
 
 **Machine Learning**
-* [Agent Pipeline](https://github.com/deltorobarba/science/blob/main/google.ipynb) Build, Test and Evaluate Agents with ADK
-* [HuggingFace](https://github.com/deltorobarba/science/blob/main/huggingface.ipynb) Load and Tune Model (PEFT on A100)
+* [Agent Pipeline](https://github.com/deltorobarba/science/blob/main/agents.ipynb) Build, Test, Deploy and Evaluate Agents with ADK
+* [Models](https://github.com/deltorobarba/science/blob/main/models.ipynb) Inference, Deployment and Evaluation of LLMs via LiteLM, Google SDK, OpenAI SDK
+* [HuggingFace](https://github.com/deltorobarba/science/blob/main/huggingface.ipynb) Load and Fine-Tune Models with WandDB (PEFT on A100)
 
 **Publications** 🎓 
 
