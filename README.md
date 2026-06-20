@@ -13,4 +13,4 @@ Machine learning and quantum computing specialist at Google Cloud. I ❤️ Math
 
 **Publications** 🎓 
 
-* American Physical Society: [Analyzing Prospects for Quantum Advantage in Topological Data Analysis](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010319), `PRX Quantum 5` (2024)
+* American Physical Society: [Analyzing Prospects for Quantum Advantage in Topological Data Analysis](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010319) (2024)
