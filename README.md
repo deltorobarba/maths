@@ -7,9 +7,12 @@ Machine learning and quantum computing specialist at Google Cloud. I ❤️ Math
 
 <img src="https://raw.githubusercontent.com/deltorobarba/science/main/nature.JPG" alt="science">
 
+**Mathematics** ❤️
 * [Mathematics](https://github.com/deltorobarba/science/blob/main/maths.ipynb) 🪼 Tensor Algebra and Tensor Calculus in General Relativity
 * [Heisenberg-Weyl Algebra](https://github.com/deltorobarba/science/blob/main/heisenbergweyl.ipynb) 🌸 Exponentation of Position and Momentum (Lie Group and Lie Algebra)
 * [Quantum Dynamics](https://github.com/deltorobarba/science/blob/main/dynamics.ipynb) 🧚 Qubitization, Random Circuit Sampling and OTOC
+
+**Science** 🔬
 * [Quantum Computing](https://github.com/deltorobarba/science/blob/main/quantum.ipynb) 💎 Run simple quantum algorithms on IonQ and IBM
 * [Astronomy](https://github.com/deltorobarba/science/blob/main/astronomy.ipynb) 🔭 Exoplanets, Gravitational Waves, Galaxies & Nebula
 
