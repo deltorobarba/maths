@@ -15,7 +15,6 @@ Machine learning and quantum computing specialist at Google Cloud. I ❤️ Math
 
 **Science** 🔬
 * [Quantum Dynamics](https://github.com/deltorobarba/science/blob/main/dynamics.ipynb) 🧚 Qubitization, Random Circuit Sampling and OTOC
-* [Displacement Operators](https://github.com/deltorobarba/science/blob/main/conjugation.ipynb) 🍵 in Phase-Space and Quantum Advantage from Conjugate Pairs $\rho \otimes \rho^*$
 * [Quantum Computing](https://github.com/deltorobarba/science/blob/main/quantum.ipynb) 💎 Run simple quantum algorithms on IonQ and IBM
 * [Astronomy & Astrophysics](https://github.com/deltorobarba/science/blob/main/astronomy.ipynb) 🔭 Exoplanets, Gravitational Waves, Galaxies & Nebula
 
