@@ -1,4 +1,4 @@
-##### <font color="blue">*Heisenberg-Weyl Algebra in Quantum Algorithms*
+# <font color="blue">*Heisenberg-Weyl Algebra in Quantum Algorithms*
 
 <font color="blue">**Heisenberg-Weyl Algebra (mit Exponentiation und Konjugation)**
 
@@ -76,7 +76,7 @@
   * **Non-Clifford (QUBIT): Toffoli Gate** (also Non-Clifford and Universal with $\hat{H}$ and $\hat{T}$)
 
 
-
+---
 
 <font color="blue">**Heisenberg–Weyl-Algebra in Quantum Computing — von der Tensoralgebra bis zu Magic States**
 
