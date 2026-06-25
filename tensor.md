@@ -1,39 +1,6 @@
-<font color="blue">*Metrik*
+## <font color="blue">Tensor Algebra
 
-* **Metrik Tensor (Bilinearform / First Fundamental Form):**
-  * (0,2)-Tensor. Instrument zur Messung von Abständen und Winkeln, Indezes ziehen. Index Raising and Lowering: The most powerful feature of the metric tensor is its ability to convert covariant indices into contravariant ones, and vice versa (musikalische Isomorphismus)
-  * Metrischer Tensor: symmetrisches, nicht-ausgeartetes Tensorfeld ein. Eine Bilinearform, die zwei Vektoren eine Zahl zuordnet: $ds^2 = g = g_{ij} \, dx^i \otimes dx^j$
-  * $g_{kl} = B^i_k B^j_l \widetilde{g}_{ij}$
-
-$$\widetilde{g}_{ij} = F^k_i F^l_j g_{kl}$$
-
-* Der Metrische Tensor ($g_{\mu\nu}$)
-  * Der metrische Tensor ist der absolut wichtigste $(0,2)$-Tensor einer Riemannschen Mannigfaltigkeit. Er verleiht dem Raum seine Geometrie, da er Abstände und Winkel definiert.
-  * **Linienelement:** Das Quadrat des infinitesimalen Abstands $ds$ zwischen zwei unendlich nah benachbarten Punkten: $ds^2 = g_{\mu\nu} dx^\mu dx^\nu$
-  * **Indizes heben und senken:** Die Metrik $g_{\mu\nu}$ und ihre Inverse $g^{\mu\nu}$ (für die $g_{\mu\alpha} g^{\alpha\nu} = \delta_\mu^\nu$ gilt) werden als Werkzeuge genutzt, um zwischen ko- und kontravarianten Komponenten hin- und herzuwechseln: $V_\mu = g_{\mu\nu} V^\nu \quad \text{und} \quad W^\mu = g^{\mu\nu} W_\nu$
-* **Metric Tensor:** covariant $g_{i,j}$ from $V$ with $\vec{v}$ to $V^*$, lives in $V^* \otimes V^*$.   * *Convert from vector to covector with metric tensor:*
-  * $\vec{v} = v^j \vec{e}_j = \widetilde{v}^j \widetilde{\vec{e}}_j$ (vector)
-  * $\vec{v} \cdot \_ = v_i \epsilon^i = \widetilde{v}_i \widetilde{\epsilon}^i$ (covector)
-  * $v_i = g_{ij} v^j$ bzw.
-
-$$\widetilde{v}_i = \widetilde{g}_{ij} \widetilde{v}^j$$
-
-* Metric Tensor for Curved Surfaces:
-
-$$\begin{bmatrix}
-\frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d v} \\ 
-\frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d v}
-\end{bmatrix}$$
-
-* bzw. als Vector:
-
-$$\begin{bmatrix}
-\vec{e}_u \cdot \vec{e}_u & \vec{e}_u \cdot \vec{e}_v \\ 
-\vec{e}_v \cdot \vec{e}_u & \vec{e}_v \cdot \vec{e}_v
-\end{bmatrix}$$
-
-
----
+![science](https://raw.githubusercontent.com/deltorobarba/science/main/nature.JPG)
 
 ### <font color="blue">Tensor Algebra
 
@@ -110,6 +77,72 @@ $$T'^\mu_\nu = \frac{\partial x'^\mu}{\partial x^\alpha} \frac{\partial x^\beta}
   * Vektoren (Derivationen) und Kovektoren (1-Formen) koordinatenfreie, abstrakte Objekte
 * **Kotangentialraum**
 
+<font color="blue">*Metrik*
+
+* **Metrik Tensor (Bilinearform / First Fundamental Form):**
+  * (0,2)-Tensor. Instrument zur Messung von Abständen und Winkeln, Indezes ziehen. Index Raising and Lowering: The most powerful feature of the metric tensor is its ability to convert covariant indices into contravariant ones, and vice versa (musikalische Isomorphismus)
+  * Metrischer Tensor: symmetrisches, nicht-ausgeartetes Tensorfeld ein. Eine Bilinearform, die zwei Vektoren eine Zahl zuordnet: $ds^2 = g = g_{ij} \, dx^i \otimes dx^j$
+  * $g_{kl} = B^i_k B^j_l \widetilde{g}_{ij}$
+
+$$\widetilde{g}_{ij} = F^k_i F^l_j g_{kl}$$
+
+* Der Metrische Tensor ($g_{\mu\nu}$)
+  * Der metrische Tensor ist der absolut wichtigste $(0,2)$-Tensor einer Riemannschen Mannigfaltigkeit. Er verleiht dem Raum seine Geometrie, da er Abstände und Winkel definiert.
+  * **Linienelement:** Das Quadrat des infinitesimalen Abstands $ds$ zwischen zwei unendlich nah benachbarten Punkten: $ds^2 = g_{\mu\nu} dx^\mu dx^\nu$
+  * **Indizes heben und senken:** Die Metrik $g_{\mu\nu}$ und ihre Inverse $g^{\mu\nu}$ (für die $g_{\mu\alpha} g^{\alpha\nu} = \delta_\mu^\nu$ gilt) werden als Werkzeuge genutzt, um zwischen ko- und kontravarianten Komponenten hin- und herzuwechseln: $V_\mu = g_{\mu\nu} V^\nu \quad \text{und} \quad W^\mu = g^{\mu\nu} W_\nu$
+* **Metric Tensor:** covariant $g_{i,j}$ from $V$ with $\vec{v}$ to $V^*$, lives in $V^* \otimes V^*$.   * *Convert from vector to covector with metric tensor:*
+  * $\vec{v} = v^j \vec{e}_j = \widetilde{v}^j \widetilde{\vec{e}}_j$ (vector)
+  * $\vec{v} \cdot \_ = v_i \epsilon^i = \widetilde{v}_i \widetilde{\epsilon}^i$ (covector)
+  * $v_i = g_{ij} v^j$ bzw.
+
+$$\widetilde{v}_i = \widetilde{g}_{ij} \widetilde{v}^j$$
+
+* Metric Tensor for Curved Surfaces:
+
+$$\begin{bmatrix}
+\frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d v} \\ 
+\frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d v}
+\end{bmatrix}$$
+
+* bzw. als Vector:
+
+$$\begin{bmatrix}
+\vec{e}_u \cdot \vec{e}_u & \vec{e}_u \cdot \vec{e}_v \\ 
+\vec{e}_v \cdot \vec{e}_u & \vec{e}_v \cdot \vec{e}_v
+\end{bmatrix}$$
+
+
+* Sandwich Metric tensor between covector and vector:
+
+$$g(\vec{v}, \vec{w})=v^i w^j g_{i j}$ = $=\left[\begin{array}{ll}v^1 & v^2\end{array}\right]\left[\begin{array}{ll}g_{11} & g_{12} \\ g_{21} & g_{22}\end{array}\right]\left[\begin{array}{l}w^1 \\ w^2\end{array}\right]$$
+
+* Anwendung in u, v:
+
+$$\left\|\frac{d \vec{R}}{d \lambda}\right\|^2=\frac{d \vec{R}}{d \lambda} \cdot \frac{d \vec{R}}{d \lambda}$ $=\left[\begin{array}{ll}\frac{d u}{d \lambda} & \frac{d v}{d \lambda}\end{array}\right]\left[\begin{array}{ll}\frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d v} \\ \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d v}\end{array}\right]\left[\begin{array}{l}\frac{d u}{d \lambda} \\ \frac{d v}{d \lambda}\end{array}\right]$$
+
+* Anwendung in X, Y, Z:
+
+$$\left\|\frac{d \vec{R}}{d \lambda}\right\|^2=\frac{d \vec{R}}{d \lambda} \cdot \frac{d \vec{R}}{d \lambda}$ = $\left[\begin{array}{lll}\frac{d X}{d \lambda} & \frac{d Y}{d \lambda} & \frac{d Z}{d \lambda}\end{array}\right]\left[\begin{array}{lll}\frac{\partial \vec{R}}{\partial X} \cdot \frac{\partial \vec{R}}{\partial X} & \frac{\partial \vec{R}}{\partial X} \cdot \frac{\partial \vec{R}}{\partial Y} & \frac{\partial \vec{R}}{\partial X} \cdot \frac{\partial \vec{R}}{\partial Z} \\ \frac{\partial \vec{R}}{\partial Y} \cdot \frac{\partial \vec{R}}{\partial X} & \frac{\partial \vec{R}}{\partial Y} \cdot \frac{\partial \vec{R}}{\partial Y} & \frac{\partial \vec{R}}{\partial Y} \cdot \frac{\partial \vec{R}}{\partial Z} \\ \frac{\partial \vec{R}}{\partial Z} \cdot \frac{\partial \vec{R}}{\partial X} & \frac{\partial \vec{R}}{\partial Z} \cdot \frac{\partial \vec{R}}{\partial Y} & \frac{\partial \vec{R}}{\partial Z} \cdot \frac{\partial \vec{R}}{\partial Z}\end{array}\right]\left[\begin{array}{l}\frac{d X}{d \lambda} \\ \frac{d Y}{d \lambda} \\ \frac{d Z}{d \lambda}\end{array}\right]$$
+
+* **Inverse Metric Tensor:** contravariant $\mathfrak{g_{i,j}}$, lives in $V \otimes V$
+  * **Metric tensor and invers metric tensor with $∇ f$ (gradient, vector) and $d f$ (differential, covector):**
+  * Use metric tensor $g = (\nabla f)^i g_{i j}=\frac{\partial f}{\partial c^j}$ to go from vector field **$∇ f$ (gradient)** to covector field **$d f$ (differential, exterior derivative of $f$)**.
+  * Use inverse metric tensor $\mathfrak{g}$ = $(\nabla f)^k= \mathfrak{g}^{j k} \frac{\partial f}{\partial c^j}$ to go from covector field **$d f$ (differential, exterior derivative of $f$)** back to vector field **$∇ f$ (gradient)** .
+  * **Kronecker delta** when both combined: $\mathfrak{g}^{k i} \otimes g_{i j}=\delta_j^k$
+  * **(m,n)- Tensor** Transformation rule. Definition der Indizes: $T^{ijk\dots \quad  → \text{ contravariant indexes}}_{rst\dots \quad  → \text{ covariant indexes}}$
+  * Transformation zu den neuen Indizes:
+
+$$\widetilde{T}^{abc\dots}_{xyz\dots} = (B^a_i B^b_j B^c_k \dots) T^{ijk\dots}_{rst\dots} (F^r_x F^s_y F^t_z \dots)$$
+
+* Transformation zu den alten Indizes:
+
+$$T^{ijk\dots}_{rst\dots} = (F^i_a F^j_b F^k_c \dots) \widetilde{T}^{abc\dots}_{xyz\dots} (B^x_r B^y_s B^z_t \dots)$$
+
+* **Musikalische Isomorphismen:** Die Metrik erlaubt es uns, Indizes zu heben (Sharp $\sharp$) und zu senken (Flat $\flat$). Sie verwandelt Vektoren in Formen und umgekehrt. $v_i = g_{ij} v^j \quad (\text{Flat-Operator: Vektor } \to \text{ Form})$
+    * **Lowering an index:** $v_i = g_{ij} v^j$ which is the $\flat$ operator (from vector arrow to flat covector stack)
+    * **Raising an index:** $v^i = g^{ij} v_j$ which is the $\sharp$ operator (from covector $\alpha$ to vector $\vec{a}$
+  * (Note: The contravariant metric tensor $g^{ij}$ is the matrix inverse of the covariant tensor $g_{ij}$).
+* (1,1)-Tensor with: $\widetilde{L}^i_j = B^i_k L^k_l F^l_j$ and: $L^i_j = F^i_k \widetilde{L}^k_l B^l_j$
 
 ---
 
