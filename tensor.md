@@ -36,8 +36,8 @@ $$ \frac{d^2 \vec{R}}{d \lambda^2} =\left(\frac{d^2 u^k}{d \lambda^2}+\Gamma_{i 
   * Wenn man auf einem gekrümmten Raum (oder in Polarkoordinaten) die normale partielle Ableitung ($\partial_\mu$) eines Vektorfeldes bildet, ist das Ergebnis *kein* Tensor mehr. Der Grund: Die Basisvektoren selbst ändern sich von Punkt zu Punkt! Die kovariante Ableitung repariert dieses Problem.
   * **Christoffel-Symbole ($\Gamma^\lambda_{\mu\nu}$):** Diese (nicht-tensoriellen!) Hilfsgrößen beschreiben, wie sich das Koordinatennetz krümmt und die Basisvektoren variieren. Sie werden direkt aus der Metrik und deren Ableitungen berechnet: $\Gamma^\lambda_{\mu\nu} = \frac{1}{2} g^{\lambda\rho} (\partial_\mu g_{\nu\rho} + \partial_\nu g_{\rho\mu} - \partial_\rho g_{\mu\nu})$
   * **Kovariante Ableitung ($\nabla_\mu$ oder $;_\mu$):** Sie ergänzt die gewöhnliche Ableitung um einen Korrekturterm mit dem Christoffel-Symbol, sodass das Resultat wieder ein echter Tensor ist.
-  * Für einen kontravarianten Vektor: $\nabla_\mu V^\nu = \partial_\mu V^\nu + \Gamma^\nu_{\mu\lambda} V^\lambda$
-  * Für einen kovarianten Vektor: $\nabla_\mu W_\nu = \partial_\mu W_\nu - \Gamma^\lambda_{\mu\nu} W_\lambda$
+    * Für einen kontravarianten Vektor: $\nabla_\mu V^\nu = \partial_\mu V^\nu + \Gamma^\nu_{\mu\lambda} V^\lambda$
+    * Für einen kovarianten Vektor: $\nabla_\mu W_\nu = \partial_\mu W_\nu - \Gamma^\lambda_{\mu\nu} W_\lambda$
 
 * **Connection/Covariant Derivative = Navigationssystem (Zusammenhang/Kovariante Ableitung) = Lie Algebra**
   * Wie vergleicht man Vektoren in verschiedenen Tangentialräumen? Man braucht eine Vorschrift, wie man ein Koordinatensystem "parallel" von einem Punkt zum anderen schiebt.
