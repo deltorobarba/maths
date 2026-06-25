@@ -1,6 +1,6 @@
 ## Alexander Del Toro Barba, PhD
 
-Machine learning and quantum computing specialist at Google Cloud. I ❤️ Maths
+Machine learning and quantum specialist at Google. I ❤️ Maths
 
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=fddyK-wAAAAJ) $\cdot$ [LinkedIn](https://www.linkedin.com/in/deltorobarba/)
 
