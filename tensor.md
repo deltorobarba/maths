@@ -180,6 +180,12 @@ $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4
     * $v_i = g_{ij} v^j$ bzw. $\widetilde{v}_i = \widetilde{g}_{ij} \widetilde{v}^j$
 * Metric Tensor for Curved Surfaces:
 
+$$
+\begin{bmatrix}
+\frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d v} \\ 
+\frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d v}
+\end{bmatrix}
+$$
 
 $\left[\begin{array}{cc}\frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d v} \\ \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d v}\end{array}\right]$ bzw. als Vector: $\left[\begin{array}{ll}\overrightarrow{e_u} \cdot \overrightarrow{e_u} & \overrightarrow{e_u} \cdot \overrightarrow{e_v} \\ \overrightarrow{e_v} \cdot \overrightarrow{e_u} & \overrightarrow{e_v} \cdot \overrightarrow{e_v}\end{array}\right]$
 
