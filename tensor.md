@@ -3,7 +3,7 @@
 ![science](https://raw.githubusercontent.com/deltorobarba/science/main/nature.JPG)
 
 
-#### <font color="blue">Tensoranalysis (Tensorkalkül)
+### <font color="blue">Tensoranalysis (Tensorkalkül)
 
 Während die multilineare Algebra Tensoren in flachen Vektorräumen betrachtet, bringt die Tensoranalysis **Analysis und Geometrie** ins Spiel: Sie untersucht Tensorfelder auf gekrümmten Räumen. Das ist die mathematische Basis der Allgemeinen Relativitätstheorie und der Kontinuumsmechanik.
 
@@ -111,7 +111,7 @@ $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4
 
 ---
 
-<font color="blue">***Tensor Algebra***
+### <font color="blue">Tensor Algebra
 
 <font color="blue">*Vektor und Kovektor*
 
@@ -187,7 +187,9 @@ $$
 \end{bmatrix}
 $$
 
-$\left[\begin{array}{cc}\frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d v} \\ \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d v}\end{array}\right]$ bzw. als Vector: $\left[\begin{array}{ll}\overrightarrow{e_u} \cdot \overrightarrow{e_u} & \overrightarrow{e_u} \cdot \overrightarrow{e_v} \\ \overrightarrow{e_v} \cdot \overrightarrow{e_u} & \overrightarrow{e_v} \cdot \overrightarrow{e_v}\end{array}\right]$
+$\left[\begin{array}{cc}\frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d v} \\ \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d v}\end{array}\right]$ 
+
+bzw. als Vector: $\left[\begin{array}{ll}\overrightarrow{e_u} \cdot \overrightarrow{e_u} & \overrightarrow{e_u} \cdot \overrightarrow{e_v} \\ \overrightarrow{e_v} \cdot \overrightarrow{e_u} & \overrightarrow{e_v} \cdot \overrightarrow{e_v}\end{array}\right]$
 
 
 * Sandwich Metric tensor between covector and vector: $g(\vec{v}, \vec{w})=v^i w^j g_{i j}$ = $=\left[\begin{array}{ll}v^1 & v^2\end{array}\right]\left[\begin{array}{ll}g_{11} & g_{12} \\ g_{21} & g_{22}\end{array}\right]\left[\begin{array}{l}w^1 \\ w^2\end{array}\right]$
@@ -212,7 +214,7 @@ $\left[\begin{array}{cc}\frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d u} & \fra
 
 ---
 
-<font color="blue">*Tensor Calculus I*
+### <font color="blue">Tensor Calculus I
 
 * **Geodesic equation**: Geodesics are where the tangential component are zero (because geodesics are curves where the acceleration vector is always normal, light will follow this path)
   * geradeste Kurve in einem gekrümmten Raum, entlang derer der eigene **Tangentialvektor parallel transportiert** wird, sodass ihre intrinsische Beschleunigung verschwindet.
@@ -292,7 +294,7 @@ $\left[\begin{array}{cc}\frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d u} & \fra
 
 ---
 
-<font color="blue">*Tensor Calculus II*
+### <font color="blue">Tensor Calculus II
 
 
 * **Lie Bracket (Commutator):** (hier hat Parallel Transport keine bedeutung!)
