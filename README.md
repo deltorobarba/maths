@@ -9,7 +9,7 @@ Machine learning and quantum computing specialist at Google Cloud. I ❤️ Math
 
 **Mathematics** ❤️
 * [Tensor Algebra](https://github.com/deltorobarba/science/blob/main/maths.ipynb) 🪼 for General Relativity (with Differential Geometry)
-* [Heisenberg-Weyl Algebra](https://github.com/deltorobarba/science/blob/main/heisenbergweyl.ipynb) 🌸 for Quantum Operators and Bosons
+* [Heisenberg-Weyl Algebra](https://github.com/deltorobarba/science/blob/main/heisenberg.md) 🌸 for Quantum Operators and Bosons
 * [Geometric (Clifford) Algebra](https://github.com/deltorobarba/science/blob/main/clifford.md) 🦋 for Robotics and Spinors / Fermions
 * [Lie Algebra and Lie Groups](https://github.com/deltorobarba/science/blob/main/lie.md) 🪷 with Exponentiation $e^{X}$ and Taylor Series
 
