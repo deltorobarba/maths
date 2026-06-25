@@ -175,7 +175,10 @@ $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4
 * **Metric Tensor:** covariant $g_{i,j}$ from $V$ with $\vec{v}$ to $V^*$, lives in $V^* \otimes V^*$.   * *Convert from vector to covector with metric tensor:*
  * $\vec{v} = v^j \vec{e}_j = \widetilde{v}^j \widetilde{\vec{e}}_j$ (vector)
  * $\vec{v} \cdot \_ = v_i \epsilon^i = \widetilde{v}_i \widetilde{\epsilon}^i$ (covector)
- * $v_i = g_{ij} v^j$ bzw. $\widetilde{v}_i = \widetilde{g}_{ij} \widetilde{v}^j$
+ * $v_i = g_{ij} v^j$ bzw.
+
+$$\widetilde{v}_i = \widetilde{g}_{ij} \widetilde{v}^j$$
+
 * lala Metric Tensor for Curved Surfaces:
 
 $$\begin{bmatrix}
