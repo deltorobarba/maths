@@ -4,11 +4,11 @@
 
 ![Quantum Harmonic Oscillator](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/HarmOsziFunktionen.png/330px-HarmOsziFunktionen.png)
 
-1. Hamiltonian: $\hat{H} \propto \hat{P}^2 + \hat{Q}^2$
+1. Hamiltonian:
 
-$$ = \hbar \omega \left(\hat{a}^\dagger \hat{a} + \frac{1}{2}\right) = \hbar \omega (\hat{n} + \frac{1}{2})$$
+$$\hat{H} \propto \hat{P}^2 + \hat{Q}^2 = \hbar \omega \left(\hat{a}^\dagger \hat{a} + \frac{1}{2}\right) = \hbar \omega (\hat{n} + \frac{1}{2})$$
 
-$\hat{H}$ generator of basis state rotations in phase space ($Q / P$)
+* $\hat{H}$ generator of basis state rotations in phase space ($Q / P$)
 
   * Ladder Operator Form: $\hat{H}=\hbar \omega\left(a^{\dagger} a+\frac{1}{2}\right)$. $\hat{a}$ and $\hat{a}^\dagger$ (Ladder Operators):  jump Up and Down the energy ladder.  Operators $\hat{Q}$ and $\hat{P}$ linear combinations of $\hat{a}, \hat{a}^\dagger$. Their sum of squares ($\hat{Q}^2 + \hat{P}^2$) gives Number Operator $\hat{n}$ for total energy.
   * Position/Momentum Form $\hat{H}=\frac{p^2}{2 m}+\frac{1}{2} m \omega^2 x^2$. [Quantum Harmonic Oscillation](https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator) describes physical swap Kinetic $\leftrightarrow$ Potential = Time Evolution. Eg $t=0$: state in Position $Q$. Time evolution by $t=\frac{\pi}{2\omega}$ rotated $90^\circ$ to Momentum $P$ $\rightarrow$ is QFT!
