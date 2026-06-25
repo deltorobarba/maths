@@ -177,14 +177,20 @@ $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4
     * $\vec{v} \cdot \_ = v_i \epsilon^i = \widetilde{v}_i \widetilde{\epsilon}^i$ (covector)
     * $v_i = g_{ij} v^j$ bzw. $\widetilde{v}_i = \widetilde{g}_{ij} \widetilde{v}^j$
     * $v_i = g_{ij} v^j$ bzw. $\widetilde{v}_i = \widetilde{g}_{ij} \widetilde{v}^j$
-* Metric Tensor for Curved Surfaces: $$\begin{bmatrix}
+* Metric Tensor for Curved Surfaces:
+
+$$\begin{bmatrix}
 \frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d v} \\ 
 \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d v}
 \end{bmatrix}$$
-* bzw. als Vector: $$\begin{bmatrix}
+
+* bzw. als Vector:
+
+$$\begin{bmatrix}
 \vec{e}_u \cdot \vec{e}_u & \vec{e}_u \cdot \vec{e}_v \\ 
 \vec{e}_v \cdot \vec{e}_u & \vec{e}_v \cdot \vec{e}_v
 \end{bmatrix}$$
+
 * Sandwich Metric tensor between covector and vector: $g(\vec{v}, \vec{w})=v^i w^j g_{i j}$ = $=\left[\begin{array}{ll}v^1 & v^2\end{array}\right]\left[\begin{array}{ll}g_{11} & g_{12} \\ g_{21} & g_{22}\end{array}\right]\left[\begin{array}{l}w^1 \\ w^2\end{array}\right]$
     * Anwendung in u, v: $\left\|\frac{d \vec{R}}{d \lambda}\right\|^2=\frac{d \vec{R}}{d \lambda} \cdot \frac{d \vec{R}}{d \lambda}$ $=\left[\begin{array}{ll}\frac{d u}{d \lambda} & \frac{d v}{d \lambda}\end{array}\right]\left[\begin{array}{ll}\frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d v} \\ \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d v}\end{array}\right]\left[\begin{array}{l}\frac{d u}{d \lambda} \\ \frac{d v}{d \lambda}\end{array}\right]$
     * Anwendung in X, Y, Z: $\left\|\frac{d \vec{R}}{d \lambda}\right\|^2=\frac{d \vec{R}}{d \lambda} \cdot \frac{d \vec{R}}{d \lambda}$ = $\left[\begin{array}{lll}\frac{d X}{d \lambda} & \frac{d Y}{d \lambda} & \frac{d Z}{d \lambda}\end{array}\right]\left[\begin{array}{lll}\frac{\partial \vec{R}}{\partial X} \cdot \frac{\partial \vec{R}}{\partial X} & \frac{\partial \vec{R}}{\partial X} \cdot \frac{\partial \vec{R}}{\partial Y} & \frac{\partial \vec{R}}{\partial X} \cdot \frac{\partial \vec{R}}{\partial Z} \\ \frac{\partial \vec{R}}{\partial Y} \cdot \frac{\partial \vec{R}}{\partial X} & \frac{\partial \vec{R}}{\partial Y} \cdot \frac{\partial \vec{R}}{\partial Y} & \frac{\partial \vec{R}}{\partial Y} \cdot \frac{\partial \vec{R}}{\partial Z} \\ \frac{\partial \vec{R}}{\partial Z} \cdot \frac{\partial \vec{R}}{\partial X} & \frac{\partial \vec{R}}{\partial Z} \cdot \frac{\partial \vec{R}}{\partial Y} & \frac{\partial \vec{R}}{\partial Z} \cdot \frac{\partial \vec{R}}{\partial Z}\end{array}\right]\left[\begin{array}{l}\frac{d X}{d \lambda} \\ \frac{d Y}{d \lambda} \\ \frac{d Z}{d \lambda}\end{array}\right]$
