@@ -348,4 +348,4 @@ bzw. als Vector: $\left[\begin{array}{ll}\overrightarrow{e_u} \cdot \overrightar
   * Formel: $K(X,Y) = \frac{\langle R(X,Y)Y, X \rangle}{\langle X,X \rangle \langle Y,Y \rangle - \langle X,Y \rangle^2}$
 
 
-Videos: Eigenchris: [Tensor Calculus](https://youtube.com/playlist?list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&si=vJ64vdbqtgjDXHbv)
+Videos: Eigenchris: [Tensor Calculus](https://youtube.com/playlist?list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&si=vJ64vdbqtgjDXHbv) and [Tensors for Beginners]([https://youtube.com/playlist?list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&si=vJ64vdbqtgjDXHbv](https://youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&si=Ibojdh_9nI3SIYgA))
