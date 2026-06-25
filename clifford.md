@@ -1,4 +1,4 @@
-<font color="blue">*Geometrische Algebra (Clifford)*
+## <font color="blue">Geometrische Algebra (Clifford)
 
 0. Was sie ist & woher sie kommt
 
