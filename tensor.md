@@ -2,8 +2,6 @@
 
 ![science](https://raw.githubusercontent.com/deltorobarba/science/main/nature.JPG)
 
-Videos: Eigenchris: Tensor Calculus(https://youtube.com/playlist?list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&si=vJ64vdbqtgjDXHbv)
-
 ### <font color="blue">Tensoranalysis (Tensorkalkül)
 
 Während die multilineare Algebra Tensoren in flachen Vektorräumen betrachtet, bringt die Tensoranalysis **Analysis und Geometrie** ins Spiel: Sie untersucht Tensorfelder auf gekrümmten Räumen. Das ist die mathematische Basis der Allgemeinen Relativitätstheorie und der Kontinuumsmechanik.
@@ -348,3 +346,6 @@ bzw. als Vector: $\left[\begin{array}{ll}\overrightarrow{e_u} \cdot \overrightar
 * **Schnittkrümmung (Sectional Curvature):**
   * liefert eine anschauliche zweidimensionale Krümmungsmaßzahl (vergleichbar mit der Gaußschen Krümmung), die angibt, wie stark eine durch zwei Tangentialvektoren $X$ und $Y$ aufgespannte "Ebene" gekrümmt ist.
   * Formel: $K(X,Y) = \frac{\langle R(X,Y)Y, X \rangle}{\langle X,X \rangle \langle Y,Y \rangle - \langle X,Y \rangle^2}$
+
+
+Videos: Eigenchris: [Tensor Calculus](https://youtube.com/playlist?list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&si=vJ64vdbqtgjDXHbv)
