@@ -1,5 +1,7 @@
 ## <font color="blue">Geometrische Algebra (Clifford)
 
+![maths](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/N_vector_negative.svg/500px-N_vector_negative.svg.png)
+
 0. Was sie ist & woher sie kommt
 
 * Die Geometrische Algebra (GA) $\mathcal G(V,Q)$ **ist** die Clifford-Algebra — gleiche Struktur, nur mit Betonung auf Multivektoren und dem geometrischen Produkt. Sie ist der **linke, orthogonale Ast** aus deinem Abschnitt *Quantenalgebren und -gruppen*: derselbe Quotient der Tensoralgebra,
