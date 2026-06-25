@@ -3,8 +3,10 @@
 * **Metrik Tensor (Bilinearform / First Fundamental Form):**
   * (0,2)-Tensor. Instrument zur Messung von Abständen und Winkeln, Indezes ziehen. Index Raising and Lowering: The most powerful feature of the metric tensor is its ability to convert covariant indices into contravariant ones, and vice versa (musikalische Isomorphismus)
   * Metrischer Tensor: symmetrisches, nicht-ausgeartetes Tensorfeld ein. Eine Bilinearform, die zwei Vektoren eine Zahl zuordnet: $ds^2 = g = g_{ij} \, dx^i \otimes dx^j$
-  * $\tilde{g}_{ij} = F^k_i F^l_j g_{kl}$
   * $g_{kl} = B^i_k B^j_l \widetilde{g}_{ij}$
+
+$$\widetilde{g}_{ij} = F^k_i F^l_j g_{kl}$$
+
 * Der Metrische Tensor ($g_{\mu\nu}$)
   * Der metrische Tensor ist der absolut wichtigste $(0,2)$-Tensor einer Riemannschen Mannigfaltigkeit. Er verleiht dem Raum seine Geometrie, da er Abstände und Winkel definiert.
   * **Linienelement:** Das Quadrat des infinitesimalen Abstands $ds$ zwischen zwei unendlich nah benachbarten Punkten: $ds^2 = g_{\mu\nu} dx^\mu dx^\nu$
