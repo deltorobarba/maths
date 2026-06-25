@@ -1,4 +1,4 @@
-# <font color="blue">**Mathematics 🪼**
+# <font color="blue">**Tensor Algebra**
 
 ![science](https://raw.githubusercontent.com/deltorobarba/science/main/nature.JPG)
 
