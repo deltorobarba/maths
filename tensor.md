@@ -7,32 +7,15 @@
   * Sie misst die Nicht-Kommutativität zweier Vektorfelder $X$ und $Y$, also gewissermaßen die infinitesimale "Lücke", die entsteht, wenn man die Flüsse der beiden Felder in unterschiedlicher Reihenfolge durchläuft.
   * Coordinate lines are just flow curves along basis vectors
   * Lie Bracket / Commutator = measures how much vector field flow curves fail to close.
-
-$$[\vec{u}, \vec{v}]=\vec{u}(\vec{v})-\vec{v}(\vec{u})$$
-
-$$[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$$
+  * $[\vec{u}, \vec{v}]=\vec{u}(\vec{v})-\vec{v}(\vec{u})$
+  * $[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$
 
 * **Torsion Tensor: = covariant derivates  + Lie Bracket!** (hier hat parallel transport eine zentrale bedeutung!)
-
-$$T(\vec{u}, \vec{v})=\nabla_{\vec{u}} \vec{v}-[\vec{u}, \vec{v}]-\nabla_{\vec{v}} \vec{u}$ mit $T^k_{ij} = \Gamma^k_{ij} - \Gamma^k_{ji}$$
-
-* **wenn** 
-
-$$T(\vec{u}, \vec{v})=\nabla_{\vec{u}} \vec{v}-[\vec{u}, \vec{v}]-\nabla_{\vec{v}} \vec{u} = 0$$
-
-* **dann**: 
-
-$$\nabla_{\vec{u}} \vec{v}-\nabla_{\vec{v}} \vec{u}=[\vec{u}, \vec{v}]$$
-
-  * **bedeutet**: the difference of the covariant derivates is equal to the Lie Braket (which is difference of ordinary derivative)
+  * Formel: $T(\vec{u}, \vec{v})=\nabla_{\vec{u}} \vec{v}-[\vec{u}, \vec{v}]-\nabla_{\vec{v}} \vec{u}$ mit $T^k_{ij} = \Gamma^k_{ij} - \Gamma^k_{ji}$
+  * **wenn** $T(\vec{u}, \vec{v})=\nabla_{\vec{u}} \vec{v}-[\vec{u}, \vec{v}]-\nabla_{\vec{v}} \vec{u} = 0$, **dann**: $\nabla_{\vec{u}} \vec{v}-\nabla_{\vec{v}} \vec{u}=[\vec{u}, \vec{v}]$, **bedeutet**: the difference of the covariant derivates is equal to the Lie Braket (which is difference of ordinary derivative)
   * Dieser Tensor fängt den asymmetrischen Teil des Zusammenhangs ein und gibt geometrisch an, inwiefern sich infinitesimale Parallelogramme, die durch den Paralleltransport gebildet werden, nicht schließen. Separation between parallel transported vector lines. Lie bracket is included in it. "Torsion-Free" means parallel-transported vectors close properly.
   * This is a property of connections only! Only depends on the connection coefficients, not the vector field.
-  * Notation: $\nabla_{\vec{u}} \vec{v} \quad \nabla_{\vec{v}} \vec{u}$ wobei: $\vec{u}$ and $\vec{v}$ = Vector fields, und $\nabla$ = Connection $\Gamma^k_{ij}$, 
-  * concretely the Levi Civita connection:
-  
-  $$\Gamma_{j k}^m=\frac{1}{2} \mathfrak{g}^{i m}\left(\partial_k g_{i j}+\partial_j g_{k i}-\partial_i g_{j k}\right)$$
-  
-  * sowie: $\nabla_{\vec{u}} \vec{v}=\overrightarrow{0}$ parallel transport
+  * Notation: $\nabla_{\vec{u}} \vec{v} \quad \nabla_{\vec{v}} \vec{u}$ wobei: $\vec{u}$ and $\vec{v}$ = Vector fields, und $\nabla$ = Connection $\Gamma^k_{ij}$, concretely the Levi Civita connection $\Gamma_{j k}^m=\frac{1}{2} \mathfrak{g}^{i m}\left(\partial_k g_{i j}+\partial_j g_{k i}-\partial_i g_{j k}\right)$, sowie: $\nabla_{\vec{u}} \vec{v}=\overrightarrow{0}$ parallel transport
 
 * **Riemann Curvature Tensor (Riemannscher Krümmungstensor):**
   * Krümmung ist die Unfähigkeit von Vektoren, beim Paralleltransport entlang einer geschlossenen Schleife wieder identisch bei sich selbst anzukommen (Holonomie), oder das Versagen der Kommutativität von Ableitungen.
