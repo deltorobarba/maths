@@ -1,4 +1,4 @@
-<font color="blue">*Lie-Gruppen und Lie-Algebren*
+$\color{blue}*Lie-Gruppen und Lie-Algebren*
 
 $\color{blue}{A_{ij} = B_{ij}}$
 
