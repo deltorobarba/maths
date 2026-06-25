@@ -177,6 +177,10 @@ $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4
     * $\vec{v} \cdot \_ = v_i \epsilon^i = \widetilde{v}_i \widetilde{\epsilon}^i$ (covector)
     * $v_i = g_{ij} v^j$ bzw. $\widetilde{v}_i = \widetilde{g}_{ij} \widetilde{v}^j$
     * $v_i = g_{ij} v^j$ bzw. $\widetilde{v}_i = \widetilde{g}_{ij} \widetilde{v}^j$
+    * lala $\widetilde{v}_i = \widetilde{g}_{ij} \widetilde{v}^j$
+    * $$
+\widetilde{v}_i = \widetilde{g}_{ij} \widetilde{v}^j
+$$
 * Metric Tensor for Curved Surfaces:
 
 $$\begin{bmatrix}
