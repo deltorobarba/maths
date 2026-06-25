@@ -1,5 +1,9 @@
 ### <font color="blue">Tensor Calculus I
 
+* **Paralleltransport und Geodäten**
+  * **Paralleltransport:** Die Operation, einen Vektor entlang einer Kurve so zu verschieben, dass er "in sich parallel" bleibt (sich also aus seiner eigenen Perspektive nicht ändert). Ein Vektorfeld $V^\mu$ ist entlang einer Kurve mit dem Parameter $\tau$ parallel verschoben, wenn die absolute Ableitung null ist: $\frac{DV^\mu}{d\tau} = \frac{dx^\nu}{d\tau} \nabla_\nu V^\mu = 0$
+  * **Die Geodätengleichung:** Eine Geodäte ist die geradestmögliche Bahn in einem gekrümmten Raum (die Verallgemeinerung einer Geraden). In der Physik ist das beispielsweise die Flugbahn eines Objekts im freien Fall. Ein Teilchen bewegt sich auf einer Geodäte, wenn sein eigener Geschwindigkeitsvektor entlang seiner Bahn parallel transportiert wird: $\frac{d^2 x^\mu}{d\tau^2} + \Gamma^\mu_{\alpha\beta} \frac{dx^\alpha}{d\tau} \frac{dx^\beta}{d\tau} = 0$
+
 * **Geodesic equation**: Geodesics are where the tangential component are zero (because geodesics are curves where the acceleration vector is always normal, light will follow this path)
   * geradeste Kurve in einem gekrümmten Raum, entlang derer der eigene **Tangentialvektor parallel transportiert** wird, sodass ihre intrinsische Beschleunigung verschwindet.
   * In der Geodesic equation ist der covariant derivate (connection) = Null!
