@@ -1,4 +1,4 @@
-# <font color="blue">Heisenberg-Weyl Algebra in Quantum Algorithms
+## <font color="blue">Heisenberg-Weyl Algebra in Quantum Algorithms
 
 <font color="blue">**Heisenberg-Weyl Algebra (mit Exponentiation und Konjugation)**
 
