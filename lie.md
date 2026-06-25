@@ -148,3 +148,7 @@ Die Exponentiation hat in den letzten Jahren auch das Deep Learning revolutionie
 * **Die Idee:** Ein klassisches neuronales Netz besteht aus diskreten Schichten: $x_{n+1} = f(x_n)$. Was passiert, wenn wir unendlich viele Schichten haben, die jeweils nur unendlich kleine Änderungen vornehmen?
 * **Die Anwendung:** Das Netzwerk lernt eine Differentialgleichung $\frac{dx}{dt} = f(x, t, \theta)$, wobei $f$ das neuronale Netz (die Lie-Algebra/das Vektorfeld) ist.
 * **Die Exponentiation:** Der Output des Netzwerks ist das Resultat eines kontinuierlichen Flusses von Input zu Output. Die Transformation ist effektiv die Exponentiation (Integration) dieses vom Netz gelernten Vektorfeldes. Das ist extrem speichereffizient und elegant, um kontinuierliche Zeitreihen (z.B. medizinische Patientendaten) zu modellieren.
+
+Video [Spinors for Beginners: Lie Algebra and Lie Groups](https://youtu.be/IPzwqAVfce4?is=Z9rrqaNurJQB186o)
+
+Video [Lie Algebras and Geometry of Quantum Dynamics](https://youtu.be/7yyD7r4tVqg?is=UU6OmvKDxJQWlwqS)
