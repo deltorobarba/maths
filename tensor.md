@@ -1,4 +1,85 @@
+### <font color="blue">Tensor Calculus I
 
+* **Geodesic equation**: Geodesics are where the tangential component are zero (because geodesics are curves where the acceleration vector is always normal, light will follow this path)
+  * geradeste Kurve in einem gekrümmten Raum, entlang derer der eigene **Tangentialvektor parallel transportiert** wird, sodass ihre intrinsische Beschleunigung verschwindet.
+  * In der Geodesic equation ist der covariant derivate (connection) = Null!
+  * In curved space, a straight path has **zero tangential acceleration** when we travel along it at constant speed.
+  * **To compute geodesic curves, we need to find curves where the acceleration vector is <u>normal</u> to the surface:**
+
+<font color="blue">$$0 = \Gamma_{i j}^k \frac{d u^i}{d \lambda} \frac{d u^j}{d \lambda} + \frac{d^2 u^k}{d \lambda^2}$$
+
+
+* **Acceleration Vector = Christoffel Symbols + Second Fundamental Form**
+  * Extrinsic approach: in geodesic curves, the acceleration vector is normal to the surface: $\frac{d^2 \vec{R}}{d \lambda^2}= \quad \quad \underbrace{\left(\frac{d^2 \vec{R}}{d \lambda^2}\right)^{\text {tangential }}}_{=0} \quad \quad \quad + \quad \quad \left(\frac{d^2 \vec{R}}{d \lambda^2}\right)^{\text {normal }}$
+  * **Acceleration Vector = Christoffel Symbols Γ (tangential) + Second Fundamental Form L (normal)**
+  * $ \frac{d^2 \vec{R}}{d \lambda^2} =\left(\frac{d^2 u^k}{d \lambda^2}+\Gamma_{i j}^k \frac{d u^i}{d \lambda} \frac{d u^j}{d \lambda}\right) \frac{\partial \vec{R}}{\partial u^k}\quad + \quad L_{i j} \frac{d u^i}{d \lambda} \frac{d u^j}{d \lambda} \widehat{n}$
+  * $\frac{\partial \overline{e_j}}{\partial u^i}=\Gamma_{i j}^1 \overrightarrow{e_1}+\Gamma_{i j}^2 \overrightarrow{e_2}+L_{i j} \hat{n}$
+  * $\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j}=\Gamma_{i j}^1 \frac{\partial \vec{R}}{\partial u^1}+\Gamma_{i j}^2 \frac{\partial \vec{R}}{\partial u^2}+L_{i j} \hat{n}$
+
+* **Second fundamental form $L_{i j} \hat{n}$ (normal vector)**
+  * tells us how much of the normal vector we take
+  * Formel: $L_{i j}=\frac{\partial^2 \vec{R}}{{\partial} u^i {\partial} u^j} \cdot \frac{\overrightarrow{e_i} \times \overrightarrow{e_j}}{\left\|\overrightarrow{e_i} \times \overrightarrow{e_j}\right\|}$
+
+* **Christoffel symbols $\Gamma_{i j}^k$ or $\Gamma_{i j}^1$ and $\Gamma_{i j}^2$ = correction term or 'connection coefficients' in covariant derivative!**
+  * **Christoffel-Symbole $\Gamma^k_{ij}$:** Das sind die Korrekturterme, die beschreiben, wie sich das Koordinatensystem selbst krümmt und dreht. Im Levi-Civita-Zusammenhang (torsionsfrei & metrikverträglich) werden sie direkt aus den Ableitungen der Metrik berechnet: $\Gamma^k_{ij} = \frac{1}{2} g^{kl} (\partial_i g_{jl} + \partial_j g_{il} - \partial_l g_{ij})$
+  * Christoffel Symbols give tangential components of $\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j}$ (how much of each tangent basis vector in tangent plane we take)
+  * How local basis vectors change from point to point on a surface? (to define derivate vector in curved space)
+  * Formel: $\Gamma^k_{ij} = \frac{1}{2} g^{kl} (\partial_i g_{jl} + \partial_j g_{il} - \partial_l g_{ij}) =\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j} \cdot \frac{\partial \vec{R}}{\partial u^l} \mathfrak{g}^{l k}$
+
+* **Connection/Covariant Derivative = Navigationssystem (Zusammenhang/Kovariante Ableitung) = Lie Algebra**
+  * Wie vergleicht man Vektoren in verschiedenen Tangentialräumen? Man braucht eine Vorschrift, wie man ein Koordinatensystem "parallel" von einem Punkt zum anderen schiebt.
+  * **Der Zusammenhang $\nabla$:** Er verallgemeinert die Richtungsableitung. Wenn Sie ein Vektorfeld $Y$ in Richtung von $X$ ableiten, lautet das Ergebnis in lokalen Koordinaten: $\nabla_X Y = \left( X^i \frac{\partial Y^k}{\partial x^i} + \Gamma^k_{ij} X^i Y^j \right) \frac{\partial}{\partial x^k}$
+  * **Covariant derivative (= Connection = Lie Algebra) = infinitesimal!**
+  * Covariant derivative called connection because connects between tangent spaces in a curved space, e.g. from $T_pS$ to $T_qS$
+  * **Die Geodesic equation ist eine spezielle Lösung der covariant derivate (connection), wo covariant derivative = Null ist!**
+  * Covariant derivative is a tool used to measure the rate of change of a tensor field along a specific direction in a curved space or curved spacetime. It is a derivative with normal componentent substracted of a vector field on curved surfaces: $\nabla_{\text{Direction}} \text{Input Field} = \text{Output Field (rate of change)} = \text{Connection}$
+  * Background: In flat Cartesian spaces, calculating derivative of vector or tensor simple: take partial derivative of its components. In curved spaces (or curvilinear like polar or spherical coordinates), coordinate basis vectors change from point to point.
+  * If you take a standard partial derivative, the result incorrectly mixes the change of the tensor's components with the change in the basis vectors themselves, meaning the result is not a true tensor. The covariant derivative fixes this by properly adjusting for the twisting, turning, and stretching of the coordinate system.
+  * The covariant derivative introduces **correction terms using mathematical objects called connection coefficients (most commonly the Christoffel symbols, denoted as ($\Gamma$)**
+  * Standard partial derivative $\frac{{\partial} v^k}{{\partial} u^i}$ of the vector component and correction term $\Gamma$: $\nabla_{\frac{\partial}{\partial u^i}} \vec{v} = \left[\frac{\boldsymbol{\partial} v^k}{\boldsymbol{\partial} u^i}+v^j \boldsymbol{\Gamma}_{i j}^k\right] \overrightarrow{e_k}$
+    * $\text{extrinsic (with dot product):} \quad \Gamma_{i j}^m = \left(\frac{\partial \overrightarrow{e_j}}{\partial u^i} \cdot \overrightarrow{e_l}\right) g^{l m}$
+    * $\text{intrinsic:} \quad \Gamma_{j k}^m=\frac{1}{2} g^{m i}\left(\frac{\partial\left(g_{i j}\right)}{\partial u^k}+\frac{\partial\left(g_{k i}\right)}{\partial u^j}-\frac{\partial\left(g_{j k}\right)}{\partial u^i}\right)$
+  * Example of a covariant derivative: $\nabla_{\frac{d}{d \lambda}} \frac{d}{d \lambda}$
+    * $\lambda$ : Curve = some function of parameter $\lambda$. Tangent Vectors: $\nabla \frac{d}{d \lambda}$. Geodesic: $\nabla_{\frac{d}{d \lambda}} \frac{d}{d \lambda}$
+    * Parallel transport if covariant derivative is 0: $\nabla_{\frac{d}{d \lambda}} \vec{v}=\overrightarrow{0}$ (covariant derivative of the vector field is zero)
+  * Properties of Covariant Derivates - generalizes partial derivatives so that resulting derivative transforms properly as a tensor:
+    * $\nabla_{a \vec{w}+b \vec{t}} \vec{v}=a \nabla_{\vec{w}} \vec{v}+b \nabla_{\vec{t}} \vec{v}$
+    * $\nabla_{\vec{w}}(\vec{v}+\vec{u})=\nabla_{\vec{w}} \vec{v}+\nabla_{\vec{w}} \vec{u}$
+    * $\nabla_{\vec{w}}(a \vec{v})=\left(\nabla_{\vec{w}} a\right) \vec{v}+a\left(\nabla_{\vec{w}} \vec{v}\right)$
+    * $\nabla_{\partial_i}(a)=\frac{\partial a}{\partial u^i}$
+
+
+* **Parallel Transport (global) = zero covariant derivative (infinitesimal)! = Exponential der Lie Algebra**  
+  * ist eine Vorschrift, die bestimmt, wie ein Vektor entlang einer Kurve verschoben wird, sodass er im geometrischen Sinne "konstant" bleibt und die lokale Krümmung der Koordinaten exakt ausgleicht.
+  Formel: $\nabla_{\dot{\gamma}} V = 0 \iff \frac{dV^i}{d\lambda} + \Gamma^i_{jk} V^j \frac{dx^k}{d\lambda} = 0$
+  * Parallel Transport provides a connection between tangent spaces in a curved space. e.g. from $T_pS$ to $T_qS$
+  * And the covariant derivative provides the connection between these tangent spaces in curved space $\nabla_{\frac{d}{d \lambda}} \vec{v}=\overrightarrow{0}$
+  * Thats why covariant derivate is something called connection, because it connects!
+  * This means: Parallel Transport = zero covariant derivative = special case of connection
+  * And Christoffel symbols $\Gamma$ are connection coefficients! $\nabla_{\overrightarrow{e_i}} \overrightarrow{e_j}=\Gamma_{i j}^k \overrightarrow{e_k}$
+
+> <font color="blue">**A connection is a Lie Algebra** ! Und der **Paralleltransport ist das Exponential** e dieses Lie-Algebra-Wertes entlang des Weges (das "path-ordered exponential"), was uns ein Element der Lie-Gruppe liefert. - Die Konnektion ($\nabla$, in der Algebra) ist also wirklich das Infinitesimale, und der Paralleltransport ($P_\gamma$, in der Gruppe) ist dessen Exponentiation!
+
+* **Different connection coefficients will give us different instructions for performing parallel transport!**
+  * Insight 1: The coveriant derivate is zero $\nabla_{\vec{v}}(\vec{u})=\overrightarrow{0}$ and $\nabla_{\vec{u}}(\vec{v})=\overrightarrow{0}$, but results can look vastly different.
+  * Insight 2: Christoffel symbols $\Gamma$ are NOT unique, there are many different ways to describe the connection coefficients!
+  * **Levi-Civita Connection = most important covariant derivative!:** = Two properies make Christoffel symbols unique:
+    * **Torsion free property**: $\nabla_{\vec{w}} \vec{v}=\nabla_{\vec{v}} \vec{w}$ or written: $\nabla_{\vec{w}} \vec{v}-\nabla_{\vec{v}} \vec{w}=[\vec{v}, \vec{w}]$ with **Lie Bracket** included $[\vec{v}, \vec{w}]=\vec{v} \vec{w}-\vec{w} \vec{v}$
+    * **Metric compatability property**: $\nabla_{\vec{w}}(\vec{v} \cdot \vec{u})=\left(\nabla_{\vec{w}} \vec{v}\right) \cdot \vec{u}+\vec{v} \cdot\left(\nabla_{\vec{w}} \vec{u}\right)$
+    * Ein affiner Zusammenhang ermöglicht die richtungsabhängige (kovariante) Ableitung von Tensorfeldern; der Levi-Civita-Zusammenhang ist der eindeutige Zusammenhang, der sowohl torsionsfrei ist als auch die Metrik respektiert (die Längen und Winkel bei Paralleltransport erhält) = Torsion free + Metric compatability
+    * $\nabla_Z g = 0 \quad \text{und} \quad \nabla_X Y - \nabla_Y X = [X,Y]$
+    * $\nabla_{\frac{\partial}{\partial u^i}} \vec{v}=\left(\frac{\partial v^k}{\partial u^i}+v^j \Gamma_{i j}^k\right) \overrightarrow{e_k} $
+    * $\Gamma_{j k}^m=\frac{1}{2} \mathfrak{g}^{i m}\left(\partial_k g_{i j}+\partial_j g_{k i}-\partial_i g_{j k}\right)$
+  * **'Boring' connection**:
+
+$$\widetilde{\nabla}_{\frac{\partial}{\partial u^i}} \vec{v}=\left(\frac{\partial v^k}{\partial u^i}+v^j \widetilde{\Gamma_{i j}^k}\right) \overrightarrow{e_k}$ wobei: $\widetilde{\Gamma_{i j}^k}=0$$
+
+  * Der Unterschied zwischen den Endvektoren der perfekt parallel transportierten Vektoren in Vektorfeldern wird durch den **Torsion Tensor** gemessen.
+  * Der Unterschied zwischen den Endvektoren der tatsächlich transportierten Vektoren in Vektorfeldern wird durch die **Lie Braket** gemessen.
+
+
+
+---
 
 ### <font color="blue">Tensor Calculus II
 
