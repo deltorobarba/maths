@@ -1,3 +1,82 @@
+
+### <font color="blue">Tensor Algebra
+
+**Tensoranalysis (Tensorkalkül)**: Während die multilineare Algebra Tensoren in flachen Vektorräumen betrachtet, bringt die Tensoranalysis **Analysis und Geometrie** ins Spiel: Sie untersucht Tensorfelder auf gekrümmten Räumen. Das ist die mathematische Basis der Allgemeinen Relativitätstheorie und der Kontinuumsmechanik.
+
+
+* Transformationsverhalten (Kontra- und Kovarianz)
+  * In der Tensoranalysis definiert man Tensoren meist darüber, wie sich ihre Komponenten ändern, wenn du das Koordinatensystem von $x$ auf ein neues System $x'$ wechselst.
+
+* **Kontravarianter Vektor (Index oben):** Vektoren im Tangentialraum (wie Geschwindigkeiten). Sie transformieren sich mit der Jacobi-Matrix der Koordinatentransformation:
+
+$$V'^\mu = \frac{\partial x'^\mu}{\partial x^\nu} V^\nu$$
+
+
+* **Kovarianter Vektor / 1-Form (Index unten):** Elemente des Dualraums (wie der Gradient einer skalaren Funktion). Sie transformieren sich mit der inversen Jacobi-Matrix:
+
+$$W'_\mu = \frac{\partial x^\nu}{\partial x'^\mu} W_\nu$$
+
+
+* **Allgemeiner $(p, q)$-Tensor:** Transformiert sich als Produkt aus kontravarianten und kovarianten Faktoren. Ein gemischter Tensor vom Typ $(1,1)$ transformiert sich beispielsweise so:
+
+$$T'^\mu_\nu = \frac{\partial x'^\mu}{\partial x^\alpha} \frac{\partial x^\beta}{\partial x'^\nu} T^\alpha_\beta$$
+
+
+<font color="blue">*Vektor und Kovektor*
+
+* **Vektoren als Derivationen** (kontravariant) als Richtungsableitungen einer Funktion, zB: $\vec{e_x} = \frac{\delta}{ \delta_x}$
+  * Vector: $\vec{v} = v^i \vec{e}_i = \widetilde{v}^i \vec{\widetilde{e}}_i$
+  * **Basis Vectors / Covariant (1,0-Tensor)**: $\vec{\widetilde{e}}_j = F_j^i \vec{e}_i \qquad \vec{e}_j = B_j^i \vec{\widetilde{e}}_i$
+  * **Vector components / Contravariant (0,1-Tensor)**: $\widetilde{v}^i = B_j^i v^j \qquad v^i = F_j^i \widetilde{v}^j$
+* **Kovektoren als Differentialformen** (kovariant) als "Schichten", die von Vektoren durchstoßen werden
+  * Kovector: $\alpha = \alpha_i \epsilon^i = \widetilde{\alpha}_i \widetilde{\epsilon}^i$
+  * **Basis Covectors / Contravariant (0,1-Tensor)**: $\widetilde{\epsilon}^i = B_j^i \epsilon^j \qquad \epsilon^i = F_j^i \widetilde{\epsilon}^j$
+  * **Covector Components / Covariant (1,0-Tensor)**: $\widetilde{\alpha}_j = F_j^i \alpha_i \qquad \alpha_j = B_j^i \widetilde{\alpha}_i$
+  * Note: **Differential Forms are totally antisymmetric rank (0,k) tensors!** [video](https://www.youtube.com/watch?v=dNT8OLNMsQ0&list=PLBn8lN0DcvpljsQ8SbFGJxyd_0IlRwiMf&index=5$0)
+  * Algebraic Topology meets Differential Geometry
+  * Beispiel: Erste Ableitung bilden von $z = f(x,y)$: wir benötigen $Δx$ und $Δy$ für $Δf$
+    * $\Delta f=\frac{\partial f}{\partial x} \Delta x+\frac{\partial f}{\partial y} \Delta y$
+    * $d f=\frac{\partial f}{\partial x} d x+\frac{\partial f}{\partial y} d y$ (we can replace the deltas $Δ$ by $d$)
+    * $d f=\frac{\partial f}{\partial x_1} d x_1+\frac{\partial f}{\partial x_2} d x_2+\cdots+\frac{\partial f}{\partial x_n} d x_n$ (can generalize to many variables)
+  * Path integral $\gamma$: has Integrability: integral only depends on the boundary (Poincare 1887), e..g between points a and b: $\int_\gamma A_1 d x_1+A_2 d x_2+\cdots+A_n d x_n=\int_\gamma d f=f(b)-f(a)$
+    * **Integrability Lemma from Poincare**: differential form omega $ω$ (as some combinations of $dx_i$ is integrable if some combinations of derivates equal 0: $d ω = 0$
+  * Christoffel symbol are Differential 2-forms (Curvature 2 forms), easier written than Christoffel
+    * $\begin{array}{rlrl}\Gamma_{j k}^i & =\frac{1}{2} g^{i l}\left(\partial_k g_{l j}+\partial_j g_{l k}-\partial_l g_{j k}\right) & d \theta^i+\omega_j^i \wedge \theta^j & =0 \\ R_{j k l}^i & =\partial_k \Gamma_{l j}^i-\partial_l \Gamma_{k j}^i+\Gamma_{k m}^i \Gamma_{l j}^m-\Gamma_{l m}^i \Gamma_{k j}^m & d \omega_j^i+\omega_k^i \wedge \omega_j^k & =\Omega_j^i\end{array}$
+  * Differential 2-forms (Curvature 2 forms) also appeard in Gauge theory:
+    * Differential geometry: $\quad d \omega_j^i+\omega_k^i \wedge \omega_j^k=\Omega_j^i$
+    * Gauge theory: $\quad d \mathbf{A}+\mathbf{A} \wedge \mathbf{A}=\mathbf{F}$
+  * Examples of differential forms:
+    * Stoke's theorem: $\int_{\partial D} \overrightarrow{\mathbf{F}} \cdot d \overrightarrow{\mathbf{r}}=\int_D \nabla \times \overrightarrow{\mathbf{F}} \cdot d \overrightarrow{\mathbf{S}}$ - If curl is 0, there is Scalar potential: $\nabla \times \overrightarrow{\mathbf{E}}=\overrightarrow{\mathbf{0}} \Longrightarrow \overrightarrow{\mathbf{E}}=-\nabla V$
+    * Divergence theorem: $\int_{\partial D} \overrightarrow{\mathbf{F}} \cdot d \overrightarrow{\mathbf{S}}=\int_D \nabla \cdot \overrightarrow{\mathbf{F}} d V$ - If divergence is 0, there is Vector Potential $\nabla \cdot \overrightarrow{\mathbf{B}}=0 \Longrightarrow \overrightarrow{\mathbf{B}}=\nabla \times \overrightarrow{\mathbf{A}}$
+    * Generalized Stoke's theorem: $\int_{\partial D} \omega=\int_D d \omega$ - Poincare lemma $d F=0 \Longrightarrow F=d A$ (generalization of Scalar potential and Vector Potential)
+* **Vektoren (Derivationen) vs Kovektoren (Differentialformen):**
+  * **Vektoren (Derivationen):** Leben im Tangentialraum $T_pM$. Sie sind Richtungsableitungen. Basis: $\frac{\partial}{\partial x^i}$.
+  * **Kovektoren (Differentialformen):** Leben im dualen Kotangentialraum $T^*_pM$. Sie messen Vektoren. Basis: $dx^i$.
+  * Die Dualität ist fundamental: $dx^i\left(\frac{\partial}{\partial x^j}\right) = \delta^i_j$ (Kronecker-Delta).
+
+
+<font color="blue">*Felder (Vektorfeld, Kovektorfeld/Differentialform)*
+
+* **Vector fields** mit Basiswechsel (Funktor) und Jacobimatrix
+  * Vector: $\vec{e}_1 \longleftrightarrow \frac{\partial}{\partial x} \qquad \vec{e}_2 \longleftrightarrow \frac{\partial}{\partial y}$ (derivatives)
+  * Vector Fields (Kettenregel für Tangentialvektoren): $\frac{d}{d\lambda} = \frac{dc^i}{d\lambda} \frac{\partial}{\partial c^i} = \frac{dp^i}{d\lambda} \frac{\partial}{\partial p^i}$
+  * Basis Vectors / Covariant: $\frac{\partial}{\partial p^j} = \frac{\partial c^i}{\partial p^j} \frac{\partial}{\partial c^i} \qquad \frac{\partial}{\partial c^j} = \frac{\partial p^i}{\partial c^j} \frac{\partial}{\partial p^i}$
+  * Vector Components / Contravariant: $\frac{dp^i}{d\lambda} = \frac{\partial p^i}{\partial c^j} \frac{dc^j}{d\lambda} \qquad \frac{dc^i}{d\lambda} = \frac{\partial c^i}{\partial p^j} \frac{dp^j}{d\lambda}$
+* **Covector fields** mit Basiswechsel (Funktor) und Jacobimatrix
+  * Covector: $\epsilon^1 \longleftrightarrow dx \qquad \epsilon^2 \longleftrightarrow dy$ (differentials)
+  * Covector Fields (Totales Differential einer Funktion): $df = \frac{\partial f}{\partial c^i} dc^i = \frac{\partial f}{\partial p^i} dp^i$
+  * Basis Covectors / Contravariant: $dp^i = \frac{\partial p^i}{\partial c^j} dc^j \qquad dc^i = \frac{\partial c^i}{\partial p^j} dp^j$
+
+
+<font color="blue">*Räume*
+
+* **Tangentialraum $T_pM$:** ein Punkt $p$ auf Mannigfaltigkeit und untersuchen die Vektorräume, die an diesem Punkt "kleben".
+  * Vektoren (Derivationen) und Kovektoren (1-Formen) koordinatenfreie, abstrakte Objekte
+* **Kotangentialraum**
+
+
+---
+
 ### <font color="blue">Tensor Calculus I
 
 * **Paralleltransport und Geodäten**
