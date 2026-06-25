@@ -99,10 +99,21 @@ $$\widetilde{\nabla}_{\frac{\partial}{\partial u^i}} \vec{v}=\left(\frac{\partia
   * Dieser Tensor fängt den asymmetrischen Teil des Zusammenhangs ein und gibt geometrisch an, inwiefern sich infinitesimale Parallelogramme, die durch den Paralleltransport gebildet werden, nicht schließen. Separation between parallel transported vector lines. Lie bracket is included in it. "Torsion-Free" means parallel-transported vectors close properly.
   * This is a property of connections only! Only depends on the connection coefficients, not the vector field.
   * Notation: $\nabla_{\vec{u}} \vec{v} \quad \nabla_{\vec{v}} \vec{u}$ wobei: $\vec{u}$ and $\vec{v}$ = Vector fields, und $\nabla$ = Connection $\Gamma^k_{ij}$, concretely the Levi Civita connection $\Gamma_{j k}^m=\frac{1}{2} \mathfrak{g}^{i m}\left(\partial_k g_{i j}+\partial_j g_{k i}-\partial_i g_{j k}\right)$, sowie: $\nabla_{\vec{u}} \vec{v}=\overrightarrow{0}$ parallel transport
+ 
+* **Krümmungstensoren**
+  * In einem flachen euklidischen Raum spielt es keine Rolle, in welcher Reihenfolge man partielle Ableitungen ausführt. In einem gekrümmten Raum kommutieren kovariante Ableitungen hingegen *nicht*. Die Differenz dieser Ableitungen misst exakt die Krümmung des Raumes.
+  * **Riemannscher Krümmungstensor ($R^\rho_{\sigma\mu\nu}$):** Er misst, wie sehr ein Vektor rotiert wird, wenn du ihn entlang einer winzigen geschlossenen Schleife parallel verschiebst: $[\nabla_\mu, \nabla_\nu] V^\rho = \nabla_\mu \nabla_\nu V^\rho - \nabla_\nu \nabla_\mu V^\rho = R^\rho_{\sigma\mu\nu} V^\sigma$
+  * Die Formel zur Berechnung aus den Christoffel-Symbolen lautet: $R^\rho_{\sigma\mu\nu} = \partial_\mu \Gamma^\rho_{\nu\sigma} - \partial_\nu \Gamma^\rho_{\mu\sigma} + \Gamma^\rho_{\mu\lambda} \Gamma^\lambda_{\nu\sigma} - \Gamma^\rho_{\nu\lambda} \Gamma^\lambda_{\mu\sigma}$
+  * **Ricci-Tensor ($R_{\mu\nu}$):** Eine bestimmte Verjüngung (Kontraktion) des Riemann-Tensors. Er beschreibt, wie das Volumen eines Schwarmes von Testteilchen im freien Fall schrumpft oder wächst: $R_{\mu\nu} = R^\rho_{\mu\rho\nu}$
+  * **Ricci-Skalar ($R$):** Die weitere Verjüngung des Ricci-Tensors mit der Metrik ($R = g^{\mu\nu} R_{\mu\nu}$). Es ist eine einzelne Zahl, die an jedem Punkt die gesamte skalare Krümmung angibt.
+  * Die **Einstein'schen Feldgleichungen** kombinieren genau diese drei Bausteine (Metrik, Ricci-Tensor, Ricci-Skalar), um zu beschreiben, wie Masse und Energie die Geometrie des Universums krümmen:
+
+
+$$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$
 
 * **Riemann Curvature Tensor (Riemannscher Krümmungstensor):**
   * Krümmung ist die Unfähigkeit von Vektoren, beim Paralleltransport entlang einer geschlossenen Schleife wieder identisch bei sich selbst anzukommen (Holonomie), oder das Versagen der Kommutativität von Ableitungen.
-* Two main ways to detect curvature: 1. **holonomy** or 2. **geodesic deviation**
+  * Two main ways to detect curvature: 1. **holonomy** or 2. **geodesic deviation**
   * Riemann Curvature Tensor: $R(\vec{u}, \vec{v}) \vec{w}=\nabla_{\vec{u}} \nabla_{\vec{v}} \vec{w}-\nabla_{\vec{v}} \nabla_{\vec{u}} \vec{w}-\nabla_{[\vec{u}, \vec{v}]} \vec{w}$
   * Riemann-Krümmungstensor $R$: Ein $(1,3)$-Tensor, der diese Nicht-Kommutativität exakt misst: $R(X,Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X,Y]} Z$
   * (1 contravariant,3 covariant)-Tensor quantifiziert intrinsisch die Krümmung des Raumes, indem er die Nicht-Kommutativität der zweiten kovarianten Ableitungen misst.
