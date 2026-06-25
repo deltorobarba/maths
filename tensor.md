@@ -12,7 +12,9 @@
 * **Acceleration Vector = Christoffel Symbols + Second Fundamental Form**
   * Extrinsic approach: in geodesic curves, the acceleration vector is normal to the surface: $\frac{d^2 \vec{R}}{d \lambda^2}= \quad \quad \underbrace{\left(\frac{d^2 \vec{R}}{d \lambda^2}\right)^{\text {tangential }}}_{=0} \quad \quad \quad + \quad \quad \left(\frac{d^2 \vec{R}}{d \lambda^2}\right)^{\text {normal }}$
   * **Acceleration Vector = Christoffel Symbols Γ (tangential) + Second Fundamental Form L (normal)**
-  * $ \frac{d^2 \vec{R}}{d \lambda^2} =\left(\frac{d^2 u^k}{d \lambda^2}+\Gamma_{i j}^k \frac{d u^i}{d \lambda} \frac{d u^j}{d \lambda}\right) \frac{\partial \vec{R}}{\partial u^k}\quad + \quad L_{i j} \frac{d u^i}{d \lambda} \frac{d u^j}{d \lambda} \widehat{n}$
+
+$$ \frac{d^2 \vec{R}}{d \lambda^2} =\left(\frac{d^2 u^k}{d \lambda^2}+\Gamma_{i j}^k \frac{d u^i}{d \lambda} \frac{d u^j}{d \lambda}\right) \frac{\partial \vec{R}}{\partial u^k}\quad + \quad L_{i j} \frac{d u^i}{d \lambda} \frac{d u^j}{d \lambda} \widehat{n}$$
+
   * $\frac{\partial \overline{e_j}}{\partial u^i}=\Gamma_{i j}^1 \overrightarrow{e_1}+\Gamma_{i j}^2 \overrightarrow{e_2}+L_{i j} \hat{n}$
   * $\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j}=\Gamma_{i j}^1 \frac{\partial \vec{R}}{\partial u^1}+\Gamma_{i j}^2 \frac{\partial \vec{R}}{\partial u^2}+L_{i j} \hat{n}$
 
