@@ -44,7 +44,9 @@ $$T'^\mu_\nu = \frac{\partial x'^\mu}{\partial x^\alpha} \frac{\partial x^\beta}
   * Path integral $\gamma$: has Integrability: integral only depends on the boundary (Poincare 1887), e..g between points a and b: $\int_\gamma A_1 d x_1+A_2 d x_2+\cdots+A_n d x_n=\int_\gamma d f=f(b)-f(a)$
     * **Integrability Lemma from Poincare**: differential form omega $ω$ (as some combinations of $dx_i$ is integrable if some combinations of derivates equal 0: $d ω = 0$
   * Christoffel symbol are Differential 2-forms (Curvature 2 forms), easier written than Christoffel
-  * $\begin{array}{rlrl}\Gamma_{j k}^i & =\frac{1}{2} g^{i l}\left(\partial_k g_{l j}+\partial_j g_{l k}-\partial_l g_{j k}\right) & d \theta^i+\omega_j^i \wedge \theta^j & =0 \\ R_{j k l}^i & =\partial_k \Gamma_{l j}^i-\partial_l \Gamma_{k j}^i+\Gamma_{k m}^i \Gamma_{l j}^m-\Gamma_{l m}^i \Gamma_{k j}^m & d \omega_j^i+\omega_k^i \wedge \omega_j^k & =\Omega_j^i\end{array}$
+
+$$\begin{array}{rlrl}\Gamma_{j k}^i & =\frac{1}{2} g^{i l}\left(\partial_k g_{l j}+\partial_j g_{l k}-\partial_l g_{j k}\right) & d \theta^i+\omega_j^i \wedge \theta^j & =0 \\ R_{j k l}^i & =\partial_k \Gamma_{l j}^i-\partial_l \Gamma_{k j}^i+\Gamma_{k m}^i \Gamma_{l j}^m-\Gamma_{l m}^i \Gamma_{k j}^m & d \omega_j^i+\omega_k^i \wedge \omega_j^k & =\Omega_j^i\end{array}$$
+
   * Differential 2-forms (Curvature 2 forms) also appeard in Gauge theory:
     * Differential geometry: $\quad d \omega_j^i+\omega_k^i \wedge \omega_j^k=\Omega_j^i$
     * Gauge theory: $\quad d \mathbf{A}+\mathbf{A} \wedge \mathbf{A}=\mathbf{F}$
