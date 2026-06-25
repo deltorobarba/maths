@@ -2,6 +2,7 @@
 
 ![science](https://raw.githubusercontent.com/deltorobarba/science/main/nature.JPG)
 
+Videos: Eigenchris: Tensor Calculus(https://youtube.com/playlist?list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&si=vJ64vdbqtgjDXHbv)
 
 ### <font color="blue">Tensoranalysis (Tensorkalkül)
 
