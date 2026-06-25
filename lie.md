@@ -1,6 +1,4 @@
-$\color{blue}*Lie-Gruppen und Lie-Algebren*$
-
-$\color{blue}{A_{ij} = B_{ij}}$
+$\color{blue}{\text{Lie-Gruppen und Lie-Algebren}}$
 
 Dieses Gebiet verbindet Algebra und Analysis (Geometrie) auf elegante Weise und ist die mathematische Sprache für **kontinuierliche Symmetrien** (essenziell in der klassischen Mechanik, Quantenmechanik und Relativitätstheorie).
 
