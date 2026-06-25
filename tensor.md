@@ -1,3 +1,37 @@
+<font color="blue">*Metrik*
+
+* **Metrik Tensor (Bilinearform / First Fundamental Form):**
+  * (0,2)-Tensor. Instrument zur Messung von Abständen und Winkeln, Indezes ziehen. Index Raising and Lowering: The most powerful feature of the metric tensor is its ability to convert covariant indices into contravariant ones, and vice versa (musikalische Isomorphismus)
+  * Metrischer Tensor: symmetrisches, nicht-ausgeartetes Tensorfeld ein. Eine Bilinearform, die zwei Vektoren eine Zahl zuordnet: $ds^2 = g = g_{ij} \, dx^i \otimes dx^j$
+  * $\widetilde{g}_{ij} = F^k_i F^l_j g_{kl}$
+  * $g_{kl} = B^i_k B^j_l \widetilde{g}_{ij}$
+* Der Metrische Tensor ($g_{\mu\nu}$)
+  * Der metrische Tensor ist der absolut wichtigste $(0,2)$-Tensor einer Riemannschen Mannigfaltigkeit. Er verleiht dem Raum seine Geometrie, da er Abstände und Winkel definiert.
+  * **Linienelement:** Das Quadrat des infinitesimalen Abstands $ds$ zwischen zwei unendlich nah benachbarten Punkten: $ds^2 = g_{\mu\nu} dx^\mu dx^\nu$
+  * **Indizes heben und senken:** Die Metrik $g_{\mu\nu}$ und ihre Inverse $g^{\mu\nu}$ (für die $g_{\mu\alpha} g^{\alpha\nu} = \delta_\mu^\nu$ gilt) werden als Werkzeuge genutzt, um zwischen ko- und kontravarianten Komponenten hin- und herzuwechseln: $V_\mu = g_{\mu\nu} V^\nu \quad \text{und} \quad W^\mu = g^{\mu\nu} W_\nu$
+* **Metric Tensor:** covariant $g_{i,j}$ from $V$ with $\vec{v}$ to $V^*$, lives in $V^* \otimes V^*$.   * *Convert from vector to covector with metric tensor:*
+  * $\vec{v} = v^j \vec{e}_j = \widetilde{v}^j \widetilde{\vec{e}}_j$ (vector)
+  * $\vec{v} \cdot \_ = v_i \epsilon^i = \widetilde{v}_i \widetilde{\epsilon}^i$ (covector)
+  * $v_i = g_{ij} v^j$ bzw.
+
+$$\widetilde{v}_i = \widetilde{g}_{ij} \widetilde{v}^j$$
+
+* Metric Tensor for Curved Surfaces:
+
+$$\begin{bmatrix}
+\frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d u} \cdot \frac{d \vec{R}}{d v} \\ 
+\frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d u} & \frac{d \vec{R}}{d v} \cdot \frac{d \vec{R}}{d v}
+\end{bmatrix}$$
+
+* bzw. als Vector:
+
+$$\begin{bmatrix}
+\vec{e}_u \cdot \vec{e}_u & \vec{e}_u \cdot \vec{e}_v \\ 
+\vec{e}_v \cdot \vec{e}_u & \vec{e}_v \cdot \vec{e}_v
+\end{bmatrix}$$
+
+
+---
 
 ### <font color="blue">Tensor Algebra
 
