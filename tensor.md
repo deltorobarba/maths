@@ -109,6 +109,8 @@ Zum Abschluss: Die berühmten **Einstein'schen Feldgleichungen** kombinieren gen
 
 $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$
 
+---
+
 <font color="blue">***Tensor Algebra***
 
 <font color="blue">*Vektor und Kovektor*
@@ -198,7 +200,7 @@ $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4
   * $\widetilde{L}^i_j = B^i_k L^k_l F^l_j$
   * $L^i_j = F^i_k \widetilde{L}^k_l B^l_j$
 
-
+---
 
 <font color="blue">*Tensor Calculus I*
 
@@ -278,7 +280,7 @@ $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4
 
 
 
-
+---
 
 <font color="blue">*Tensor Calculus II*
 
