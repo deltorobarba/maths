@@ -247,7 +247,7 @@ $$\widetilde{\nabla}_{\frac{\partial}{\partial u^i}} \vec{v}=\left(\frac{\partia
  
 $$\nabla_{\dot{\gamma}} V = 0 \iff \frac{dV^i}{d\lambda} + \Gamma^i_{jk} V^j \frac{dx^k}{d\lambda} = 0$$
 
-> <font color="blue">**A connection is a Lie Algebra** ! Und der **Paralleltransport ist das Exponential** e dieses Lie-Algebra-Wertes entlang des Weges (das "path-ordered exponential"), was uns ein Element der Lie-Gruppe liefert. - Die Konnektion ($\nabla$, in der Algebra) ist also wirklich das Infinitesimale, und der Paralleltransport ($P_\gamma$, in der Gruppe) ist dessen Exponentiation!
+> <font color="blue">**A connection is a Lie Algebra** ! Und **Paralleltransport ist das Exponential** $e$ dieses Lie-Algebra-Wertes entlang des Weges ("path-ordered exponential"), was uns ein Element der Lie-Gruppe liefert. Eine connection ($\nabla$, in der Algebra) ist das Infinitesimale, und der Paralleltransport ($P_\gamma$, in Gruppe) ist dessen Exponentiation!
 
 ---
 
