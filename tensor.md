@@ -277,13 +277,20 @@ $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4
 * **Riemann Curvature Tensor (Riemannscher Krümmungstensor):**
   * Krümmung ist die Unfähigkeit von Vektoren, beim Paralleltransport entlang einer geschlossenen Schleife wieder identisch bei sich selbst anzukommen (Holonomie), oder das Versagen der Kommutativität von Ableitungen.
   * Two main ways to detect curvature: 1. **holonomy** or 2. **geodesic deviation**
-  * Riemann Curvature Tensor: $R(\vec{u}, \vec{v}) \vec{w}=\nabla_{\vec{u}} \nabla_{\vec{v}} \vec{w}-\nabla_{\vec{v}} \nabla_{\vec{u}} \vec{w}-\nabla_{[\vec{u}, \vec{v}]} \vec{w}$
-  * Riemann-Krümmungstensor $R$: Ein $(1,3)$-Tensor, der diese Nicht-Kommutativität exakt misst: $R(X,Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X,Y]} Z$
-  * (1 contravariant,3 covariant)-Tensor quantifiziert intrinsisch die Krümmung des Raumes, indem er die Nicht-Kommutativität der zweiten kovarianten Ableitungen misst.
-  * Riemann curvature tensor **components** berechnet mit den connection components: $R_{c a b}^d=\partial_a\left(\Gamma_{b c}^d\right)-\partial_b\left(\Gamma_{a c}^d\right)+\Gamma_{b c}^i \Gamma_{a i}^d-\Gamma_{a c}^j \Gamma_{b j}^d$
-* **Holonomie:** one way to detect curvature!
-  * beschreibt die globale Diskrepanz – oft eine Drehung –, die ein Vektor erfährt, nachdem er auf einer gekrümmten Mannigfaltigkeit parallel entlang einer vollständig geschlossenen Schleife transportiert wurde.
-  * Formel: $\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \right)$
+  * Riemann Curvature Tensor: $R$: Ein $(1,3)$-Tensor, der diese Nicht-Kommutativität exakt misst. (1 contravariant,3 covariant)-Tensor quantifiziert intrinsisch die Krümmung des Raumes, indem er die Nicht-Kommutativität der zweiten kovarianten Ableitungen misst.
+
+$$R(\vec{u}, \vec{v}) \vec{w}=\nabla_{\vec{u}} \nabla_{\vec{v}} \vec{w}-\nabla_{\vec{v}} \nabla_{\vec{u}} \vec{w}-\nabla_{[\vec{u}, \vec{v}]} \vec{w}$$
+
+$$R(X,Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X,Y]} Z$$
+
+* Riemann curvature tensor **components** berechnet mit den connection components:
+
+$$R_{c a b}^d=\partial_a\left(\Gamma_{b c}^d\right)-\partial_b\left(\Gamma_{a c}^d\right)+\Gamma_{b c}^i \Gamma_{a i}^d-\Gamma_{a c}^j \Gamma_{b j}^d$$
+  
+* **Holonomie:** one way to detect curvature! Beschreibt die globale Diskrepanz – oft eine Drehung –, die ein Vektor erfährt, nachdem er auf einer gekrümmten Mannigfaltigkeit parallel entlang einer vollständig geschlossenen Schleife transportiert wurde.
+
+$$\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \right)$$
+
 * **Ricci-Curvature-Tensor**
   * Aus dem Riemann-Tensor gewinnt man durch Spurbildung (Kontraktion) den **Ricci-Tensor** $R_{ij}$ (beschreibt Volumenverzerrungen) und den **Ricci-Skalar** $R$, welche das Herzstück der Einsteinschen Feldgleichungen in der Allgemeinen Relativitätstheorie bilden. Both considered a summary of the Riemann curvature tensor
   * **Ricci-Curvature-Tensor** tracks how volume change along geodesic (that's why the Ricci tensor represents gravity $R_{\mu \nu}$ in the general theory of relativity in Einstein field equations: $R_{\mu \nu}-\frac{1}{2} g_{\mu \nu}+\Lambda g_{\mu \nu}=\frac{8 \pi G}{c^4} T_{\mu \nu}$)
@@ -298,7 +305,7 @@ $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4
     * Metric compatability of Levi-Civita connection preserves vector lengths and angles, and therefore preserves volume.
     * This means covariant derivate is zero: $\nabla_{\vec{v}} V=0$ where this formula is: $=\nabla_{\vec{v}}[\omega(\vec{a}, \vec{b}, \vec{c})]$
 
-* **Ricci-Skalar**: compare volume of a ball in curved space to volume of a ball of same radius in flat space (measures deviation). Curved space means we can fit a large area into a smaller boundary. Der Ricci-Tensor entsteht durch Spur-Bildung (Kontraktion) des Riemann-Tensors und misst die Volumenänderung eines geodätischen Balls; eine weitere Kontraktion liefert den Ricci-Skalar, eine einzige Zahl pro Punkt, die die totale Skalarkrümmung angibt. 
+* **Ricci-Scalar**: compare volume of a ball in curved space to volume of a ball of same radius in flat space (measures deviation). Curved space means we can fit a large area into a smaller boundary. Der Ricci-Tensor entsteht durch Spur-Bildung (Kontraktion) des Riemann-Tensors und misst die Volumenänderung eines geodätischen Balls; eine weitere Kontraktion liefert den Ricci-Skalar, eine einzige Zahl pro Punkt, die die totale Skalarkrümmung angibt. 
 
 $$R_{ij} = R^k_{\ ikj} \quad \text{und} \quad R = g^{ij} R_{ij}$$
 
