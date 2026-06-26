@@ -203,10 +203,9 @@ In der Vektoranalysis musstest du dir drei verschiedene Ableitungsoperatoren mer
 
 * **Definition:** Der Operator $d$ nimmt eine $k$-Form und macht daraus eine $(k+1)$-Form.
 * **Wie er klassische Operatoren ersetzt:**
-* Wendest du $d$ auf eine 0-Form (Funktion) an, erhältst du den **Gradienten** (eine 1-Form).
-* Wendest du $d$ auf eine 1-Form an, erhältst du die **Rotation** (eine 2-Form).
-* Wendest du $d$ auf eine 2-Form an, erhältst du die **Divergenz** (eine 3-Form).
-
+  * Wendest du $d$ auf eine 0-Form (Funktion) an, erhältst du den **Gradienten** (eine 1-Form).
+  * Wendest du $d$ auf eine 1-Form an, erhältst du die **Rotation** (eine 2-Form).
+  * Wendest du $d$ auf eine 2-Form an, erhältst du die **Divergenz** (eine 3-Form).
 
 * **Die goldene Regel ($d^2 = 0$):** Wendest du die Ableitung zweimal hintereinander an, ist das Ergebnis immer exakt Null: $d(d\omega) = 0$. Das ist der Grund, warum "die Rotation eines Gradienten" und "die Divergenz einer Rotation" in der Physik immer Null sind!
 
