@@ -154,23 +154,35 @@ $$T^{ijk\dots}_{rst\dots} = (F^i_a F^j_b F^k_c \dots) \widetilde{T}^{abc\dots}_{
 
 ### <font color="blue">Tensor Calculus I
 
-* **Paralleltransport und Geodäten**
-  * **Paralleltransport:** Die Operation, einen Vektor entlang einer Kurve so zu verschieben, dass er "in sich parallel" bleibt (sich also aus seiner eigenen Perspektive nicht ändert). Ein Vektorfeld $V^\mu$ ist entlang einer Kurve mit dem Parameter $\tau$ parallel verschoben, wenn die absolute Ableitung null ist: $\frac{DV^\mu}{d\tau} = \frac{dx^\nu}{d\tau} \nabla_\nu V^\mu = 0$
-  * **Die Geodätengleichung:** Eine Geodäte ist die geradestmögliche Bahn in einem gekrümmten Raum (die Verallgemeinerung einer Geraden). In der Physik ist das beispielsweise die Flugbahn eines Objekts im freien Fall. Ein Teilchen bewegt sich auf einer Geodäte, wenn sein eigener Geschwindigkeitsvektor entlang seiner Bahn parallel transportiert wird: $\frac{d^2 x^\mu}{d\tau^2} + \Gamma^\mu_{\alpha\beta} \frac{dx^\alpha}{d\tau} \frac{dx^\beta}{d\tau} = 0$
-
 * **Holonomy**
-  * Two main ways to detect curvature: 1. **holonomy** or 2. **geodesic deviation**
+  * Two main ways to detect curvature: 1. **holonomy** or 2. geodesic deviation
   * Beschreibt die globale Diskrepanz – oft eine Drehung –, die ein Vektor erfährt, nachdem er auf einer gekrümmten Mannigfaltigkeit parallel entlang einer vollständig geschlossenen Schleife transportiert wurde.
 
 $$\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \right)$$
 
-* **Geodesic equation**: Geodesics are where the tangential component are zero (because geodesics are curves where the acceleration vector is always normal, light will follow this path)
+* **Geodesic equation**
+  * Two main ways to detect curvature: 1. holonomy or 2. **geodesic deviation**
+  * Eine Geodäte ist die geradestmögliche Bahn in einem gekrümmten Raum (die Verallgemeinerung einer Geraden). In der Physik ist das beispielsweise die Flugbahn eines Objekts im freien Fall. Ein Teilchen bewegt sich auf einer Geodäte, wenn sein eigener Geschwindigkeitsvektor entlang seiner Bahn parallel transportiert wird: $\frac{d^2 x^\mu}{d\tau^2} + \Gamma^\mu_{\alpha\beta} \frac{dx^\alpha}{d\tau} \frac{dx^\beta}{d\tau} = 0$
+  * Geodesics are where the tangential component are zero (because geodesics are curves where the acceleration vector is always normal, light will follow this path)
   * geradeste Kurve in einem gekrümmten Raum, entlang derer der eigene **Tangentialvektor parallel transportiert** wird, sodass ihre intrinsische Beschleunigung verschwindet.
   * In der Geodesic equation ist der covariant derivate (connection) = Null!
   * In curved space, a straight path has **zero tangential acceleration** when we travel along it at constant speed.
   * **To compute geodesic curves, we need to find curves where the acceleration vector is <u>normal</u> to the surface:**
 
 <font color="blue">$$0 = \Gamma_{i j}^k \frac{d u^i}{d \lambda} \frac{d u^j}{d \lambda} + \frac{d^2 u^k}{d \lambda^2}$$
+
+* **Parallel Transport**  
+  * Parallel Transport (global) = zero covariant derivative (infinitesimal)! = Exponential der Lie Algebra
+  * Paralleltransport ist Operation, einen Vektor entlang einer Kurve so zu verschieben, dass er "in sich parallel" bleibt (sich also aus seiner eigenen Perspektive nicht ändert). Ein Vektorfeld $V^\mu$ ist entlang einer Kurve mit dem Parameter $\tau$ parallel verschoben, wenn die absolute Ableitung null ist: $\frac{DV^\mu}{d\tau} = \frac{dx^\nu}{d\tau} \nabla_\nu V^\mu = 0$
+  * ist eine Vorschrift, die bestimmt, wie ein Vektor entlang einer Kurve verschoben wird, sodass er im geometrischen Sinne "konstant" bleibt und die lokale Krümmung der Koordinaten exakt ausgleicht.
+  * Der Unterschied zwischen den Endvektoren der perfekt parallel transportierten Vektoren in Vektorfeldern wird durch den **Torsion Tensor** gemessen. Der Unterschied zwischen den Endvektoren der tatsächlich transportierten Vektoren in Vektorfeldern wird durch die **Lie Braket** gemessen.
+  * Parallel Transport provides a connection between tangent spaces in a curved space. e.g. from $T_pS$ to $T_qS$
+  * Covariant derivative provides connection between these tangent spaces in curved space $\nabla_{\frac{d}{d \lambda}} \vec{v}=\overrightarrow{0}$
+    * Thats why covariant derivate is something called connection, because it connects!
+    * This means: Parallel Transport = zero covariant derivative = special case of connection
+    * And Christoffel symbols $\Gamma$ are connection coefficients! $\nabla_{\overrightarrow{e_i}} \overrightarrow{e_j}=\Gamma_{i j}^k \overrightarrow{e_k}$
+ 
+$$\nabla_{\dot{\gamma}} V = 0 \iff \frac{dV^i}{d\lambda} + \Gamma^i_{jk} V^j \frac{dx^k}{d\lambda} = 0$$
 
 
 * **Acceleration Vector = Christoffel Symbols + Second Fundamental Form**
@@ -234,18 +246,6 @@ $$ \frac{d^2 \vec{R}}{d \lambda^2} =\left(\frac{d^2 u^k}{d \lambda^2}+\Gamma_{i 
   * **'Boring' connection**:
 
 $$\widetilde{\nabla}_{\frac{\partial}{\partial u^i}} \vec{v}=\left(\frac{\partial v^k}{\partial u^i}+v^j \widetilde{\Gamma_{i j}^k}\right) \overrightarrow{e_k}$ wobei: $\widetilde{\Gamma_{i j}^k}=0$$
-
-* **Parallel Transport**  
-  * Parallel Transport (global) = zero covariant derivative (infinitesimal)! = Exponential der Lie Algebra
-  * ist eine Vorschrift, die bestimmt, wie ein Vektor entlang einer Kurve verschoben wird, sodass er im geometrischen Sinne "konstant" bleibt und die lokale Krümmung der Koordinaten exakt ausgleicht.
-  * Der Unterschied zwischen den Endvektoren der perfekt parallel transportierten Vektoren in Vektorfeldern wird durch den **Torsion Tensor** gemessen. Der Unterschied zwischen den Endvektoren der tatsächlich transportierten Vektoren in Vektorfeldern wird durch die **Lie Braket** gemessen.
-  * Parallel Transport provides a connection between tangent spaces in a curved space. e.g. from $T_pS$ to $T_qS$
-  * Covariant derivative provides connection between these tangent spaces in curved space $\nabla_{\frac{d}{d \lambda}} \vec{v}=\overrightarrow{0}$
-    * Thats why covariant derivate is something called connection, because it connects!
-    * This means: Parallel Transport = zero covariant derivative = special case of connection
-    * And Christoffel symbols $\Gamma$ are connection coefficients! $\nabla_{\overrightarrow{e_i}} \overrightarrow{e_j}=\Gamma_{i j}^k \overrightarrow{e_k}$
- 
-$$\nabla_{\dot{\gamma}} V = 0 \iff \frac{dV^i}{d\lambda} + \Gamma^i_{jk} V^j \frac{dx^k}{d\lambda} = 0$$
 
 > <font color="blue">**A connection is a Lie Algebra** ! Und **Paralleltransport ist das Exponential** $e$ dieses Lie-Algebra-Wertes entlang des Weges ("path-ordered exponential"), was uns ein Element der Lie-Gruppe liefert. Eine connection ($\nabla$, in der Algebra) ist das Infinitesimale, und der Paralleltransport ($P_\gamma$, in Gruppe) ist dessen Exponentiation!
 
