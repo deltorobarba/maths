@@ -275,12 +275,10 @@ $$[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$$
   * **Ricci-Skalar ($R$):** Die weitere Verjüngung des Ricci-Tensors mit der Metrik ($R = g^{\mu\nu} R_{\mu\nu}$). Es ist eine einzelne Zahl, die an jedem Punkt die gesamte skalare Krümmung angibt.
   * Die **Einstein'schen Feldgleichungen** kombinieren genau diese drei Bausteine (Metrik, Ricci-Tensor, Ricci-Skalar), um zu beschreiben, wie Masse und Energie die Geometrie des Universums krümmen:
 
-
 $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$
 
 * **Riemann Curvature Tensor**
   * Krümmung ist die Unfähigkeit von Vektoren, beim Paralleltransport entlang einer geschlossenen Schleife wieder identisch bei sich selbst anzukommen (Holonomie), oder das Versagen der Kommutativität von Ableitungen.
-  * Two main ways to detect curvature: 1. **holonomy** or 2. **geodesic deviation**
   * Riemann Curvature Tensor: $R$: Ein $(1,3)$-Tensor, der diese Nicht-Kommutativität exakt misst. (1 contravariant,3 covariant)-Tensor quantifiziert intrinsisch die Krümmung des Raumes, indem er die Nicht-Kommutativität der zweiten kovarianten Ableitungen misst.
 
 $$R(\vec{u}, \vec{v}) \vec{w}=\nabla_{\vec{u}} \nabla_{\vec{v}} \vec{w}-\nabla_{\vec{v}} \nabla_{\vec{u}} \vec{w}-\nabla_{[\vec{u}, \vec{v}]} \vec{w}$$
@@ -291,8 +289,9 @@ $$R(X,Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X,Y]} Z$$
 
 $$R_{c a b}^d=\partial_a\left(\Gamma_{b c}^d\right)-\partial_b\left(\Gamma_{a c}^d\right)+\Gamma_{b c}^i \Gamma_{a i}^d-\Gamma_{a c}^j \Gamma_{b j}^d$$
   
-* **Holonomie:**
-  * one way to detect curvature! Beschreibt die globale Diskrepanz – oft eine Drehung –, die ein Vektor erfährt, nachdem er auf einer gekrümmten Mannigfaltigkeit parallel entlang einer vollständig geschlossenen Schleife transportiert wurde.
+* **Holonomy**
+  * Two main ways to detect curvature: 1. **holonomy** or 2. **geodesic deviation**
+  * Beschreibt die globale Diskrepanz – oft eine Drehung –, die ein Vektor erfährt, nachdem er auf einer gekrümmten Mannigfaltigkeit parallel entlang einer vollständig geschlossenen Schleife transportiert wurde.
 
 $$\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \right)$$
 
