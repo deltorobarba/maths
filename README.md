@@ -10,9 +10,9 @@ AI and Quantum engineer at Google. I ❤️ Maths
 **Mathematics** ❤️
 * [Tensor Algebra](https://github.com/deltorobarba/science/blob/main/tensor.md) 🪼 and Differential Geometry
 * [Heisenberg-Weyl Algebra](https://github.com/deltorobarba/science/blob/main/heisenberg.md) 🌸 for Quantum Operators
-* [Geometric (Clifford) Algebra](https://github.com/deltorobarba/science/blob/main/clifford.md) 🦋 for Robotics and Spinors
-* [Lie Algebra and Lie Groups](https://github.com/deltorobarba/science/blob/main/lie.md) 🪷 with Exponentiation $e^{X}$
-* [(Zyklische) Kohomologie](https://github.com/deltorobarba/science/blob/main/kohomologie.md) 🌺 und Kategorientheorie
+* [Geometric Algebra](https://github.com/deltorobarba/science/blob/main/clifford.md) 🦋 for Robotics and Spinors
+* [Lie Algebra](https://github.com/deltorobarba/science/blob/main/lie.md) 🪷 with Exponentiation $e^{X}$
+* [Kohomologie](https://github.com/deltorobarba/science/blob/main/kohomologie.md) 🌺 und Kategorientheorie
 
 **Science** 🔬
 * [Quantum Dynamics](https://github.com/deltorobarba/science/blob/main/dynamics.ipynb) 🧚 Qubitization, RCS and OTOC
