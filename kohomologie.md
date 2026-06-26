@@ -83,11 +83,13 @@ $$\varphi(a_0, a_1, \dots, a_n) = (-1)^n \varphi(a_n, a_0, a_1, \dots, a_{n-1})$
 
 4. ---
 
-5. Hier ist die strukturierte Übersicht zur Kategorientheorie. Wenn die vorherigen Themen (wie Tensoranalysis oder Lie-Gruppen) die Werkzeuge waren, um physikalische oder geometrische Räume zu beschreiben, dann ist die Kategorientheorie die **"Mathematik der Mathematik"**.
+
+## Kategorientheorie
+
+Hier ist die strukturierte Übersicht zur Kategorientheorie. Wenn die vorherigen Themen (wie Tensoranalysis oder Lie-Gruppen) die Werkzeuge waren, um physikalische oder geometrische Räume zu beschreiben, dann ist die Kategorientheorie die **"Mathematik der Mathematik"**.
 
 Sie abstrahiert von der inneren Struktur der mathematischen Objekte (z. B. den Elementen einer Menge oder den Vektoren eines Raumes) und betrachtet ausschließlich, **wie diese Objekte über Abbildungen miteinander interagieren**.
 
----
 
 ### 1. Die Grundbausteine: Kategorien
 
@@ -106,8 +108,6 @@ $$g \circ f \colon X \to Z$$
 
 
 
----
-
 ### 2. Spezielle Morphismen (Pfeil-Eigenschaften)
 
 Da wir nicht mehr in die Objekte "hineinschauen" können, um zu sehen, ob eine Funktion z. B. injektiv (jedes Element hat höchstens ein Ziel) oder bijektiv ist, definiert die Kategorientheorie diese Eigenschaften rein über Pfeile.
@@ -124,7 +124,6 @@ Wenn $f \circ g_1 = f \circ g_2$, dann folgt zwingend $g_1 = g_2$.
 * **Epimorphismus (Epic):** Die abstrakte Version der Surjektivität. Er darf von rechts gekürzt werden:
 Wenn $h_1 \circ f = h_2 \circ f$, dann folgt zwingend $h_1 = h_2$.
 
----
 
 ### 3. Funktoren: Abbildungen zwischen Kategorien
 
@@ -142,7 +141,6 @@ $$F(g \circ f) = F(g) \circ F(f)$$
 * **Kontravarianter Funktor:** Dreht die Richtung der Pfeile um. Ein Pfeil $f \colon X \to Y$ wird zu $F(f) \colon F(Y) \to F(X)$.
 *(Beispiel aus der multilinearen Algebra: Die Bildung des Dualraums $V \mapsto V^*$ ist ein kontravarianter Funktor, weil eine lineare Abbildung $L \colon V \to W$ den Pullback $L^* \colon W^* \to V^*$ induziert).*
 
----
 
 ### 4. Natürliche Transformationen
 
@@ -154,9 +152,6 @@ Hier kommt das eigentliche Herzstück der Kategorientheorie. Der Mathematiker Sa
 $$G(f) \circ \eta_X = \eta_Y \circ F(f)$$
 
 
-
----
-
 ### 5. Universelle Eigenschaften
 
 Die Kategorientheorie definiert Konstruktionen (wie Produkte oder Brüche) nicht dadurch, wie man sie baut, sondern dadurch, dass sie die "optimale" Lösung für ein bestimmtes Problem darstellen.
@@ -165,7 +160,6 @@ Die Kategorientheorie definiert Konstruktionen (wie Produkte oder Brüche) nicht
 * **Terminales Objekt:** Ein Objekt, in das von *jedem* anderen Objekt genau ein Pfeil hineinzeigt (z. B. eine einelementige Menge).
 * **Das kategoriale Produkt ($X \times Y$):** Es wird zusammen mit zwei Projektionspfeilen ($p_1 \colon X \times Y \to X$ und $p_2 \colon X \times Y \to Y$) definiert. Seine universelle Eigenschaft besagt: Jedes andere Objekt $Z$, das ebenfalls Pfeile nach $X$ und $Y$ hat, kann seine Pfeile **eindeutig** durch das Produkt faktorisieren lassen.
 
----
 
 ### 6. Das Yoneda-Lemma
 
