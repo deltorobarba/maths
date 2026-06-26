@@ -246,9 +246,9 @@ $$\Gamma^k_{ij} = \frac{1}{2} g^{kl} (\partial_i g_{jl} + \partial_j g_{il} - \p
   * Ein affiner Zusammenhang ermöglicht die richtungsabhängige (kovariante) Ableitung von Tensorfeldern; der Levi-Civita-Zusammenhang ist der eindeutige Zusammenhang, der sowohl torsionsfrei ist als auch die Metrik respektiert (die Längen und Winkel bei Paralleltransport erhält) = Torsion free + Metric compatability
 
 * **'Boring' connection**
-  * no curvature (is that true?)
+  * no curvature (is that true?). Christoffel symbols are zero: $\widetilde{\Gamma_{i j}^k}=0$
 
-$$\widetilde{\nabla}_{\frac{\partial}{\partial u^i}} \vec{v}=\left(\frac{\partial v^k}{\partial u^i}+v^j \widetilde{\Gamma_{i j}^k}\right) \overrightarrow{e_k}$ wobei: $\widetilde{\Gamma_{i j}^k}=0$$
+$$\widetilde{\nabla}_{\frac{\partial}{\partial u^i}} \vec{v}=\left(\frac{\partial v^k}{\partial u^i}+v^j \widetilde{\Gamma_{i j}^k}\right) \overrightarrow{e_k}$$
 
 > <font color="blue">**A connection is a Lie Algebra** ! Und **Paralleltransport ist das Exponential** $e$ dieses Lie-Algebra-Wertes entlang des Weges ("path-ordered exponential"), was uns ein Element der Lie-Gruppe liefert. Eine connection ($\nabla$, in der Algebra) ist das Infinitesimale, und der Paralleltransport ($P_\gamma$, in Gruppe) ist dessen Exponentiation!
 
