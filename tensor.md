@@ -1,11 +1,13 @@
-## <font color="blue">Tensor Algebra
+
 
 ![science](https://raw.githubusercontent.com/deltorobarba/science/main/nature.JPG)
+
+## <font color="blue">Tensor Algebra
 
 **Tensoranalysis (Tensorkalkül)**: Während die multilineare Algebra Tensoren in flachen Vektorräumen betrachtet, bringt die Tensoranalysis **Analysis und Geometrie** ins Spiel: Sie untersucht Tensorfelder auf gekrümmten Räumen. Das ist die mathematische Basis der Allgemeinen Relativitätstheorie und der Kontinuumsmechanik.
 
 
-* Transformationsverhalten (Kontra- und Kovarianz)
+### Transformationsverhalten (Kontra- und Kovarianz)
   * In der Tensoranalysis definiert man Tensoren meist darüber, wie sich ihre Komponenten ändern, wenn du das Koordinatensystem von $x$ auf ein neues System $x'$ wechselst.
 
 * **Kontravarianter Vektor (Index oben):** Vektoren im Tangentialraum (wie Geschwindigkeiten). Sie transformieren sich mit der Jacobi-Matrix der Koordinatentransformation:
@@ -23,9 +25,8 @@ $$W'_\mu = \frac{\partial x^\nu}{\partial x'^\mu} W_\nu$$
 $$T'^\mu_\nu = \frac{\partial x'^\mu}{\partial x^\alpha} \frac{\partial x^\beta}{\partial x'^\nu} T^\alpha_\beta$$
 
 
-<font color="blue">*Vektor und Kovektor*
-
-* **Vektoren als Derivationen** (kontravariant) als Richtungsableitungen einer Funktion, zB: $\vec{e_x} = \frac{\delta}{ \delta_x}$
+### **Vektoren als Derivationen** (kontravariant)
+  * als Richtungsableitungen einer Funktion, zB: $\vec{e_x} = \frac{\delta}{ \delta_x}$
   * Vector: $\vec{v} = v^i \vec{e}_i = \widetilde{v}^i \vec{\widetilde{e}}_i$
   * **Basis Vectors / Covariant (1,0-Tensor)**: $\vec{\widetilde{e}}_j = F_j^i \vec{e}_i \qquad \vec{e}_j = B_j^i \vec{\widetilde{e}}_i$
   * **Vector components / Contravariant (0,1-Tensor)**: $\widetilde{v}^i = B_j^i v^j \qquad v^i = F_j^i \widetilde{v}^j$
@@ -33,7 +34,8 @@ $$T'^\mu_\nu = \frac{\partial x'^\mu}{\partial x^\alpha} \frac{\partial x^\beta}
 
 $$\overrightarrow{e_k} \equiv \frac{\partial}{\partial x^k} \equiv \partial_k$$
 
-* **Kovektoren als Differentialformen** (kovariant) als "Schichten", die von Vektoren durchstoßen werden
+### **Kovektoren als Differentialformen** (kovariant) 
+  * als "Schichten", die von Vektoren durchstoßen werden
   * Kovector: $\alpha = \alpha_i \epsilon^i = \widetilde{\alpha}_i \widetilde{\epsilon}^i$
   * **Basis Covectors / Contravariant (0,1-Tensor)**: $\widetilde{\epsilon}^i = B_j^i \epsilon^j \qquad \epsilon^i = F_j^i \widetilde{\epsilon}^j$
   * **Covector Components / Covariant (1,0-Tensor)**: $\widetilde{\alpha}_j = F_j^i \alpha_i \qquad \alpha_j = B_j^i \widetilde{\alpha}_i$
@@ -62,7 +64,7 @@ $$\begin{array}{rlrl}\Gamma_{j k}^i & =\frac{1}{2} g^{i l}\left(\partial_k g_{l 
   * Die Dualität ist fundamental: $dx^i\left(\frac{\partial}{\partial x^j}\right) = \delta^i_j$ (Kronecker-Delta).
 
 
-<font color="blue">*Felder (Vektorfeld, Kovektorfeld/Differentialform)*
+### Felder (Vektorfeld, Kovektorfeld/Differentialform)
 
 * **Vector fields** mit Basiswechsel (Funktor) und Jacobimatrix
   * Vector: $\vec{e}_1 \longleftrightarrow \frac{\partial}{\partial x} \qquad \vec{e}_2 \longleftrightarrow \frac{\partial}{\partial y}$ (derivatives)
@@ -81,16 +83,14 @@ $$\begin{array}{rlrl}\Gamma_{j k}^i & =\frac{1}{2} g^{i l}\left(\partial_k g_{l 
   * Vektoren (Derivationen) und Kovektoren (1-Formen) koordinatenfreie, abstrakte Objekte
 * **Kotangentialraum**
 
-<font color="blue">*Metrik*
-
-* **Metrik Tensor (Bilinearform / First Fundamental Form):**
+### **Metrik Tensor (Bilinearform / First Fundamental Form):**
   * (0,2)-Tensor. Instrument zur Messung von Abständen und Winkeln, Indezes ziehen. Index Raising and Lowering: The most powerful feature of the metric tensor is its ability to convert covariant indices into contravariant ones, and vice versa (musikalische Isomorphismus)
   * Metrischer Tensor: symmetrisches, nicht-ausgeartetes Tensorfeld ein. Eine Bilinearform, die zwei Vektoren eine Zahl zuordnet: $ds^2 = g = g_{ij} \, dx^i \otimes dx^j$
   * $g_{kl} = B^i_k B^j_l \widetilde{g}_{ij}$
 
 $$\widetilde{g}_{ij} = F^k_i F^l_j g_{kl}$$
 
-* Der Metrische Tensor ($g_{\mu\nu}$)
+* Metrische Tensor ($g_{\mu\nu}$)
   * Der metrische Tensor ist der absolut wichtigste $(0,2)$-Tensor einer Riemannschen Mannigfaltigkeit. Er verleiht dem Raum seine Geometrie, da er Abstände und Winkel definiert.
   * **Linienelement:** Das Quadrat des infinitesimalen Abstands $ds$ zwischen zwei unendlich nah benachbarten Punkten: $ds^2 = g_{\mu\nu} dx^\mu dx^\nu$
   * **Indizes heben und senken:** Die Metrik $g_{\mu\nu}$ und ihre Inverse $g^{\mu\nu}$ (für die $g_{\mu\alpha} g^{\alpha\nu} = \delta_\mu^\nu$ gilt) werden als Werkzeuge genutzt, um zwischen ko- und kontravarianten Komponenten hin- und herzuwechseln: $V_\mu = g_{\mu\nu} V^\nu \quad \text{und} \quad W^\mu = g^{\mu\nu} W_\nu$
@@ -128,7 +128,7 @@ $$\left\|\frac{d \vec{R}}{d \lambda}\right\|^2=\frac{d \vec{R}}{d \lambda} \cdot
 
 $$\left\|\frac{d \vec{R}}{d \lambda}\right\|^2=\frac{d \vec{R}}{d \lambda} \cdot \frac{d \vec{R}}{d \lambda}$ = $\left[\begin{array}{lll}\frac{d X}{d \lambda} & \frac{d Y}{d \lambda} & \frac{d Z}{d \lambda}\end{array}\right]\left[\begin{array}{lll}\frac{\partial \vec{R}}{\partial X} \cdot \frac{\partial \vec{R}}{\partial X} & \frac{\partial \vec{R}}{\partial X} \cdot \frac{\partial \vec{R}}{\partial Y} & \frac{\partial \vec{R}}{\partial X} \cdot \frac{\partial \vec{R}}{\partial Z} \\ \frac{\partial \vec{R}}{\partial Y} \cdot \frac{\partial \vec{R}}{\partial X} & \frac{\partial \vec{R}}{\partial Y} \cdot \frac{\partial \vec{R}}{\partial Y} & \frac{\partial \vec{R}}{\partial Y} \cdot \frac{\partial \vec{R}}{\partial Z} \\ \frac{\partial \vec{R}}{\partial Z} \cdot \frac{\partial \vec{R}}{\partial X} & \frac{\partial \vec{R}}{\partial Z} \cdot \frac{\partial \vec{R}}{\partial Y} & \frac{\partial \vec{R}}{\partial Z} \cdot \frac{\partial \vec{R}}{\partial Z}\end{array}\right]\left[\begin{array}{l}\frac{d X}{d \lambda} \\ \frac{d Y}{d \lambda} \\ \frac{d Z}{d \lambda}\end{array}\right]$$
 
-* **Inverse Metric Tensor:** contravariant $\mathfrak{g_{i,j}}$, lives in $V \otimes V$
+### **Inverse Metric Tensor:** contravariant $\mathfrak{g_{i,j}}$, lives in $V \otimes V$
   * **Metric tensor and invers metric tensor with $∇ f$ (gradient, vector) and $d f$ (differential, covector):**
   * Use metric tensor $g = (\nabla f)^i g_{i j}=\frac{\partial f}{\partial c^j}$ to go from vector field **$∇ f$ (gradient)** to covector field **$d f$ (differential, exterior derivative of $f$)**.
   * Use inverse metric tensor $\mathfrak{g}$ = $(\nabla f)^k= \mathfrak{g}^{j k} \frac{\partial f}{\partial c^j}$ to go from covector field **$d f$ (differential, exterior derivative of $f$)** back to vector field **$∇ f$ (gradient)** .
@@ -138,7 +138,7 @@ $$\left\|\frac{d \vec{R}}{d \lambda}\right\|^2=\frac{d \vec{R}}{d \lambda} \cdot
 
 $$\widetilde{T}^{abc\dots}_{xyz\dots} = (B^a_i B^b_j B^c_k \dots) T^{ijk\dots}_{rst\dots} (F^r_x F^s_y F^t_z \dots)$$
 
-* Transformation zu den alten Indizes:
+### Transformation zu den alten Indizes:
 
 $$T^{ijk\dots}_{rst\dots} = (F^i_a F^j_b F^k_c \dots) \widetilde{T}^{abc\dots}_{xyz\dots} (B^x_r B^y_s B^z_t \dots)$$
 
@@ -240,8 +240,6 @@ Das letzte Puzzleteil. In einem Raum der Dimension $n$ gibt es eine tiefe Symmet
 * Der Hodge-Stern-Operator $\star$ verwandelt die einen in die anderen. Er übersetzt zum Beispiel "Linien" in "die Flächen, die senkrecht darauf stehen".
 * **Warum das in der Physik wichtig ist:** Elektromagnetische Felder sind eigentlich Differentialformen. Das elektrische Feld $E$ ist eine 1-Form, das magnetische Feld $B$ ist eine 2-Form. Der Hodge-Stern verbindet sie im Vakuum.
 
----
-
 Differentialformen "putzen" die klassische Mathematik förmlich auf. Sie entfernen alle Matrizen, Indizes und künstlichen Koordinatensysteme und hinterlassen nur die reine, geometrische Wahrheit.
 
 Sollen wir uns als nächstes ansehen, wie sich die vier komplizierten Maxwell-Gleichungen des Elektromagnetismus mithilfe von Differentialformen auf zwei winzige, unglaublich elegante Gleichungen reduzieren lassen?
@@ -250,13 +248,13 @@ Sollen wir uns als nächstes ansehen, wie sich die vier komplizierten Maxwell-Gl
 
 ## <font color="blue">Tensor Calculus I
 
-* **Holonomy**
+### **Holonomy**
   * Two main ways to detect curvature: 1. **holonomy** or 2. geodesic deviation
   * Beschreibt die globale Diskrepanz – oft eine Drehung –, die ein Vektor erfährt, nachdem er auf einer gekrümmten Mannigfaltigkeit parallel entlang einer vollständig geschlossenen Schleife transportiert wurde.
 
 $$\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \right)$$
 
-* **Geodesic equation**
+### **Geodesic equation**
   * Two main ways to detect curvature: 1. holonomy or 2. **geodesic deviation**
   * Eine Geodäte ist geradestmögliche Bahn in einem gekrümmten Raum (die Verallgemeinerung einer Geraden, zB Flugbahn eines Objekts im freien Fall). Ein Teilchen bewegt sich auf einer Geodäte, wenn sein eigener Geschwindigkeitsvektor entlang seiner Bahn parallel transportiert wird
   * Geodesics are where the tangential component are zero (because geodesics are curves where the acceleration vector is always normal, light will follow this path). Christoffel Symbols Γ = tangential component.
@@ -269,7 +267,7 @@ $$\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \r
 
 $$\frac{d^2 x^\mu}{d\tau^2} + \Gamma^\mu_{\alpha\beta} \frac{dx^\alpha}{d\tau} \frac{dx^\beta}{d\tau} = 0$$
 
-* **Parallel Transport**  
+### **Parallel Transport**  
   * Parallel Transport (global) = zero covariant derivative (infinitesimal)! = Exponential der Lie Algebra
   * Paralleltransport ist Operation, einen Vektor entlang einer Kurve so zu verschieben, dass er "in sich parallel" bleibt (sich also aus seiner eigenen Perspektive nicht ändert). Ein Vektorfeld $V^\mu$ ist entlang einer Kurve mit dem Parameter $\tau$ parallel verschoben, wenn die absolute Ableitung null ist: $\frac{DV^\mu}{d\tau} = \frac{dx^\nu}{d\tau} \nabla_\nu V^\mu = 0$
   * ist eine Vorschrift, die bestimmt, wie ein Vektor entlang einer Kurve verschoben wird, sodass er im geometrischen Sinne "konstant" bleibt und die lokale Krümmung der Koordinaten exakt ausgleicht.
@@ -282,8 +280,7 @@ $$\frac{d^2 x^\mu}{d\tau^2} + \Gamma^\mu_{\alpha\beta} \frac{dx^\alpha}{d\tau} \
  
 $$\nabla_{\dot{\gamma}} V = 0 \iff \frac{dV^i}{d\lambda} + \Gamma^i_{jk} V^j \frac{dx^k}{d\lambda} = 0$$
 
-
-* **Acceleration Vector**
+### **Acceleration Vector**
   * Acceleration Vector = **Christoffel Symbols + Second Fundamental Form**
   * Extrinsic approach: in geodesic curves, the acceleration vector is normal to the surface
   * $\frac{\partial \overline{e_j}}{\partial u^i}=\Gamma_{i j}^1 \overrightarrow{e_1}+\Gamma_{i j}^2 \overrightarrow{e_2}+L_{i j} \hat{n}$ bzw.: $\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j}=\Gamma_{i j}^1 \frac{\partial \vec{R}}{\partial u^1}+\Gamma_{i j}^2 \frac{\partial \vec{R}}{\partial u^2}+L_{i j} \hat{n}$
@@ -293,19 +290,19 @@ $$ \frac{d^2 \vec{R}}{d \lambda^2} =\left(\frac{d^2 u^k}{d \lambda^2}+\Gamma_{i 
 
 $$\frac{d^2 \vec{R}}{d \lambda^2}= \quad \quad \underbrace{\left(\frac{d^2 \vec{R}}{d \lambda^2}\right)^{\text {tangential }}}_{=0} \quad \quad \quad + \quad \quad \left(\frac{d^2 \vec{R}}{d \lambda^2}\right)^{\text {normal }}$$
 
-* **Second fundamental form**
+### **Second fundamental form**
   * $L_{i j} \hat{n}$ (normal vector), tells us how much of the normal vector we take
 
 $$L_{i j}=\frac{\partial^2 \vec{R}}{{\partial} u^i {\partial} u^j} \cdot \frac{\overrightarrow{e_i} \times \overrightarrow{e_j}}{\left\|\overrightarrow{e_i} \times \overrightarrow{e_j}\right\|}$$
 
-* **Christoffel symbols**
+### **Christoffel symbols**
   * Christoffel symbols $\Gamma_{i j}^k$ or $\Gamma_{i j}^1$ and $\Gamma_{i j}^2$ = correction term or 'connection coefficients' in covariant derivative!
   * **Christoffel-Symbole $\Gamma^k_{ij}$:** Das sind die Korrekturterme, die beschreiben, wie sich das Koordinatensystem selbst krümmt und dreht. Im Levi-Civita-Zusammenhang (torsionsfrei & metrikverträglich) werden sie direkt aus den Ableitungen der Metrik berechnet: $\Gamma^k_{ij} = \frac{1}{2} g^{kl} (\partial_i g_{jl} + \partial_j g_{il} - \partial_l g_{ij})$
   * Christoffel Symbols give tangential components of $\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j}$ (how much of each tangent basis vector in tangent plane we take). How local basis vectors change from point to point on a surface? (to define derivate vector in curved space)
 
 $$\Gamma^k_{ij} = \frac{1}{2} g^{kl} (\partial_i g_{jl} + \partial_j g_{il} - \partial_l g_{ij}) =\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j} \cdot \frac{\partial \vec{R}}{\partial u^l} \mathfrak{g}^{l k}$$
  
-* **Connection or Covariant Derivative**
+### **Connection or Covariant Derivative**
   * Connection/Covariant Derivative = Navigationssystem (Zusammenhang/Kovariante Ableitung) = Lie Algebra
   * Wenn man auf einem gekrümmten Raum (oder in Polarkoordinaten) die normale partielle Ableitung ($\partial_\mu$) eines Vektorfeldes bildet, ist das Ergebnis *kein* Tensor mehr. Der Grund: Die Basisvektoren selbst ändern sich von Punkt zu Punkt! Die kovariante Ableitung repariert dieses Problem.
   * Wie vergleicht man Vektoren in verschiedenen Tangentialräumen? Man braucht eine Vorschrift, wie man ein Koordinatensystem "parallel" von einem Punkt zum anderen schiebt.
@@ -332,7 +329,7 @@ $$\Gamma^k_{ij} = \frac{1}{2} g^{kl} (\partial_i g_{jl} + \partial_j g_{il} - \p
     * $\nabla_{\vec{w}}(a \vec{v})=\left(\nabla_{\vec{w}} a\right) \vec{v}+a\left(\nabla_{\vec{w}} \vec{v}\right)$
     * $\nabla_{\partial_i}(a)=\frac{\partial a}{\partial u^i}$
 
-* **Levi-Civita Connection**
+### **Levi-Civita Connection**
   * Different connection coefficients will give us different instructions for performing parallel transport!
   * Insight 1: The coveriant derivate is zero $\nabla_{\vec{v}}(\vec{u})=\overrightarrow{0}$ and $\nabla_{\vec{u}}(\vec{v})=\overrightarrow{0}$, but results can look vastly different.
   * Insight 2: Christoffel symbols $\Gamma$ are NOT unique, there are many different ways to describe the connection coefficients!
@@ -341,7 +338,7 @@ $$\Gamma^k_{ij} = \frac{1}{2} g^{kl} (\partial_i g_{jl} + \partial_j g_{il} - \p
     * **Metric compatability**: $\nabla_{\vec{w}}(\vec{v} \cdot \vec{u})=\left(\nabla_{\vec{w}} \vec{v}\right) \cdot \vec{u}+\vec{v} \cdot\left(\nabla_{\vec{w}} \vec{u}\right)$ bzw. $\nabla_{\frac{\partial}{\partial u^i}} \vec{v}=\left(\frac{\partial v^k}{\partial u^i}+v^j \Gamma_{i j}^k\right) \overrightarrow{e_k} $
   * Ein affiner Zusammenhang ermöglicht die richtungsabhängige (kovariante) Ableitung von Tensorfeldern; der Levi-Civita-Zusammenhang ist der eindeutige Zusammenhang, der sowohl torsionsfrei ist als auch die Metrik respektiert (die Längen und Winkel bei Paralleltransport erhält) = Torsion free + Metric compatability
 
-* **'Boring' connection**
+### **'Boring' connection**
   * no curvature (is that true?). Christoffel symbols are zero: $\widetilde{\Gamma_{i j}^k}=0$
 
 $$\widetilde{\nabla}_{\frac{\partial}{\partial u^i}} \vec{v}=\left(\frac{\partial v^k}{\partial u^i}+v^j \widetilde{\Gamma_{i j}^k}\right) \overrightarrow{e_k}$$
@@ -361,7 +358,7 @@ $$[\vec{u}, \vec{v}]=\vec{u}(\vec{v})-\vec{v}(\vec{u})$$
 
 $$[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$$
 
-* **Torsion Tensor**
+### **Torsion Tensor**
   * Torsion Tensor = covariant derivates  + Lie Bracket! (hier hat parallel transport eine zentrale bedeutung!)
   $T(\vec{u}, \vec{v})=\nabla_{\vec{u}} \vec{v}-[\vec{u}, \vec{v}]-\nabla_{\vec{v}} \vec{u}$ mit $T^k_{ij} = \Gamma^k_{ij} - \Gamma^k_{ji}$ und **wenn** $T(\vec{u}, \vec{v})=\nabla_{\vec{u}} \vec{v}-[\vec{u}, \vec{v}]-\nabla_{\vec{v}} \vec{u} = 0$, **dann**: $\nabla_{\vec{u}} \vec{v}-\nabla_{\vec{v}} \vec{u}=[\vec{u}, \vec{v}]$, **bedeutet**: the difference of the covariant derivates is equal to the Lie Braket (which is difference of ordinary derivative)
   * Dieser Tensor fängt den asymmetrischen Teil des Zusammenhangs ein und gibt geometrisch an, inwiefern sich infinitesimale Parallelogramme, die durch den Paralleltransport gebildet werden, nicht schließen. Separation between parallel transported vector lines. Lie bracket is included in it. "Torsion-Free" means parallel-transported vectors close properly.
@@ -371,7 +368,7 @@ $$[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$$
  
 $$T(X,Y)=\nabla _{X}Y-\nabla _{Y}X-[X,Y]$$
  
-* **Krümmungstensoren** (allgemein)
+### **Krümmungstensoren** (allgemein)
   * In einem flachen euklidischen Raum spielt es keine Rolle, in welcher Reihenfolge man partielle Ableitungen ausführt. In einem gekrümmten Raum kommutieren kovariante Ableitungen hingegen *nicht*. Die Differenz dieser Ableitungen misst exakt die Krümmung des Raumes.
   * **Riemannscher Krümmungstensor ($R^\rho_{\sigma\mu\nu}$):** Er misst, wie sehr ein Vektor rotiert wird, wenn du ihn entlang einer winzigen geschlossenen Schleife parallel verschiebst: $[\nabla_\mu, \nabla_\nu] V^\rho = \nabla_\mu \nabla_\nu V^\rho - \nabla_\nu \nabla_\mu V^\rho = R^\rho_{\sigma\mu\nu} V^\sigma$
   * Die Formel zur Berechnung aus den Christoffel-Symbolen lautet: $R^\rho_{\sigma\mu\nu} = \partial_\mu \Gamma^\rho_{\nu\sigma} - \partial_\nu \Gamma^\rho_{\mu\sigma} + \Gamma^\rho_{\mu\lambda} \Gamma^\lambda_{\nu\sigma} - \Gamma^\rho_{\nu\lambda} \Gamma^\lambda_{\mu\sigma}$
@@ -381,7 +378,7 @@ $$T(X,Y)=\nabla _{X}Y-\nabla _{Y}X-[X,Y]$$
 
 $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$
 
-* **Riemann Curvature Tensor**
+### **Riemann Curvature Tensor**
   * Krümmung ist die Unfähigkeit von Vektoren, beim Paralleltransport entlang einer geschlossenen Schleife wieder identisch bei sich selbst anzukommen (Holonomie), oder das Versagen der Kommutativität von Ableitungen.
   * Riemann Curvature Tensor: $R$: Ein $(1,3)$-Tensor, der diese Nicht-Kommutativität exakt misst. (1 contravariant,3 covariant)-Tensor quantifiziert intrinsisch die Krümmung des Raumes, indem er die Nicht-Kommutativität der zweiten kovarianten Ableitungen misst.
   * Riemann curvature tensor **components** (berechnet mit den connection components): $R_{c a b}^d=\partial_a\left(\Gamma_{b c}^d\right)-\partial_b\left(\Gamma_{a c}^d\right)+\Gamma_{b c}^i \Gamma_{a i}^d-\Gamma_{a c}^j \Gamma_{b j}^d$. Riemann curvature tensor is:
@@ -389,8 +386,8 @@ $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4
 $$R(\vec{u}, \vec{v}) \vec{w}=\nabla_{\vec{u}} \nabla_{\vec{v}} \vec{w}-\nabla_{\vec{v}} \nabla_{\vec{u}} \vec{w}-\nabla_{[\vec{u}, \vec{v}]} \vec{w}$$
 
 $$R(X,Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X,Y]} Z$$
- 
-* **Ricci Tensor**
+
+### **Ricci Tensor**
   * Aus dem Riemann-Tensor gewinnt man durch Spurbildung (Kontraktion) den **Ricci-Tensor** $R_{ij}$ (beschreibt Volumenverzerrungen) und den **Ricci-Skalar** $R$, welche das Herzstück der Einsteinschen Feldgleichungen in der Allgemeinen Relativitätstheorie bilden. Both considered a summary of the Riemann curvature tensor
   * **Ricci-Curvature-Tensor** tracks how volume change along geodesic (that's why the Ricci tensor represents gravity $R_{\mu \nu}$ in the general theory of relativity in Einstein field equations: $R_{\mu \nu}-\frac{1}{2} g_{\mu \nu}+\Lambda g_{\mu \nu}=\frac{8 \pi G}{c^4} T_{\mu \nu}$)
   * The Ricci curvature is the sum of all scalar curvatures in every basis vector direction $\sum_{i=1}^D K\left(\overrightarrow{e_i}, \vec{v}\right)$. The Ricci curvature (left) can also be computed using the Ricci tensor $R_{i j}$ with: $\text{Ric}(\vec{v}, \vec{v})=R_{i j} v^i v^j$
@@ -399,34 +396,33 @@ $$R(X,Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X,Y]} Z$$
 
 $$\text{Ric}(\vec{v}, \vec{v})=\sum_{i=1}^D K\left(\overrightarrow{e_i}, \vec{v}\right)=\sum_i \frac{\left[R\left(\overrightarrow{e_i}, \vec{v}\right) \vec{v}\right] \cdot \overrightarrow{e_i}}{\left(\overrightarrow{e_i} \cdot \overrightarrow{e_i}\right)(\vec{v} \cdot \vec{v})-\left(\overrightarrow{e_i} \cdot \vec{v}\right)^2}$$
 
-* **Sectional Curvature**
+### **Sectional Curvature**
   * Ricci Curvature-Tensor can only tell us about volume, not shape! because if $K\left(\overrightarrow{e_1}, \vec{v}\right)>0 \quad K\left(\overrightarrow{e_2}, \vec{v}\right) < 0$, then the overall Ricci tensor is the same: $\text{Ric}(\vec{v}, \vec{v})=\sum_{i=1}^D K\left(\overrightarrow{e_i}, \vec{v}\right)=0$, only the shape changed.
   * for an orthonormal base (with Levi Civita symbol). The Ricci-Curvature-Tensor is zero: $\text{Ric}(\vec{v}, \vec{v})=\sum_{i=1}^D K\left(\overrightarrow{e_i}, \vec{v}\right)=0$ for following **Sectional curvatures** (whose sum is the Ricci curvature): $K\left(\overrightarrow{e_1}, \vec{v}\right)=0 \quad K\left(\overrightarrow{e_2}, \vec{v}\right)=0$. General Sectional curvatures:
 
 $$K(\vec{s}, \vec{v})=\frac{[R(\vec{s}, \vec{v}) \vec{v}] \cdot \vec{s}}{(\vec{s} \cdot \vec{s})(\vec{v} \cdot \vec{v})-(\vec{s} \cdot \vec{v})^2}$$
 
-* **Volume Element Derivative**
+### **Volume Element Derivative**
   * for any base!
 
-* **Volume Form $ω$**
-    * Metric compatability of Levi-Civita connection preserves vector lengths and angles, and therefore preserves volume. This means covariant derivate is zero: $\nabla_{\vec{v}} V=0$ where this formula is: $=\nabla_{\vec{v}}[\omega(\vec{a}, \vec{b}, \vec{c})]$
-    * Volume Form $ω$: Take 2nd derivative of volume form along a geodesic path to get the Ricci tensor 
+### **Volume Form $ω$**
+  * Metric compatability of Levi-Civita connection preserves vector lengths and angles, and therefore preserves volume. This means covariant derivate is zero: $\nabla_{\vec{v}} V=0$ where this formula is: $=\nabla_{\vec{v}}[\omega(\vec{a}, \vec{b}, \vec{c})]$
+  * Volume Form $ω$: Take 2nd derivative of volume form along a geodesic path to get the Ricci tensor 
     
 $$\nabla_{\vec{v}} \nabla_{\vec{v}} \omega(\vec{u}, \vec{w}, \vec{t})$$
-
-* **Ricci-Scalar**:
+### **Ricci-Scalar**:
   * compare volume of a ball in curved space to volume of a ball of same radius in flat space (measures deviation). Curved space means we can fit a large area into a smaller boundary.
   * Der Ricci-Tensor entsteht durch Spur-Bildung (Kontraktion) des Riemann-Tensors und misst die Volumenänderung eines geodätischen Balls; eine weitere Kontraktion liefert den Ricci-Skalar, eine einzige Zahl pro Punkt, die die totale Skalarkrümmung angibt. 
 
 $$R_{ij} = R^k_{\ ikj} \quad \text{und} \quad R = g^{ij} R_{ij}$$
 
-* **Bianchi-Identität**
+### **Bianchi-Identität**
   * differentielle Identitäten, sind die geometrischen Entsprechungen der Erhaltungssätze (Energie und Impuls)
   * sie diktieren, wie sich Krümmung von Punkt zu Punkt stetig und konsistent verhalten muss.
 
 $$\nabla_l R^i_{\ jkm} + \nabla_k R^i_{\ jml} + \nabla_m R^i_{\ jlk} = 0$$
 
-* **Schnittkrümmung (Sectional Curvature)**
+### **Schnittkrümmung (Sectional Curvature)**
   * liefert eine anschauliche zweidimensionale Krümmungsmaßzahl (vergleichbar mit der Gaußschen Krümmung), die angibt, wie stark eine durch zwei Tangentialvektoren $X$ und $Y$ aufgespannte "Ebene" gekrümmt ist.
 
 $$K(X,Y) = \frac{\langle R(X,Y)Y, X \rangle}{\langle X,X \rangle \langle Y,Y \rangle - \langle X,Y \rangle^2}$$
