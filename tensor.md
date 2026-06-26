@@ -294,7 +294,7 @@ $$R(\vec{u}, \vec{v}) \vec{w}=\nabla_{\vec{u}} \nabla_{\vec{v}} \vec{w}-\nabla_{
 
 $$R(X,Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X,Y]} Z$$
  
-* **Ricci-Curvature-Tensor**
+* **Ricci Tensor**
   * Aus dem Riemann-Tensor gewinnt man durch Spurbildung (Kontraktion) den **Ricci-Tensor** $R_{ij}$ (beschreibt Volumenverzerrungen) und den **Ricci-Skalar** $R$, welche das Herzstück der Einsteinschen Feldgleichungen in der Allgemeinen Relativitätstheorie bilden. Both considered a summary of the Riemann curvature tensor
   * **Ricci-Curvature-Tensor** tracks how volume change along geodesic (that's why the Ricci tensor represents gravity $R_{\mu \nu}$ in the general theory of relativity in Einstein field equations: $R_{\mu \nu}-\frac{1}{2} g_{\mu \nu}+\Lambda g_{\mu \nu}=\frac{8 \pi G}{c^4} T_{\mu \nu}$)
   * The Ricci curvature is the sum of all scalar curvatures in every basis vector direction $\sum_{i=1}^D K\left(\overrightarrow{e_i}, \vec{v}\right)$. The Ricci curvature (left) can also be computed using the Ricci tensor $R_{i j}$ with: $\text{Ric}(\vec{v}, \vec{v})=R_{i j} v^i v^j$
