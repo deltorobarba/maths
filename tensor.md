@@ -162,7 +162,7 @@ $$\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \r
 
 * **Geodesic equation**
   * Two main ways to detect curvature: 1. holonomy or 2. **geodesic deviation**
-  * Eine Geodäte ist die geradestmögliche Bahn in einem gekrümmten Raum (die Verallgemeinerung einer Geraden). In der Physik ist das beispielsweise die Flugbahn eines Objekts im freien Fall. Ein Teilchen bewegt sich auf einer Geodäte, wenn sein eigener Geschwindigkeitsvektor entlang seiner Bahn parallel transportiert wird: $\frac{d^2 x^\mu}{d\tau^2} + \Gamma^\mu_{\alpha\beta} \frac{dx^\alpha}{d\tau} \frac{dx^\beta}{d\tau} = 0$
+  * Eine Geodäte ist geradestmögliche Bahn in einem gekrümmten Raum (die Verallgemeinerung einer Geraden, zB Flugbahn eines Objekts im freien Fall). Ein Teilchen bewegt sich auf einer Geodäte, wenn sein eigener Geschwindigkeitsvektor entlang seiner Bahn parallel transportiert wird
   * Geodesics are where the tangential component are zero (because geodesics are curves where the acceleration vector is always normal, light will follow this path)
   * geradeste Kurve in einem gekrümmten Raum, entlang derer der eigene **Tangentialvektor parallel transportiert** wird, sodass ihre intrinsische Beschleunigung verschwindet.
   * In der Geodesic equation ist der covariant derivate (connection) = Null!
@@ -170,6 +170,8 @@ $$\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \r
   * **To compute geodesic curves, we need to find curves where the acceleration vector is <u>normal</u> to the surface:**
 
 <font color="blue">$$0 = \Gamma_{i j}^k \frac{d u^i}{d \lambda} \frac{d u^j}{d \lambda} + \frac{d^2 u^k}{d \lambda^2}$$
+
+$$\frac{d^2 x^\mu}{d\tau^2} + \Gamma^\mu_{\alpha\beta} \frac{dx^\alpha}{d\tau} \frac{dx^\beta}{d\tau} = 0$$
 
 * **Parallel Transport**  
   * Parallel Transport (global) = zero covariant derivative (infinitesimal)! = Exponential der Lie Algebra
