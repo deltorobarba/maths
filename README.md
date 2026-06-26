@@ -10,7 +10,7 @@ AI and Quantum engineer at Google. I ❤️ Maths
 **Mathematics** ❤️
 * [Tensor Algebra](https://github.com/deltorobarba/science/blob/main/tensor.md) 🪼 and Differential Geometry
 * [Geometric Algebra](https://github.com/deltorobarba/science/blob/main/clifford.md) 🦋 and Exterior Algebra
-* [Lie Algebra](https://github.com/deltorobarba/science/blob/main/lie.md) 🪷 with Exponentiation $e^{X}$
+* [Lie Algebra](https://github.com/deltorobarba/science/blob/main/lie.md) 🪷 Exponentiation and Taylor Series
 * [Heisenberg-Weyl](https://github.com/deltorobarba/science/blob/main/heisenberg.md) 🌸 for Quantum Operators
 
 **Science** 🔬
