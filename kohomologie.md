@@ -74,7 +74,7 @@ $$\varphi(a_0, a_1, \dots, a_n) = (-1)^n \varphi(a_n, a_0, a_1, \dots, a_{n-1})$
 
 * **Der Connes'sche B-Operator:** Er entspricht genau der äußeren Ableitung $d$ der De-Rham-Theorie, ist aber rein algebraisch durch Manipulation von Tensorprodukten dieser Ringelemente definiert.
 * **Warum ist das so wichtig?**
-1. **Ersatz für Integrale:** In der nichtkommutativen Geometrie hast du keine klassische Mannigfaltigkeit mehr, über die du integrieren kannst. Ein zyklischer Kozyklus dient als "abstraktes Integral" über diesen geisterhaften Quantenraum. Die Spur (Trace) einer Matrix ist das einfachste Beispiel (ein 0-dimensionaler zyklischer Kozyklus), da $\operatorname{tr}(AB) = \text{tr}(BA)$ exakt diese zyklische Eigenschaft ist!
+1. **Ersatz für Integrale:** In der nichtkommutativen Geometrie hast du keine klassische Mannigfaltigkeit mehr, über die du integrieren kannst. Ein zyklischer Kozyklus dient als "abstraktes Integral" über diesen geisterhaften Quantenraum. Die Spur (Trace) einer Matrix ist das einfachste Beispiel (ein 0-dimensionaler zyklischer Kozyklus), da $\text{tr}(AB) = \text{tr}(BA)$ exakt diese zyklische Eigenschaft ist!
 2. **Indextheorie:** Sie wird verwendet, um den Atiyah-Singer-Indexsatz (der analytische Lösungen von Differentialgleichungen mit der Topologie verknüpft) auf Blätterungen, Fraktale und den Raum der Penrose-Parkettierung zu verallgemeinern.
 3. **Standardmodell der Teilchenphysik:** Alain Connes nutzte die zyklische Kohomologie, um das Standardmodell als eine Art reine Gravitation auf einem "nichtkommutativen Raum" (einer Kombination aus normaler Raumzeit und einem endlichen, algebraischen Quantenraum) umzuformulieren.
 
