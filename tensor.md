@@ -240,13 +240,10 @@ $$\Gamma^k_{ij} = \frac{1}{2} g^{kl} (\partial_i g_{jl} + \partial_j g_{il} - \p
   * Different connection coefficients will give us different instructions for performing parallel transport!
   * Insight 1: The coveriant derivate is zero $\nabla_{\vec{v}}(\vec{u})=\overrightarrow{0}$ and $\nabla_{\vec{u}}(\vec{v})=\overrightarrow{0}$, but results can look vastly different.
   * Insight 2: Christoffel symbols $\Gamma$ are NOT unique, there are many different ways to describe the connection coefficients!
-  * **Levi-Civita Connection = most important covariant derivative!:** = Two properies make Christoffel symbols unique:
-    * **Torsion free property**: $\nabla_{\vec{w}} \vec{v}=\nabla_{\vec{v}} \vec{w}$ or written: $\nabla_{\vec{w}} \vec{v}-\nabla_{\vec{v}} \vec{w}=[\vec{v}, \vec{w}]$ with **Lie Bracket** included $[\vec{v}, \vec{w}]=\vec{v} \vec{w}-\vec{w} \vec{v}$
-    * **Metric compatability property**: $\nabla_{\vec{w}}(\vec{v} \cdot \vec{u})=\left(\nabla_{\vec{w}} \vec{v}\right) \cdot \vec{u}+\vec{v} \cdot\left(\nabla_{\vec{w}} \vec{u}\right)$
+  * **Levi-Civita Connection = most important covariant derivative!:** = Two properies make Christoffel symbols $\Gamma_{j k}^m=\frac{1}{2} \mathfrak{g}^{i m}\left(\partial_k g_{i j}+\partial_j g_{k i}-\partial_i g_{j k}\right)$ unique:
+    * **Torsion free property**: $\nabla_{\vec{w}} \vec{v}=\nabla_{\vec{v}} \vec{w}$ or written: $\nabla_{\vec{w}} \vec{v}-\nabla_{\vec{v}} \vec{w}=[\vec{v}, \vec{w}]$ with **Lie Bracket** included $[\vec{v}, \vec{w}]=\vec{v} \vec{w}-\vec{w} \vec{v}$ bzw. $\nabla_Z g = 0 \quad \text{und} \quad \nabla_X Y - \nabla_Y X = [X,Y]$
+    * **Metric compatability property**: $\nabla_{\vec{w}}(\vec{v} \cdot \vec{u})=\left(\nabla_{\vec{w}} \vec{v}\right) \cdot \vec{u}+\vec{v} \cdot\left(\nabla_{\vec{w}} \vec{u}\right)$ bzw. $\nabla_{\frac{\partial}{\partial u^i}} \vec{v}=\left(\frac{\partial v^k}{\partial u^i}+v^j \Gamma_{i j}^k\right) \overrightarrow{e_k} $
   * Ein affiner Zusammenhang ermöglicht die richtungsabhängige (kovariante) Ableitung von Tensorfeldern; der Levi-Civita-Zusammenhang ist der eindeutige Zusammenhang, der sowohl torsionsfrei ist als auch die Metrik respektiert (die Längen und Winkel bei Paralleltransport erhält) = Torsion free + Metric compatability
-    * $\nabla_Z g = 0 \quad \text{und} \quad \nabla_X Y - \nabla_Y X = [X,Y]$
-    * $\nabla_{\frac{\partial}{\partial u^i}} \vec{v}=\left(\frac{\partial v^k}{\partial u^i}+v^j \Gamma_{i j}^k\right) \overrightarrow{e_k} $
-    * $\Gamma_{j k}^m=\frac{1}{2} \mathfrak{g}^{i m}\left(\partial_k g_{i j}+\partial_j g_{k i}-\partial_i g_{j k}\right)$
 
 * **'Boring' connection**
   * no curvature (is that true?)
