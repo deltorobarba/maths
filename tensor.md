@@ -275,7 +275,7 @@ $$[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$$
  
 $$T(X,Y)=\nabla _{X}Y-\nabla _{Y}X-[X,Y]$$
  
-* **Krümmungstensoren**
+* **Krümmungstensoren** (allgemein)
   * In einem flachen euklidischen Raum spielt es keine Rolle, in welcher Reihenfolge man partielle Ableitungen ausführt. In einem gekrümmten Raum kommutieren kovariante Ableitungen hingegen *nicht*. Die Differenz dieser Ableitungen misst exakt die Krümmung des Raumes.
   * **Riemannscher Krümmungstensor ($R^\rho_{\sigma\mu\nu}$):** Er misst, wie sehr ein Vektor rotiert wird, wenn du ihn entlang einer winzigen geschlossenen Schleife parallel verschiebst: $[\nabla_\mu, \nabla_\nu] V^\rho = \nabla_\mu \nabla_\nu V^\rho - \nabla_\nu \nabla_\mu V^\rho = R^\rho_{\sigma\mu\nu} V^\sigma$
   * Die Formel zur Berechnung aus den Christoffel-Symbolen lautet: $R^\rho_{\sigma\mu\nu} = \partial_\mu \Gamma^\rho_{\nu\sigma} - \partial_\nu \Gamma^\rho_{\mu\sigma} + \Gamma^\rho_{\mu\lambda} \Gamma^\lambda_{\nu\sigma} - \Gamma^\rho_{\nu\lambda} \Gamma^\lambda_{\mu\sigma}$
@@ -297,8 +297,14 @@ $$R(X,Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X,Y]} Z$$
 * **Ricci-Curvature-Tensor**
   * Aus dem Riemann-Tensor gewinnt man durch Spurbildung (Kontraktion) den **Ricci-Tensor** $R_{ij}$ (beschreibt Volumenverzerrungen) und den **Ricci-Skalar** $R$, welche das Herzstück der Einsteinschen Feldgleichungen in der Allgemeinen Relativitätstheorie bilden. Both considered a summary of the Riemann curvature tensor
   * **Ricci-Curvature-Tensor** tracks how volume change along geodesic (that's why the Ricci tensor represents gravity $R_{\mu \nu}$ in the general theory of relativity in Einstein field equations: $R_{\mu \nu}-\frac{1}{2} g_{\mu \nu}+\Lambda g_{\mu \nu}=\frac{8 \pi G}{c^4} T_{\mu \nu}$)
-  * Formel: $\text{Ric}(\vec{v}, \vec{v})=\sum_{i=1}^D K\left(\overrightarrow{e_i}, \vec{v}\right)=\sum_i \frac{\left[R\left(\overrightarrow{e_i}, \vec{v}\right) \vec{v}\right] \cdot \overrightarrow{e_i}}{\left(\overrightarrow{e_i} \cdot \overrightarrow{e_i}\right)(\vec{v} \cdot \vec{v})-\left(\overrightarrow{e_i} \cdot \vec{v}\right)^2}$ for an orthonormal basis $\overrightarrow{e_1}, \overrightarrow{e_2}, \ldots, \overrightarrow{e_n}$ and a direction vector $\vec{v}=\overrightarrow{e_n}$. The Ricci curvature is the sum of all scalar curvatures in every basis vector direction $\sum_{i=1}^D K\left(\overrightarrow{e_i}, \vec{v}\right)$.
+  * For an orthonormal basis $\overrightarrow{e_1}, \overrightarrow{e_2}, \ldots, \overrightarrow{e_n}$ and a direction vector $\vec{v}=\overrightarrow{e_n}$. The Ricci curvature is the sum of all scalar curvatures in every basis vector direction $\sum_{i=1}^D K\left(\overrightarrow{e_i}, \vec{v}\right)$.
   * The Ricci curvature (left) can also be computed using the Ricci tensor $R_{i j}$ with: $\text{Ric}(\vec{v}, \vec{v})=R_{i j} v^i v^j$
+
+$$\text{Ric}(\vec{v}, \vec{v})=\sum_{i=1}^D K\left(\overrightarrow{e_i}, \vec{v}\right)=\sum_i \frac{\left[R\left(\overrightarrow{e_i}, \vec{v}\right) \vec{v}\right] \cdot \overrightarrow{e_i}}{\left(\overrightarrow{e_i} \cdot \overrightarrow{e_i}\right)(\vec{v} \cdot \vec{v})-\left(\overrightarrow{e_i} \cdot \vec{v}\right)^2}$$
+
+
+
+
 * There are two geometrical approaches in understanding Ricci-Curvature-Tensor:
   * <u>**Sectional Curvature**</u> for an orthonormal base (with Levi Civita symbol). The Ricci-Curvature-Tensor is zero: $\text{Ric}(\vec{v}, \vec{v})=\sum_{i=1}^D K\left(\overrightarrow{e_i}, \vec{v}\right)=0$ for following **Sectional curvatures** (whose sum is the Ricci curvature): $K\left(\overrightarrow{e_1}, \vec{v}\right)=0 \quad K\left(\overrightarrow{e_2}, \vec{v}\right)=0$. General Sectional curvatures: $K(\vec{s}, \vec{v})=\frac{[R(\vec{s}, \vec{v}) \vec{v}] \cdot \vec{s}}{(\vec{s} \cdot \vec{s})(\vec{v} \cdot \vec{v})-(\vec{s} \cdot \vec{v})^2}$
   * <u>**Volume Element Derivative**:</u> for any base!
