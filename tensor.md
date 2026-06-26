@@ -303,7 +303,7 @@ $$R(X,Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X,Y]} Z$$
 
 $$\text{Ric}(\vec{v}, \vec{v})=\sum_{i=1}^D K\left(\overrightarrow{e_i}, \vec{v}\right)=\sum_i \frac{\left[R\left(\overrightarrow{e_i}, \vec{v}\right) \vec{v}\right] \cdot \overrightarrow{e_i}}{\left(\overrightarrow{e_i} \cdot \overrightarrow{e_i}\right)(\vec{v} \cdot \vec{v})-\left(\overrightarrow{e_i} \cdot \vec{v}\right)^2}$$
 
-* ***Sectional Curvature**
+* **Sectional Curvature**
   * Ricci Curvature-Tensor can only tell us about volume, not shape! because if $K\left(\overrightarrow{e_1}, \vec{v}\right)>0 \quad K\left(\overrightarrow{e_2}, \vec{v}\right) < 0$, then the overall Ricci tensor is the same: $\text{Ric}(\vec{v}, \vec{v})=\sum_{i=1}^D K\left(\overrightarrow{e_i}, \vec{v}\right)=0$, only the shape changed.
   * for an orthonormal base (with Levi Civita symbol). The Ricci-Curvature-Tensor is zero: $\text{Ric}(\vec{v}, \vec{v})=\sum_{i=1}^D K\left(\overrightarrow{e_i}, \vec{v}\right)=0$ for following **Sectional curvatures** (whose sum is the Ricci curvature):
 
@@ -312,11 +312,11 @@ $$K\left(\overrightarrow{e_1}, \vec{v}\right)=0 \quad K\left(\overrightarrow{e_2
 * **Volume Element Derivative**
   * for any base!
 
-
 * **Volume Form $ω$**
-    * Take 2nd derivative of volume form along a geodesic path to get the Ricci tensor $\nabla_{\vec{v}} \nabla_{\vec{v}} \omega(\vec{u}, \vec{w}, \vec{t})$.
-    * Metric compatability of Levi-Civita connection preserves vector lengths and angles, and therefore preserves volume.
-    * This means covariant derivate is zero: $\nabla_{\vec{v}} V=0$ where this formula is: $=\nabla_{\vec{v}}[\omega(\vec{a}, \vec{b}, \vec{c})]$
+    * Metric compatability of Levi-Civita connection preserves vector lengths and angles, and therefore preserves volume. This means covariant derivate is zero: $\nabla_{\vec{v}} V=0$ where this formula is: $=\nabla_{\vec{v}}[\omega(\vec{a}, \vec{b}, \vec{c})]$
+    * Volume Form $ω$: Take 2nd derivative of volume form along a geodesic path to get the Ricci tensor 
+    
+$$\nabla_{\vec{v}} \nabla_{\vec{v}} \omega(\vec{u}, \vec{w}, \vec{t})$$
 
 * **Ricci-Scalar**:
   * compare volume of a ball in curved space to volume of a ball of same radius in flat space (measures deviation). Curved space means we can fit a large area into a smaller boundary.
