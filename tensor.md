@@ -31,6 +31,10 @@ $$T'^\mu_\nu = \frac{\partial x'^\mu}{\partial x^\alpha} \frac{\partial x^\beta}
   * Vector: $\vec{v} = v^i \vec{e}_i = \widetilde{v}^i \vec{\widetilde{e}}_i$
   * **Basis Vectors / Covariant (1,0-Tensor)**: $\vec{\widetilde{e}}_j = F_j^i \vec{e}_i \qquad \vec{e}_j = B_j^i \vec{\widetilde{e}}_i$
   * **Vector components / Contravariant (0,1-Tensor)**: $\widetilde{v}^i = B_j^i v^j \qquad v^i = F_j^i \widetilde{v}^j$
+  * * Erinnerung, das sind alle die gleiche Notationen für Basis vectors:
+
+$$\overrightarrow{e_k} \equiv \frac{\partial}{\partial x^k} \equiv \partial_k$$
+
 * **Kovektoren als Differentialformen** (kovariant) als "Schichten", die von Vektoren durchstoßen werden
   * Kovector: $\alpha = \alpha_i \epsilon^i = \widetilde{\alpha}_i \widetilde{\epsilon}^i$
   * **Basis Covectors / Contravariant (0,1-Tensor)**: $\widetilde{\epsilon}^i = B_j^i \epsilon^j \qquad \epsilon^i = F_j^i \widetilde{\epsilon}^j$
@@ -312,16 +316,13 @@ $$\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \r
 
 $$R_{ij} = R^k_{\ ikj} \quad \text{und} \quad R = g^{ij} R_{ij}$$
 
-* Erinnerung, das sind alle die gleiche Notationen für Basis vectors:
-
-$$\overrightarrow{e_k} \equiv \frac{\partial}{\partial x^k} \equiv \partial_k$$
-
-* **Bianchi-Identität:**
-  * differentielle Identitäten, sind die geometrischen Entsprechungen der Erhaltungssätze (Energie und Impuls) und diktieren, wie sich Krümmung von Punkt zu Punkt stetig und konsistent verhalten muss.
+* **Bianchi-Identität**
+  * differentielle Identitäten, sind die geometrischen Entsprechungen der Erhaltungssätze (Energie und Impuls)
+  * sie diktieren, wie sich Krümmung von Punkt zu Punkt stetig und konsistent verhalten muss.
 
 $$\nabla_l R^i_{\ jkm} + \nabla_k R^i_{\ jml} + \nabla_m R^i_{\ jlk} = 0$$
 
-* **Schnittkrümmung (Sectional Curvature):**
+* **Schnittkrümmung (Sectional Curvature)**
   * liefert eine anschauliche zweidimensionale Krümmungsmaßzahl (vergleichbar mit der Gaußschen Krümmung), die angibt, wie stark eine durch zwei Tangentialvektoren $X$ und $Y$ aufgespannte "Ebene" gekrümmt ist.
 
 $$K(X,Y) = \frac{\langle R(X,Y)Y, X \rangle}{\langle X,X \rangle \langle Y,Y \rangle - \langle X,Y \rangle^2}$$
