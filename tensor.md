@@ -209,16 +209,14 @@ $$L_{i j}=\frac{\partial^2 \vec{R}}{{\partial} u^i {\partial} u^j} \cdot \frac{\
 
 $$\Gamma^k_{ij} = \frac{1}{2} g^{kl} (\partial_i g_{jl} + \partial_j g_{il} - \partial_l g_{ij}) =\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j} \cdot \frac{\partial \vec{R}}{\partial u^l} \mathfrak{g}^{l k}$$
  
-* **Kovariante Ableitung ($\nabla$)**
+* **Connection or Covariant Derivative**
+  * Connection/Covariant Derivative = Navigationssystem (Zusammenhang/Kovariante Ableitung) = Lie Algebra
   * Wenn man auf einem gekrümmten Raum (oder in Polarkoordinaten) die normale partielle Ableitung ($\partial_\mu$) eines Vektorfeldes bildet, ist das Ergebnis *kein* Tensor mehr. Der Grund: Die Basisvektoren selbst ändern sich von Punkt zu Punkt! Die kovariante Ableitung repariert dieses Problem.
-  * **Christoffel-Symbole ($\Gamma^\lambda_{\mu\nu}$):** Diese (nicht-tensoriellen!) Hilfsgrößen beschreiben, wie sich das Koordinatennetz krümmt und die Basisvektoren variieren. Sie werden direkt aus der Metrik und deren Ableitungen berechnet: $\Gamma^\lambda_{\mu\nu} = \frac{1}{2} g^{\lambda\rho} (\partial_\mu g_{\nu\rho} + \partial_\nu g_{\rho\mu} - \partial_\rho g_{\mu\nu})$
+  * Wie vergleicht man Vektoren in verschiedenen Tangentialräumen? Man braucht eine Vorschrift, wie man ein Koordinatensystem "parallel" von einem Punkt zum anderen schiebt.
   * **Kovariante Ableitung ($\nabla_\mu$ oder $;_\mu$):** Sie ergänzt die gewöhnliche Ableitung um einen Korrekturterm mit dem Christoffel-Symbol, sodass das Resultat wieder ein echter Tensor ist.
     * Für einen kontravarianten Vektor: $\nabla_\mu V^\nu = \partial_\mu V^\nu + \Gamma^\nu_{\mu\lambda} V^\lambda$
     * Für einen kovarianten Vektor: $\nabla_\mu W_\nu = \partial_\mu W_\nu - \Gamma^\lambda_{\mu\nu} W_\lambda$
-
-* **Connection/Covariant Derivative = Navigationssystem (Zusammenhang/Kovariante Ableitung) = Lie Algebra**
-  * Wie vergleicht man Vektoren in verschiedenen Tangentialräumen? Man braucht eine Vorschrift, wie man ein Koordinatensystem "parallel" von einem Punkt zum anderen schiebt.
-  * **Der Zusammenhang $\nabla$:** Er verallgemeinert die Richtungsableitung. Wenn Sie ein Vektorfeld $Y$ in Richtung von $X$ ableiten, lautet das Ergebnis in lokalen Koordinaten: $\nabla_X Y = \left( X^i \frac{\partial Y^k}{\partial x^i} + \Gamma^k_{ij} X^i Y^j \right) \frac{\partial}{\partial x^k}$
+  * Kovariante Ableitung bzw Zusammenhang $\nabla$ verallgemeinert die Richtungsableitung. Wenn Sie ein Vektorfeld $Y$ in Richtung von $X$ ableiten, lautet das Ergebnis in lokalen Koordinaten: $\nabla_X Y = \left( X^i \frac{\partial Y^k}{\partial x^i} + \Gamma^k_{ij} X^i Y^j \right) \frac{\partial}{\partial x^k}$
   * **Covariant derivative (= Connection = Lie Algebra) = infinitesimal!**
   * Covariant derivative called connection because connects between tangent spaces in a curved space, e.g. from $T_pS$ to $T_qS$
   * **Die Geodesic equation ist eine spezielle Lösung der covariant derivate (connection), wo covariant derivative = Null ist!**
