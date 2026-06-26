@@ -274,7 +274,7 @@ $$[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$$
 
 $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$
 
-* **Riemann Curvature Tensor (Riemannscher Krümmungstensor):**
+* **Riemann Curvature Tensor**
   * Krümmung ist die Unfähigkeit von Vektoren, beim Paralleltransport entlang einer geschlossenen Schleife wieder identisch bei sich selbst anzukommen (Holonomie), oder das Versagen der Kommutativität von Ableitungen.
   * Two main ways to detect curvature: 1. **holonomy** or 2. **geodesic deviation**
   * Riemann Curvature Tensor: $R$: Ein $(1,3)$-Tensor, der diese Nicht-Kommutativität exakt misst. (1 contravariant,3 covariant)-Tensor quantifiziert intrinsisch die Krümmung des Raumes, indem er die Nicht-Kommutativität der zweiten kovarianten Ableitungen misst.
@@ -283,11 +283,12 @@ $$R(\vec{u}, \vec{v}) \vec{w}=\nabla_{\vec{u}} \nabla_{\vec{v}} \vec{w}-\nabla_{
 
 $$R(X,Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X,Y]} Z$$
 
-* Riemann curvature tensor **components** berechnet mit den connection components:
+* **Riemann curvature tensor components** (berechnet mit den connection components)
 
 $$R_{c a b}^d=\partial_a\left(\Gamma_{b c}^d\right)-\partial_b\left(\Gamma_{a c}^d\right)+\Gamma_{b c}^i \Gamma_{a i}^d-\Gamma_{a c}^j \Gamma_{b j}^d$$
   
-* **Holonomie:** one way to detect curvature! Beschreibt die globale Diskrepanz – oft eine Drehung –, die ein Vektor erfährt, nachdem er auf einer gekrümmten Mannigfaltigkeit parallel entlang einer vollständig geschlossenen Schleife transportiert wurde.
+* **Holonomie:**
+ * one way to detect curvature! Beschreibt die globale Diskrepanz – oft eine Drehung –, die ein Vektor erfährt, nachdem er auf einer gekrümmten Mannigfaltigkeit parallel entlang einer vollständig geschlossenen Schleife transportiert wurde.
 
 $$\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \right)$$
 
@@ -305,7 +306,9 @@ $$\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \r
     * Metric compatability of Levi-Civita connection preserves vector lengths and angles, and therefore preserves volume.
     * This means covariant derivate is zero: $\nabla_{\vec{v}} V=0$ where this formula is: $=\nabla_{\vec{v}}[\omega(\vec{a}, \vec{b}, \vec{c})]$
 
-* **Ricci-Scalar**: compare volume of a ball in curved space to volume of a ball of same radius in flat space (measures deviation). Curved space means we can fit a large area into a smaller boundary. Der Ricci-Tensor entsteht durch Spur-Bildung (Kontraktion) des Riemann-Tensors und misst die Volumenänderung eines geodätischen Balls; eine weitere Kontraktion liefert den Ricci-Skalar, eine einzige Zahl pro Punkt, die die totale Skalarkrümmung angibt. 
+* **Ricci-Scalar**:
+ * compare volume of a ball in curved space to volume of a ball of same radius in flat space (measures deviation). Curved space means we can fit a large area into a smaller boundary.
+ * Der Ricci-Tensor entsteht durch Spur-Bildung (Kontraktion) des Riemann-Tensors und misst die Volumenänderung eines geodätischen Balls; eine weitere Kontraktion liefert den Ricci-Skalar, eine einzige Zahl pro Punkt, die die totale Skalarkrümmung angibt. 
 
 $$R_{ij} = R^k_{\ ikj} \quad \text{und} \quad R = g^{ij} R_{ij}$$
 
@@ -313,11 +316,13 @@ $$R_{ij} = R^k_{\ ikj} \quad \text{und} \quad R = g^{ij} R_{ij}$$
 
 $$\overrightarrow{e_k} \equiv \frac{\partial}{\partial x^k} \equiv \partial_k$$
 
-* **Bianchi-Identität:** differentielle Identitäten, sind die geometrischen Entsprechungen der Erhaltungssätze (Energie und Impuls) und diktieren, wie sich Krümmung von Punkt zu Punkt stetig und konsistent verhalten muss.
+* **Bianchi-Identität:**
+ * differentielle Identitäten, sind die geometrischen Entsprechungen der Erhaltungssätze (Energie und Impuls) und diktieren, wie sich Krümmung von Punkt zu Punkt stetig und konsistent verhalten muss.
 
 $$\nabla_l R^i_{\ jkm} + \nabla_k R^i_{\ jml} + \nabla_m R^i_{\ jlk} = 0$$
 
-* **Schnittkrümmung (Sectional Curvature):** liefert eine anschauliche zweidimensionale Krümmungsmaßzahl (vergleichbar mit der Gaußschen Krümmung), die angibt, wie stark eine durch zwei Tangentialvektoren $X$ und $Y$ aufgespannte "Ebene" gekrümmt ist.
+* **Schnittkrümmung (Sectional Curvature):**
+ * liefert eine anschauliche zweidimensionale Krümmungsmaßzahl (vergleichbar mit der Gaußschen Krümmung), die angibt, wie stark eine durch zwei Tangentialvektoren $X$ und $Y$ aufgespannte "Ebene" gekrümmt ist.
 
 $$K(X,Y) = \frac{\langle R(X,Y)Y, X \rangle}{\langle X,X \rangle \langle Y,Y \rangle - \langle X,Y \rangle^2}$$
 
