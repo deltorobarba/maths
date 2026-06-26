@@ -152,9 +152,7 @@ $$T^{ijk\dots}_{rst\dots} = (F^i_a F^j_b F^k_c \dots) \widetilde{T}^{abc\dots}_{
 
 ## Differentialformen
 
-Das ist eine hervorragende Frage, denn Differentialformen sind genau das Bindeglied, das **alle vorherigen Themen**, die wir besprochen haben, zu einem einzigen, eleganten Meisterwerk vereint.
-
-Um deine erste Frage direkt zu beantworten: **Wo gehören Differentialformen in der Mathematik hin?**
+Wo gehören Differentialformen in der Mathematik hin:
 Sie sitzen exakt auf der Kreuzung von drei großen Gebieten:
 
 1. **Analysis:** Sie verallgemeinern die Infinitesimalrechnung (Ableiten und Integrieren) auf mehrere Variablen und gekrümmte Räume.
@@ -162,8 +160,6 @@ Sie sitzen exakt auf der Kreuzung von drei großen Gebieten:
 3. **Algebraische Topologie:** Wie wir bei der de-Rham-Kohomologie gesehen haben, sind sie das Werkzeug, um Löcher in Räumen zu zählen.
 
 Hier ist die strukturierte Übersicht zu den Differentialformen.
-
----
 
 ### 1. Was sind Differentialformen anschaulich?
 
@@ -178,7 +174,6 @@ Differentialformen machen diese infinitesimalen Bausteine zu **eigenständigen, 
 
 Formell gesehen (Rückgriff auf die Tensoranalysis) ist eine $k$-Form ein **vollständig antisymmetrischer kovarianter Tensor vom Rang $k$**.
 
----
 
 ### 2. Das Keilprodukt (Die Algebra)
 
@@ -193,10 +188,6 @@ $$dx \wedge dy = - (dy \wedge dx)$$
 
 $$dx \wedge dx = 0$$
 
-
-
----
-
 ### 3. Die äußere Ableitung ($d$)
 
 In der Vektoranalysis musstest du dir drei verschiedene Ableitungsoperatoren merken: Gradient, Rotation (Curl) und Divergenz. Die Theorie der Differentialformen ersetzt all diese durch einen einzigen Operator: die äußere Ableitung $d$.
@@ -209,7 +200,6 @@ In der Vektoranalysis musstest du dir drei verschiedene Ableitungsoperatoren mer
 
 * **Die goldene Regel ($d^2 = 0$):** Wendest du die Ableitung zweimal hintereinander an, ist das Ergebnis immer exakt Null: $d(d\omega) = 0$. Das ist der Grund, warum "die Rotation eines Gradienten" und "die Divergenz einer Rotation" in der Physik immer Null sind!
 
----
 
 ### 4. Der allgemeine Satz von Stokes (Die Integration)
 
@@ -229,7 +219,6 @@ Das Integral der Ableitung einer Form ($d\omega$) über ein Gebiet ($\Omega$) is
 * In 3D (Flächen im Raum) ist es der klassische Satz von Stokes.
 * In 3D (Volumina) ist es der Satz von Gauß (Divergenzsatz).
 
----
 
 ### 5. Der Hodge-Stern-Operator ($\star$)
 
