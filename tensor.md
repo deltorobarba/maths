@@ -312,5 +312,4 @@ $$\nabla_l R^i_{\ jkm} + \nabla_k R^i_{\ jml} + \nabla_m R^i_{\ jlk} = 0$$
 
 $$K(X,Y) = \frac{\langle R(X,Y)Y, X \rangle}{\langle X,X \rangle \langle Y,Y \rangle - \langle X,Y \rangle^2}$$
 
-
-Videos: Eigenchris: [Tensor Calculus](https://youtube.com/playlist?list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&si=vJ64vdbqtgjDXHbv) and [Tensors for Beginners](https://youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&si=Ibojdh_9nI3SIYgA)
+* Videos: Eigenchris: [Tensor Calculus](https://youtube.com/playlist?list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx&si=vJ64vdbqtgjDXHbv) and [Tensors for Beginners](https://youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG&si=Ibojdh_9nI3SIYgA)
