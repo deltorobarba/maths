@@ -2,8 +2,6 @@
 
 ![science](https://raw.githubusercontent.com/deltorobarba/science/main/nature.JPG)
 
-### <font color="blue">Tensor Algebra
-
 **Tensoranalysis (Tensorkalkül)**: Während die multilineare Algebra Tensoren in flachen Vektorräumen betrachtet, bringt die Tensoranalysis **Analysis und Geometrie** ins Spiel: Sie untersucht Tensorfelder auf gekrümmten Räumen. Das ist die mathematische Basis der Allgemeinen Relativitätstheorie und der Kontinuumsmechanik.
 
 
@@ -152,6 +150,8 @@ $$T^{ijk\dots}_{rst\dots} = (F^i_a F^j_b F^k_c \dots) \widetilde{T}^{abc\dots}_{
 
 ---
 
+## Differentialformen
+
 Das ist eine hervorragende Frage, denn Differentialformen sind genau das Bindeglied, das **alle vorherigen Themen**, die wir besprochen haben, zu einem einzigen, eleganten Meisterwerk vereint.
 
 Um deine erste Frage direkt zu beantworten: **Wo gehören Differentialformen in der Mathematik hin?**
@@ -248,7 +248,7 @@ Sollen wir uns als nächstes ansehen, wie sich die vier komplizierten Maxwell-Gl
 
 ---
 
-### <font color="blue">Tensor Calculus I
+## <font color="blue">Tensor Calculus I
 
 * **Holonomy**
   * Two main ways to detect curvature: 1. **holonomy** or 2. geodesic deviation
@@ -350,9 +350,9 @@ $$\widetilde{\nabla}_{\frac{\partial}{\partial u^i}} \vec{v}=\left(\frac{\partia
 
 ---
 
-### <font color="blue">Tensor Calculus II
+## <font color="blue">Tensor Calculus II
 
-* **Lie Bracket (Commutator):**
+### **Lie Bracket (Commutator):**
   * (hier hat Parallel Transport keine bedeutung!). Coordinate lines are just flow curves along basis vectors
   * Lie Bracket / Commutator = measures how much vector field flow curves fail to close.
   * Sie misst die Nicht-Kommutativität zweier Vektorfelder $X$ und $Y$, also gewissermaßen die infinitesimale "Lücke", die entsteht, wenn man die Flüsse der beiden Felder in unterschiedlicher Reihenfolge durchläuft.
