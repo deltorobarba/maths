@@ -266,7 +266,7 @@ $$[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$$
   * Dieser Tensor fängt den asymmetrischen Teil des Zusammenhangs ein und gibt geometrisch an, inwiefern sich infinitesimale Parallelogramme, die durch den Paralleltransport gebildet werden, nicht schließen. Separation between parallel transported vector lines. Lie bracket is included in it. "Torsion-Free" means parallel-transported vectors close properly.
   * This is a property of connections only! Only depends on the connection coefficients, not the vector field.
   * Notation: $\nabla_{\vec{u}} \vec{v} \quad \nabla_{\vec{v}} \vec{u}$ wobei: $\vec{u}$ and $\vec{v}$ = Vector fields, und $\nabla$ = Connection $\Gamma^k_{ij}$, concretely the Levi Civita connection $\Gamma_{j k}^m=\frac{1}{2} \mathfrak{g}^{i m}\left(\partial_k g_{i j}+\partial_j g_{k i}-\partial_i g_{j k}\right)$, sowie: $\nabla_{\vec{u}} \vec{v}=\overrightarrow{0}$ parallel transport. 
-  * Torsion Tensor: für zwei Vektofelder $X,Y\in \Gamma (TM)$ und Lie-Klammer $[\cdot ,\cdot ]$ :
+  * Torsion Tensor: für zwei Vektofelder $X,Y\in \Gamma (TM)$ und Lie-Klammer $[\cdot ,\cdot ]$ mit einer differenzierbaren Mannigfaltigkeit $(M,\nabla )$ und einem affinen Zusammenhang $\nabla$ ist der Torsionstensor $T$ ein Tensorfeld, definiert als:
  
 $$T(X,Y)=\nabla _{X}Y-\nabla _{Y}X-[X,Y]$$
  
