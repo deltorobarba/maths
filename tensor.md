@@ -205,9 +205,9 @@ $$L_{i j}=\frac{\partial^2 \vec{R}}{{\partial} u^i {\partial} u^j} \cdot \frac{\
 * **Christoffel symbols**
   * Christoffel symbols $\Gamma_{i j}^k$ or $\Gamma_{i j}^1$ and $\Gamma_{i j}^2$ = correction term or 'connection coefficients' in covariant derivative!
   * **Christoffel-Symbole $\Gamma^k_{ij}$:** Das sind die Korrekturterme, die beschreiben, wie sich das Koordinatensystem selbst krümmt und dreht. Im Levi-Civita-Zusammenhang (torsionsfrei & metrikverträglich) werden sie direkt aus den Ableitungen der Metrik berechnet: $\Gamma^k_{ij} = \frac{1}{2} g^{kl} (\partial_i g_{jl} + \partial_j g_{il} - \partial_l g_{ij})$
-  * Christoffel Symbols give tangential components of $\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j}$ (how much of each tangent basis vector in tangent plane we take)
-  * How local basis vectors change from point to point on a surface? (to define derivate vector in curved space)
-  * Formel: $\Gamma^k_{ij} = \frac{1}{2} g^{kl} (\partial_i g_{jl} + \partial_j g_{il} - \partial_l g_{ij}) =\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j} \cdot \frac{\partial \vec{R}}{\partial u^l} \mathfrak{g}^{l k}$
+  * Christoffel Symbols give tangential components of $\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j}$ (how much of each tangent basis vector in tangent plane we take). How local basis vectors change from point to point on a surface? (to define derivate vector in curved space)
+
+$$\Gamma^k_{ij} = \frac{1}{2} g^{kl} (\partial_i g_{jl} + \partial_j g_{il} - \partial_l g_{ij}) =\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j} \cdot \frac{\partial \vec{R}}{\partial u^l} \mathfrak{g}^{l k}$$
  
 * **Kovariante Ableitung ($\nabla$)**
   * Wenn man auf einem gekrümmten Raum (oder in Polarkoordinaten) die normale partielle Ableitung ($\partial_\mu$) eines Vektorfeldes bildet, ist das Ergebnis *kein* Tensor mehr. Der Grund: Die Basisvektoren selbst ändern sich von Punkt zu Punkt! Die kovariante Ableitung repariert dieses Problem.
