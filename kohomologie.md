@@ -1,10 +1,7 @@
 ## Kohomologie
 
-Das ist ein gewaltiger, aber fantastischer Sprung! Wir verlassen nun die klassische Differentialgeometrie und betreten das Reich der **algebraischen Topologie** und der **nichtkommutativen Geometrie**.
+Wir verlassen nun die klassische Differentialgeometrie und betreten das Reich der **algebraischen Topologie** und der **nichtkommutativen Geometrie**. Wenn Homologie die Wissenschaft vom "Zählen von Löchern" in einem Raum ist, dann ist die **Kohomologie** die Wissenschaft der "Messgeräte", die diese Löcher abtasten. Und die zyklische Kohomologie treibt dieses Konzept auf die Spitze, indem sie Räume untersucht, die so verrückt sind, dass sie durch nichtkommutierende Operatoren (wie in der Quantenmechanik) beschrieben werden müssen.
 
-Wenn Homologie die Wissenschaft vom "Zählen von Löchern" in einem Raum ist, dann ist die **Kohomologie** die Wissenschaft der "Messgeräte", die diese Löcher abtasten. Und die zyklische Kohomologie treibt dieses Konzept auf die Spitze, indem sie Räume untersucht, die so verrückt sind, dass sie durch nichtkommutierende Operatoren (wie in der Quantenmechanik) beschrieben werden müssen.
-
-Hier ist die Übersicht zur Kohomologie und ihrem zyklischen Upgrade.
 
 ---
 
