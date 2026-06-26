@@ -158,6 +158,12 @@ $$T^{ijk\dots}_{rst\dots} = (F^i_a F^j_b F^k_c \dots) \widetilde{T}^{abc\dots}_{
   * **Paralleltransport:** Die Operation, einen Vektor entlang einer Kurve so zu verschieben, dass er "in sich parallel" bleibt (sich also aus seiner eigenen Perspektive nicht ändert). Ein Vektorfeld $V^\mu$ ist entlang einer Kurve mit dem Parameter $\tau$ parallel verschoben, wenn die absolute Ableitung null ist: $\frac{DV^\mu}{d\tau} = \frac{dx^\nu}{d\tau} \nabla_\nu V^\mu = 0$
   * **Die Geodätengleichung:** Eine Geodäte ist die geradestmögliche Bahn in einem gekrümmten Raum (die Verallgemeinerung einer Geraden). In der Physik ist das beispielsweise die Flugbahn eines Objekts im freien Fall. Ein Teilchen bewegt sich auf einer Geodäte, wenn sein eigener Geschwindigkeitsvektor entlang seiner Bahn parallel transportiert wird: $\frac{d^2 x^\mu}{d\tau^2} + \Gamma^\mu_{\alpha\beta} \frac{dx^\alpha}{d\tau} \frac{dx^\beta}{d\tau} = 0$
 
+* **Holonomy**
+  * Two main ways to detect curvature: 1. **holonomy** or 2. **geodesic deviation**
+  * Beschreibt die globale Diskrepanz – oft eine Drehung –, die ein Vektor erfährt, nachdem er auf einer gekrümmten Mannigfaltigkeit parallel entlang einer vollständig geschlossenen Schleife transportiert wurde.
+
+$$\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \right)$$
+
 * **Geodesic equation**: Geodesics are where the tangential component are zero (because geodesics are curves where the acceleration vector is always normal, light will follow this path)
   * geradeste Kurve in einem gekrümmten Raum, entlang derer der eigene **Tangentialvektor parallel transportiert** wird, sodass ihre intrinsische Beschleunigung verschwindet.
   * In der Geodesic equation ist der covariant derivate (connection) = Null!
@@ -261,12 +267,11 @@ $$[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$$
 
 * **Torsion Tensor**
   * Torsion Tensor = covariant derivates  + Lie Bracket! (hier hat parallel transport eine zentrale bedeutung!)
-  * Formel: $T(\vec{u}, \vec{v})=\nabla_{\vec{u}} \vec{v}-[\vec{u}, \vec{v}]-\nabla_{\vec{v}} \vec{u}$ mit $T^k_{ij} = \Gamma^k_{ij} - \Gamma^k_{ji}$
-  * **wenn** $T(\vec{u}, \vec{v})=\nabla_{\vec{u}} \vec{v}-[\vec{u}, \vec{v}]-\nabla_{\vec{v}} \vec{u} = 0$, **dann**: $\nabla_{\vec{u}} \vec{v}-\nabla_{\vec{v}} \vec{u}=[\vec{u}, \vec{v}]$, **bedeutet**: the difference of the covariant derivates is equal to the Lie Braket (which is difference of ordinary derivative)
+  $T(\vec{u}, \vec{v})=\nabla_{\vec{u}} \vec{v}-[\vec{u}, \vec{v}]-\nabla_{\vec{v}} \vec{u}$ mit $T^k_{ij} = \Gamma^k_{ij} - \Gamma^k_{ji}$ und **wenn** $T(\vec{u}, \vec{v})=\nabla_{\vec{u}} \vec{v}-[\vec{u}, \vec{v}]-\nabla_{\vec{v}} \vec{u} = 0$, **dann**: $\nabla_{\vec{u}} \vec{v}-\nabla_{\vec{v}} \vec{u}=[\vec{u}, \vec{v}]$, **bedeutet**: the difference of the covariant derivates is equal to the Lie Braket (which is difference of ordinary derivative)
   * Dieser Tensor fängt den asymmetrischen Teil des Zusammenhangs ein und gibt geometrisch an, inwiefern sich infinitesimale Parallelogramme, die durch den Paralleltransport gebildet werden, nicht schließen. Separation between parallel transported vector lines. Lie bracket is included in it. "Torsion-Free" means parallel-transported vectors close properly.
   * This is a property of connections only! Only depends on the connection coefficients, not the vector field.
   * Notation: $\nabla_{\vec{u}} \vec{v} \quad \nabla_{\vec{v}} \vec{u}$ wobei: $\vec{u}$ and $\vec{v}$ = Vector fields, und $\nabla$ = Connection $\Gamma^k_{ij}$, concretely the Levi Civita connection $\Gamma_{j k}^m=\frac{1}{2} \mathfrak{g}^{i m}\left(\partial_k g_{i j}+\partial_j g_{k i}-\partial_i g_{j k}\right)$, sowie: $\nabla_{\vec{u}} \vec{v}=\overrightarrow{0}$ parallel transport. 
-  * Torsion Tensor: für zwei Vektofelder $X,Y\in \Gamma (TM)$ und Lie-Klammer $[\cdot ,\cdot ]$ mit einer differenzierbaren Mannigfaltigkeit $(M,\nabla )$ und einem affinen Zusammenhang $\nabla$ ist der Torsionstensor $T$ ein Tensorfeld, definiert als:
+  * Torsion Tensor: für zwei Vektofelder $X,Y\in \Gamma (TM)$ und Lie-Klammer $[\cdot ,\cdot ]$ mit einer differenzierbaren Mannigfaltigkeit $(M,\nabla )$ und einem affinen Zusammenhang $\nabla$ ist der Torsionstensor $T$ ein Tensorfeld, definiert:
  
 $$T(X,Y)=\nabla _{X}Y-\nabla _{Y}X-[X,Y]$$
  
@@ -283,21 +288,12 @@ $$R_{\mu\nu} - \frac{1}{2} R g_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4
 * **Riemann Curvature Tensor**
   * Krümmung ist die Unfähigkeit von Vektoren, beim Paralleltransport entlang einer geschlossenen Schleife wieder identisch bei sich selbst anzukommen (Holonomie), oder das Versagen der Kommutativität von Ableitungen.
   * Riemann Curvature Tensor: $R$: Ein $(1,3)$-Tensor, der diese Nicht-Kommutativität exakt misst. (1 contravariant,3 covariant)-Tensor quantifiziert intrinsisch die Krümmung des Raumes, indem er die Nicht-Kommutativität der zweiten kovarianten Ableitungen misst.
+  * Riemann curvature tensor **components** (berechnet mit den connection components): $R_{c a b}^d=\partial_a\left(\Gamma_{b c}^d\right)-\partial_b\left(\Gamma_{a c}^d\right)+\Gamma_{b c}^i \Gamma_{a i}^d-\Gamma_{a c}^j \Gamma_{b j}^d$. Riemann curvature tensor is:
 
 $$R(\vec{u}, \vec{v}) \vec{w}=\nabla_{\vec{u}} \nabla_{\vec{v}} \vec{w}-\nabla_{\vec{v}} \nabla_{\vec{u}} \vec{w}-\nabla_{[\vec{u}, \vec{v}]} \vec{w}$$
 
 $$R(X,Y)Z = \nabla_X \nabla_Y Z - \nabla_Y \nabla_X Z - \nabla_{[X,Y]} Z$$
-
-* **Riemann curvature tensor components** (berechnet mit den connection components)
-
-$$R_{c a b}^d=\partial_a\left(\Gamma_{b c}^d\right)-\partial_b\left(\Gamma_{a c}^d\right)+\Gamma_{b c}^i \Gamma_{a i}^d-\Gamma_{a c}^j \Gamma_{b j}^d$$
-  
-* **Holonomy**
-  * Two main ways to detect curvature: 1. **holonomy** or 2. **geodesic deviation**
-  * Beschreibt die globale Diskrepanz – oft eine Drehung –, die ein Vektor erfährt, nachdem er auf einer gekrümmten Mannigfaltigkeit parallel entlang einer vollständig geschlossenen Schleife transportiert wurde.
-
-$$\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \right)$$
-
+ 
 * **Ricci-Curvature-Tensor**
   * Aus dem Riemann-Tensor gewinnt man durch Spurbildung (Kontraktion) den **Ricci-Tensor** $R_{ij}$ (beschreibt Volumenverzerrungen) und den **Ricci-Skalar** $R$, welche das Herzstück der Einsteinschen Feldgleichungen in der Allgemeinen Relativitätstheorie bilden. Both considered a summary of the Riemann curvature tensor
   * **Ricci-Curvature-Tensor** tracks how volume change along geodesic (that's why the Ricci tensor represents gravity $R_{\mu \nu}$ in the general theory of relativity in Einstein field equations: $R_{\mu \nu}-\frac{1}{2} g_{\mu \nu}+\Lambda g_{\mu \nu}=\frac{8 \pi G}{c^4} T_{\mu \nu}$)
