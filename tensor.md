@@ -188,7 +188,7 @@ $$\nabla_{\dot{\gamma}} V = 0 \iff \frac{dV^i}{d\lambda} + \Gamma^i_{jk} V^j \fr
 
 
 * **Acceleration Vector**
-  * Acceleration Vector = Christoffel Symbols + Second Fundamental Form
+  * Acceleration Vector = **Christoffel Symbols + Second Fundamental Form**
   * Extrinsic approach: in geodesic curves, the acceleration vector is normal to the surface
   * $\frac{\partial \overline{e_j}}{\partial u^i}=\Gamma_{i j}^1 \overrightarrow{e_1}+\Gamma_{i j}^2 \overrightarrow{e_2}+L_{i j} \hat{n}$ bzw.: $\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j}=\Gamma_{i j}^1 \frac{\partial \vec{R}}{\partial u^1}+\Gamma_{i j}^2 \frac{\partial \vec{R}}{\partial u^2}+L_{i j} \hat{n}$
   * Acceleration Vector = Christoffel Symbols Γ (tangential) + Second Fundamental Form L (normal)
@@ -197,13 +197,13 @@ $$ \frac{d^2 \vec{R}}{d \lambda^2} =\left(\frac{d^2 u^k}{d \lambda^2}+\Gamma_{i 
 
 $$\frac{d^2 \vec{R}}{d \lambda^2}= \quad \quad \underbrace{\left(\frac{d^2 \vec{R}}{d \lambda^2}\right)^{\text {tangential }}}_{=0} \quad \quad \quad + \quad \quad \left(\frac{d^2 \vec{R}}{d \lambda^2}\right)^{\text {normal }}$$
 
+* **Second fundamental form**
+  * $L_{i j} \hat{n}$ (normal vector), tells us how much of the normal vector we take
 
+$$L_{i j}=\frac{\partial^2 \vec{R}}{{\partial} u^i {\partial} u^j} \cdot \frac{\overrightarrow{e_i} \times \overrightarrow{e_j}}{\left\|\overrightarrow{e_i} \times \overrightarrow{e_j}\right\|}$$
 
-* **Second fundamental form $L_{i j} \hat{n}$ (normal vector)**
-  * tells us how much of the normal vector we take
-  * Formel: $L_{i j}=\frac{\partial^2 \vec{R}}{{\partial} u^i {\partial} u^j} \cdot \frac{\overrightarrow{e_i} \times \overrightarrow{e_j}}{\left\|\overrightarrow{e_i} \times \overrightarrow{e_j}\right\|}$
-
-* **Christoffel symbols $\Gamma_{i j}^k$ or $\Gamma_{i j}^1$ and $\Gamma_{i j}^2$ = correction term or 'connection coefficients' in covariant derivative!**
+* **Christoffel symbols**
+  * Christoffel symbols $\Gamma_{i j}^k$ or $\Gamma_{i j}^1$ and $\Gamma_{i j}^2$ = correction term or 'connection coefficients' in covariant derivative!
   * **Christoffel-Symbole $\Gamma^k_{ij}$:** Das sind die Korrekturterme, die beschreiben, wie sich das Koordinatensystem selbst krümmt und dreht. Im Levi-Civita-Zusammenhang (torsionsfrei & metrikverträglich) werden sie direkt aus den Ableitungen der Metrik berechnet: $\Gamma^k_{ij} = \frac{1}{2} g^{kl} (\partial_i g_{jl} + \partial_j g_{il} - \partial_l g_{ij})$
   * Christoffel Symbols give tangential components of $\frac{\partial^2 \vec{R}}{\partial u^i \partial u^j}$ (how much of each tangent basis vector in tangent plane we take)
   * How local basis vectors change from point to point on a surface? (to define derivate vector in curved space)
