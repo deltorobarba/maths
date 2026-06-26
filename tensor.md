@@ -163,7 +163,7 @@ $$\text{Hol}(\gamma) = \mathcal{P} \exp \left( \oint_\gamma \Gamma_\mu dx^\mu \r
 * **Geodesic equation**
   * Two main ways to detect curvature: 1. holonomy or 2. **geodesic deviation**
   * Eine Geodäte ist geradestmögliche Bahn in einem gekrümmten Raum (die Verallgemeinerung einer Geraden, zB Flugbahn eines Objekts im freien Fall). Ein Teilchen bewegt sich auf einer Geodäte, wenn sein eigener Geschwindigkeitsvektor entlang seiner Bahn parallel transportiert wird
-  * Geodesics are where the tangential component are zero (because geodesics are curves where the acceleration vector is always normal, light will follow this path)
+  * Geodesics are where the tangential component are zero (because geodesics are curves where the acceleration vector is always normal, light will follow this path). Christoffel Symbols Γ = tangential component.
   * geradeste Kurve in einem gekrümmten Raum, entlang derer der eigene **Tangentialvektor parallel transportiert** wird, sodass ihre intrinsische Beschleunigung verschwindet.
   * In der Geodesic equation ist der covariant derivate (connection) = Null!
   * In curved space, a straight path has **zero tangential acceleration** when we travel along it at constant speed.
