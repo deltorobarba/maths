@@ -224,12 +224,15 @@ $$ \frac{d^2 \vec{R}}{d \lambda^2} =\left(\frac{d^2 u^k}{d \lambda^2}+\Gamma_{i 
 
 * **Parallel Transport (global) = zero covariant derivative (infinitesimal)! = Exponential der Lie Algebra**  
   * ist eine Vorschrift, die bestimmt, wie ein Vektor entlang einer Kurve verschoben wird, sodass er im geometrischen Sinne "konstant" bleibt und die lokale Krümmung der Koordinaten exakt ausgleicht.
-  Formel: $\nabla_{\dot{\gamma}} V = 0 \iff \frac{dV^i}{d\lambda} + \Gamma^i_{jk} V^j \frac{dx^k}{d\lambda} = 0$
+  * Der Unterschied zwischen den Endvektoren der perfekt parallel transportierten Vektoren in Vektorfeldern wird durch den **Torsion Tensor** gemessen.
+  * Der Unterschied zwischen den Endvektoren der tatsächlich transportierten Vektoren in Vektorfeldern wird durch die **Lie Braket** gemessen.
   * Parallel Transport provides a connection between tangent spaces in a curved space. e.g. from $T_pS$ to $T_qS$
   * And the covariant derivative provides the connection between these tangent spaces in curved space $\nabla_{\frac{d}{d \lambda}} \vec{v}=\overrightarrow{0}$
-  * Thats why covariant derivate is something called connection, because it connects!
-  * This means: Parallel Transport = zero covariant derivative = special case of connection
-  * And Christoffel symbols $\Gamma$ are connection coefficients! $\nabla_{\overrightarrow{e_i}} \overrightarrow{e_j}=\Gamma_{i j}^k \overrightarrow{e_k}$
+    * Thats why covariant derivate is something called connection, because it connects!
+    * This means: Parallel Transport = zero covariant derivative = special case of connection
+    * And Christoffel symbols $\Gamma$ are connection coefficients! $\nabla_{\overrightarrow{e_i}} \overrightarrow{e_j}=\Gamma_{i j}^k \overrightarrow{e_k}$
+ 
+$$\nabla_{\dot{\gamma}} V = 0 \iff \frac{dV^i}{d\lambda} + \Gamma^i_{jk} V^j \frac{dx^k}{d\lambda} = 0$$
 
 > <font color="blue">**A connection is a Lie Algebra** ! Und der **Paralleltransport ist das Exponential** e dieses Lie-Algebra-Wertes entlang des Weges (das "path-ordered exponential"), was uns ein Element der Lie-Gruppe liefert. - Die Konnektion ($\nabla$, in der Algebra) ist also wirklich das Infinitesimale, und der Paralleltransport ($P_\gamma$, in der Gruppe) ist dessen Exponentiation!
 
@@ -246,11 +249,6 @@ $$ \frac{d^2 \vec{R}}{d \lambda^2} =\left(\frac{d^2 u^k}{d \lambda^2}+\Gamma_{i 
   * **'Boring' connection**:
 
 $$\widetilde{\nabla}_{\frac{\partial}{\partial u^i}} \vec{v}=\left(\frac{\partial v^k}{\partial u^i}+v^j \widetilde{\Gamma_{i j}^k}\right) \overrightarrow{e_k}$ wobei: $\widetilde{\Gamma_{i j}^k}=0$$
-
-  * Der Unterschied zwischen den Endvektoren der perfekt parallel transportierten Vektoren in Vektorfeldern wird durch den **Torsion Tensor** gemessen.
-  * Der Unterschied zwischen den Endvektoren der tatsächlich transportierten Vektoren in Vektorfeldern wird durch die **Lie Braket** gemessen.
-
-
 
 ---
 
