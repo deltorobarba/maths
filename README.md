@@ -7,7 +7,7 @@ AI and Quantum engineer at Google. I ❤️ Maths
 
 <img src="https://raw.githubusercontent.com/deltorobarba/maths/main/science.PNG" alt="science">
 
-* [Mattematics](https://github.com/deltorobarba/science/blob/main/mathematics.ipynb) ❤️ Tensor Algebra Differential Forms
+* [Mathematics](https://github.com/deltorobarba/science/blob/main/mathematics.ipynb) ❤️ Tensor Algebra Differential Forms
 * [Quantum Computing](https://github.com/deltorobarba/science/blob/main/quantum.ipynb) 💎 on IonQ and IBM Quantum
 * [Astronomy & Astrophysics](https://github.com/deltorobarba/science/blob/main/astronomy.ipynb) 🔭 Exoplanets and Galaxies
 
