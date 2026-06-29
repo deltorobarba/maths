@@ -9,7 +9,7 @@ AI and Quantum engineer at Google. I ❤️ Maths
 
 * [Mathematics](https://github.com/deltorobarba/science/blob/main/mathematics.ipynb) ❤️ Tensor Algebra 
 * [Quantum](https://github.com/deltorobarba/science/blob/main/quantum.ipynb) 💎 on IonQ and IBM Quantum
-* [Astrophysics](https://github.com/deltorobarba/science/blob/main/astronomy.ipynb) 🔭 Exoplanets and Galaxies
+* [Astronomy](https://github.com/deltorobarba/science/blob/main/astronomy.ipynb) 🔭 Exoplanets and Galaxies
 
 **Publications** 🎓 
 
