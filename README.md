@@ -7,12 +7,7 @@ AI and Quantum engineer at Google
 
 <img src="https://raw.githubusercontent.com/deltorobarba/science/main/nature.JPG" alt="science">
 
-**Mathematics** ❤️
-* [Tensor Algebra](https://github.com/deltorobarba/science/blob/main/tensor.md) 🪼 and Differential Geometry
-* [Geometric Algebra](https://github.com/deltorobarba/science/blob/main/clifford.md) 🦋 and Exterior Algebra
-* [Heisenberg-Weyl](https://github.com/deltorobarba/science/blob/main/heisenberg.md) 🌸 Quantum Operator Algebra
-
-**Science** 🔬
+* [Mattematics](https://github.com/deltorobarba/science/blob/main/maths.ipynb) 🪼 and Differential Geometry
 * [Quantum Dynamics](https://github.com/deltorobarba/science/blob/main/dynamics.ipynb) 🧚 Qubitization, RCS and OTOC
 * [Quantum Computing](https://github.com/deltorobarba/science/blob/main/quantum.ipynb) 💎 on IonQ and IBM Quantum
 * [Astronomy & Astrophysics](https://github.com/deltorobarba/science/blob/main/astronomy.ipynb) 🔭 Exoplanets and Galaxies
