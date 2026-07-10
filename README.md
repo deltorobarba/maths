@@ -9,7 +9,7 @@ Machine Learning and Quantum Computing engineer at Google Cloud. Working with Cl
 
 * [Mathematics](https://github.com/deltorobarba/science/blob/main/mathematics.ipynb) ❤️ Tensor Algebra
 
-### Quantum and Science Code
+## Quantum and Science
 * [Quantum](https://github.com/deltorobarba/science/blob/main/quantum.ipynb) 💎 on IonQ and IBM Quantum
 * [Astronomy](https://github.com/deltorobarba/science/blob/main/astronomy.ipynb) 🔭 Exoplanets and Galaxies
 
