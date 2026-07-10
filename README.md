@@ -1,6 +1,6 @@
 ## Alexander Del Toro Barba, PhD
 
-AI and Quantum engineer at Google. I ❤️ Maths
+Machine Learning and Quantum Computing engineer at Google Cloud. 15+ years of experience in machine learning. Moved from economics to quantum physics with publications on international scientific journals.
 
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=fddyK-wAAAAJ) $\cdot$ [LinkedIn](https://www.linkedin.com/in/deltorobarba/)
 
