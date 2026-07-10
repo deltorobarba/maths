@@ -45,7 +45,7 @@ Machine Learning and Quantum Computing engineer at Google Cloud. Working with Cl
 * Suppressing quantum errors by scaling a surface code logical qubit (2023)
 * Formation of robust bound states of interacting microwave photons (2022)
 
-### Science
+#### Science
 * Observation of disorder-free localization using a (2+ 1) D lattice gauge theory on a quantum processor (2026)
 * Dynamics of magnetization at infinite temperature in a Heisenberg spin chain (2024)
 * Stable quantum-correlated many-body states through engineered dissipation (2024)
