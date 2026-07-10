@@ -21,7 +21,7 @@ Machine Learning and Quantum Computing engineer at Google Cloud. Working with Cl
 * [What is Dequantization in Quantum Machine Learning?](https://medium.com/@deltorobarba/what-is-dequantization-in-quantum-machine-learning-a3b4d5af0f0f)
 * [The Many Worlds of Quantum-Inspired](https://medium.com/@deltorobarba/the-many-worlds-of-quantum-inspired-cd608cb9a7d2)
 
-## About Me
+## About Me 🌸
 * 2023 - today: Senior Machine Learning Engineer and Practice Lead at Google Cloud, L7
 * 2023 - today: Global Quantum Computing Practice Lead at Google Cloud
 * 2022: Quantum Computing Practice Lead Rotation at Google Quantum AI
