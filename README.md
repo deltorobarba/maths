@@ -26,7 +26,7 @@ Machine Learning and Quantum Computing engineer at Google Cloud. Working with Cl
 * 2023 - today: Global Quantum Computing Practice Lead at Google Cloud
 * 2022: Quantum Computing Practice Lead Rotation at Google Quantum AI
 * 2021: Machine Learning Engineer at Google Cloud, L6 (Practice Lead)
-* 2020: AI Engineer at Google DeepMind Applied (20%er)
+  * 2020: AI Engineer at Google DeepMind Applied (20%er)
 * 2018: Machine Learning Engineer at Google Cloud, L5
 * 2015-18: Head of Research at a Robo Advice (Financial Asset Management)
 * 2014-18: PhD in Economics at University of Münster, Germany. Focus: Computational Finance with Machine Learning
