@@ -23,7 +23,8 @@ Machine Learning and Quantum Computing engineer at Google Cloud. Working with Cl
 
 ## About Me
 * 2023 - today: Senior Machine Learning Engineer and Practice Lead at Google Cloud, L7
-* 2022 - today: Global Quantum Computing Practice Lead at Google Cloud
+* 2023 - today: Global Quantum Computing Practice Lead at Google Cloud
+* 2022: Quantum Computing Practice Lead Rotation at Google Quantum AI
 * 2021: Machine Learning Engineer at Google Cloud, L6 (Practice Lead)
 * 2019-20: AI Engineer at Google DeepMind Applied (20%er)
 * 2018: Machine Learning Engineer at Google Cloud, L5
