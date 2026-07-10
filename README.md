@@ -1,6 +1,6 @@
 ## Alexander Del Toro Barba, PhD
 
-Machine Learning and Quantum Computing engineer at Google Cloud. Working with Cloud customers on strategizing and building large-scale, innovative machine learning for 15+ years. Besides, moved academically from economics to quantum physics with publications on international scientific journals.
+Machine Learning and Quantum Computing engineer at Google Cloud. Working with Cloud customers on strategizing and implementing large-scale, innovative machine learning on Google Cloud infrastructure and models. Besides, moved academically from economics to quantum physics with publications on international scientific journals.
 
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=fddyK-wAAAAJ) $\cdot$ [LinkedIn](https://www.linkedin.com/in/deltorobarba/)
 
