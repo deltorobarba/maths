@@ -15,6 +15,17 @@ Machine Learning and Quantum Computing engineer at Google Cloud. Working with Cl
 ## Machine Learning
 * [Tuning LLMs](##)
 
+## Medium 📒
+* Quantifying Quantum Advantage for Topological Data Analysis
+* Can Quantum Computing accelerate Generative AI?
+* How Quantum Computing could accelerate Finance and Economics
+* What is Dequantization in Quantum Machine Learning?
+* Topological Data Analysis with Differential Forms, Hodge Theory and Cohomology Classes
+* The Many Worlds of Quantum-Inspired
+* Block Encoding in Quantum Computing
+* Projection-based Overlap Estimation
+* Simulating Quantum Systems with Qubitization, Trotterization and Linear combination of unitaries
+
 ## About Me
 * 2023 - today: Senior Machine Learning Engineer and Practice Lead at Google Cloud, L7
 * 2022 - today: Global Quantum Computing Practice Lead at Google Cloud
