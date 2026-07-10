@@ -30,7 +30,7 @@ Machine Learning and Quantum Computing engineer at Google Cloud. Working with Cl
 * 2015-18: Head of Research at a Robo Advice (Financial Asset Management)
 * 2014-18: PhD in Economics at University of Münster, Germany. Focus: Computational Finance with Machine Learning
 
-## **Publications** 🎓 
+## **Scientific Publications** 🎓 
 
 #### American Physical Society (PRX Quantum)
 * [Analyzing Prospects for Quantum Advantage in Topological Data Analysis](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010319) (2024)
