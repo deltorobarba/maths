@@ -14,9 +14,9 @@ AI and Quantum engineer at Google. I ❤️ Maths
 * [Astronomy](https://github.com/deltorobarba/science/blob/main/astronomy.ipynb) 🔭 Exoplanets and Galaxies
 
 ## About Me
-* 2023: Senior Machine Learning Engineer and Practice Lead at Google Cloud, L7
-* 2022: 
-* 2021: Machine Learning Engineer and Practice Lead at Google Cloud, L6
+* 2023 - today: Senior Machine Learning Engineer and Practice Lead at Google Cloud, L7
+* 2022 - today: Global Quantum Computing Practice Lead at Google Cloud
+* 2021: Machine Learning Engineer at Google Cloud, L6 (Practice Lead)
 * 2019-20: 20%er AI Engineer at Google DeepMind Applied
 * 2018: Machine Learning Engineer at Google Cloud, L5
 * 2014-18: PhD in Economics at University of Münster, Germany. Focus: Computational Finance with Machine Learning
