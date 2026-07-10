@@ -5,19 +5,17 @@ Machine Learning and Quantum Computing engineer at Google Cloud. Working with Cl
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=fddyK-wAAAAJ) $\cdot$ [LinkedIn](https://www.linkedin.com/in/deltorobarba/)
 
 
-<img src="https://raw.githubusercontent.com/deltorobarba/maths/main/science.PNG" alt="science">
+<img src="https://raw.githubusercontent.com/deltorobarba/maths/main/science.PNG" alt="science"> 
 
-## Code and Notes 
-
-#### Quantum and Science
+## Quantum and Science
 * [Quantum](https://github.com/deltorobarba/science/blob/main/quantum.ipynb) 💎 on IonQ and IBM Quantum
 * [Astronomy](https://github.com/deltorobarba/science/blob/main/astronomy.ipynb) 🔭 Exoplanets and Galaxies
 * [Mathematics](https://github.com/deltorobarba/science/blob/main/mathematics.ipynb) Tensor Algebra
 
-#### Machine Learning
+## Machine Learning
 * [Tuning LLMs](##)
 
-#### Medium 📒
+## Medium 📒
 * [Can Quantum Computing accelerate Generative AI?](https://medium.com/@deltorobarba/can-quantum-computing-accelerate-generative-ai-b1df36398ac5)
 * [How Quantum Computing could accelerate Finance and Economics](https://medium.com/@deltorobarba/how-quantum-computing-could-accelerate-finance-and-economics-80555e80f76b)
 * [What is Dequantization in Quantum Machine Learning?](https://medium.com/@deltorobarba/what-is-dequantization-in-quantum-machine-learning-a3b4d5af0f0f)
