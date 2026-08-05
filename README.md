@@ -17,7 +17,7 @@ AI and Quantum Computing at Google. I ❤️ Maths.
 
 **AI for Software Engineering**
 * [Module 00](https://github.com/deltorobarba/maths/blob/main/module_00.md)
-* [Module 01](https://github.com/deltorobarba/maths/blob/main/module_01.md)
+* [Module 01](https://github.com/deltorobarba/maths/blob/main/module_01.md) Version Control als Denkwerkzeug
 * [Module 02](https://github.com/deltorobarba/maths/blob/main/module_02.md)
 * [Module 03](https://github.com/deltorobarba/maths/blob/main/module_03.md)
 * [Module 04](https://github.com/deltorobarba/maths/blob/main/module_04.md)
