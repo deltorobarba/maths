@@ -14,3 +14,6 @@ AI and Quantum Computing at Google. I ❤️ Maths.
 
 **Publications** 🎓 
 * American Physical Society (PRX Quantum) [Analyzing Prospects for Quantum Advantage in Topological Data Analysis](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010319) (2024)
+
+**AI for Software Engineering**
+* [Module 0](https://github.com/deltorobarba/maths/blob/main/module_00.md)
